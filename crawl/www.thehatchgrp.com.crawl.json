@@ -1,0 +1,5130 @@
+{
+  "tool": "suite-builder",
+  "reportVersion": 6,
+  "startUrl": "https://www.thehatchgrp.com/",
+  "origin": "https://www.thehatchgrp.com",
+  "options": {
+    "maxPages": 300,
+    "delayMs": 1000,
+    "userAgent": "Mozilla/5.0 (compatible; SuiteBuilder/1.0; +https://github.com/Ghost-in-the-Kernel-Labs/Ghost-in-the-Kernel-Labs-suite-builder-docs)",
+    "maxConsecutiveErrors": 3,
+    "include": [],
+    "exclude": []
+  },
+  "adsBlocked": true,
+  "robots": {
+    "url": "https://www.thehatchgrp.com/robots.txt",
+    "status": 200,
+    "source": "parsed",
+    "crawlDelaySeconds": null
+  },
+  "notFound": {
+    "url": "https://www.thehatchgrp.com/suite-builder-no-such-page-cd89d91b",
+    "status": 404
+  },
+  "site": {
+    "certificate": {
+      "validTo": "2026-12-25",
+      "daysLeft": 45,
+      "names": [
+        "d585a352.sni.cloudflaressl.com",
+        "www.thehatchgrp.com"
+      ],
+      "matches": true,
+      "trusted": true
+    },
+    "http": {
+      "url": "http://www.thehatchgrp.com/",
+      "status": 301,
+      "to": "https://www.thehatchgrp.com/"
+    },
+    "twin": {
+      "url": "https://thehatchgrp.com/",
+      "status": 301,
+      "to": "https://www.thehatchgrp.com/"
+    },
+    "sitemap": {
+      "url": "https://www.thehatchgrp.com/sitemap.txt",
+      "status": 404
+    },
+    "securityTxt": {
+      "url": "https://www.thehatchgrp.com/.well-known/security.txt",
+      "status": 404
+    },
+    "images": {
+      "asked": 60,
+      "seen": 92
+    },
+    "external": {
+      "seen": 20,
+      "answers": [
+        {
+          "url": "https://www.linkedin.com/company/the-hatch-group-mpls/",
+          "status": 200
+        },
+        {
+          "url": "https://the-hatch-group-242355921.hubspotpagebuilder.net/privacy-policy?hsLang=en",
+          "status": 404
+        },
+        {
+          "url": "https://www.google.com/maps/dir//10250+Valley+View+Rd+Suite+149+Eden+Prairie,+MN+55344/@44.8719728,-93.4060207,10z/data=!4m5!4m4!1m0!1m2!1m1!1s0x87f6221c4ec93e7d:0xc94b89c8aac632f3",
+          "status": 200
+        },
+        {
+          "url": "https://www.linkedin.com/in/jpiehowski/",
+          "status": 999
+        },
+        {
+          "url": "https://www.linkedin.com/in/greg-roth-a451548/",
+          "status": 999
+        },
+        {
+          "url": "https://www.linkedin.com/in/erik-jacobs-7b60811/",
+          "status": 999
+        },
+        {
+          "url": "https://www.linkedin.com/in/alex-webb-6b39b181/",
+          "status": 999
+        },
+        {
+          "url": "https://www.linkedin.com/in/sam-roth-29755a169/",
+          "status": 999
+        },
+        {
+          "url": "https://www.linkedin.com/in/andrewpayne44/",
+          "status": 999
+        },
+        {
+          "url": "https://www.linkedin.com/in/tom-hanson-19917019/",
+          "status": 999
+        },
+        {
+          "url": "https://www.linkedin.com/in/elliot-nutting-4724b2221/",
+          "status": 999
+        },
+        {
+          "url": "https://www.linkedin.com/company/the-hatch-group-mpls/?viewAsMember=true",
+          "status": 999
+        },
+        {
+          "url": "https://www.linkedin.com/in/jenniferberg49/",
+          "status": 999
+        },
+        {
+          "url": "https://www.linkedin.com/in/matt-jennissen-0469426a/",
+          "status": 999
+        },
+        {
+          "url": "https://www.linkedin.com/in/tlschwerz/",
+          "status": 999
+        },
+        {
+          "url": "https://www.linkedin.com/in/cody-minks/",
+          "status": 999
+        },
+        {
+          "url": "https://www.linkedin.com/in/ben-mansur/",
+          "status": 999
+        },
+        {
+          "url": "https://www.linkedin.com/in/shelbyspinner/",
+          "status": 999
+        },
+        {
+          "url": "https://www.linkedin.com/in/lisa-brown-5a3ba626/",
+          "status": 999
+        },
+        {
+          "url": "https://www.linkedin.com/in/cole-jacobs-590883248/",
+          "status": 999
+        }
+      ]
+    }
+  },
+  "addresses": [
+    {
+      "address": "199.60.103.2",
+      "family": 4,
+      "answered": true
+    },
+    {
+      "address": "199.60.103.254",
+      "family": 4,
+      "answered": true
+    },
+    {
+      "address": "2606:2c40::c73c:67fe",
+      "family": 6,
+      "answered": false,
+      "error": "ENETUNREACH"
+    },
+    {
+      "address": "2606:2c40::c73c:6702",
+      "family": 6,
+      "answered": false,
+      "error": "ENETUNREACH"
+    }
+  ],
+  "stopReason": "complete",
+  "discovery": {
+    "newAt": [
+      1,
+      2,
+      7
+    ]
+  },
+  "pages": [
+    {
+      "url": "https://www.thehatchgrp.com/",
+      "finalUrl": "https://www.thehatchgrp.com/",
+      "status": 200,
+      "redirects": [],
+      "title": "IT Staffing Firm | The Hatch Group | Eden Prairie, MN",
+      "contentType": "text/html; charset=UTF-8",
+      "depth": 0,
+      "fingerprint": {
+        "hash": "372d74131fbf663a",
+        "paths": [
+          "div",
+          "div.container-fluid",
+          "div.container-fluid/div.row-fluid-wrapper",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/div.bg-custom.overflow-hidden.position-relative",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/div.bg-custom.position-relative.prototype-no-background",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/div.bg-light.overflow-hidden.position-relative",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/div.hero-overlap.sr-cover-parallax.sr-hero-features",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/div.overflow-hidden.position-relative.prototype-no-background",
+          "div/div.container-fluid",
+          "div/div.container-fluid/div.row-fluid-wrapper",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/a.bg-primary.text-white",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/a.bg-primary.text-white/svg",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/div.footer-logo-social",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/div.footer-logo-social/div.container",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/div.sr-footer-nav",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/div.sr-footer-nav/div.container",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/header.header-scroll.scroll-up",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/header.header-scroll.scroll-up/a.bg-dark.skip-main.text-white",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/header.header-scroll.scroll-up/div",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/header.header-scroll.scroll-up/div/div.container-xl",
+          "iframe"
+        ]
+      },
+      "settled": {
+        "ms": 1100,
+        "networkQuiet": true,
+        "domQuiet": true
+      },
+      "headings": [
+        "BUILTDIFFERENTLY.",
+        "BETTER PROCESS. BETTER RESULTS.",
+        "83%",
+        "Interview-to-offer rate",
+        "YOU DESERVE BETTER.",
+        "A few things you should know about us...",
+        "We’ll tell you when your baby is ugly",
+        "We have something to protect",
+        "We uncover what other’s miss",
+        "We’re not apologetic about staffing",
+        "We build careers",
+        "We will continue to be disruptive",
+        "PEOPLE-FIRST.",
+        "Tired of the runaround? So are we.",
+        "START FINDING THE FIT THAT WORKS BEST FOR YOU.",
+        "Contact us",
+        "First Name*",
+        "Last Name*",
+        "Email*",
+        "Phone number",
+        "Who are you? *",
+        "Message",
+        "Please include your resume or preferred attachments",
+        "Better process. Better results."
+      ],
+      "structure": {
+        "h1": [
+          "BUILTDIFFERENTLY."
+        ],
+        "main": false
+      },
+      "controls": [
+        {
+          "kind": "text field",
+          "words": [
+            "First Name*",
+            "firstname"
+          ],
+          "region": "main",
+          "form": "a form",
+          "required": true,
+          "noValidate": true,
+          "xpath": "//input[@name='firstname']",
+          "stability": "Strong"
+        },
+        {
+          "kind": "text field",
+          "words": [
+            "Last Name*",
+            "lastname"
+          ],
+          "region": "main",
+          "form": "a form",
+          "required": true,
+          "noValidate": true,
+          "xpath": "//input[@name='lastname']",
+          "stability": "Strong"
+        },
+        {
+          "kind": "email field",
+          "words": [
+            "Email*",
+            "email"
+          ],
+          "region": "main",
+          "form": "a form",
+          "required": true,
+          "noValidate": true,
+          "xpath": "//input[@name='email']",
+          "stability": "Strong"
+        },
+        {
+          "kind": "tel field",
+          "words": [
+            "Phone number",
+            "phone"
+          ],
+          "region": "main",
+          "form": "a form",
+          "noValidate": true,
+          "xpath": "//input[@name='phone']",
+          "stability": "Strong"
+        },
+        {
+          "kind": "dropdown",
+          "words": [
+            "Who are you? *",
+            "contact_type"
+          ],
+          "region": "main",
+          "form": "a form",
+          "required": true,
+          "options": [
+            "Potential Consultant",
+            "Potential Client",
+            "Other"
+          ],
+          "noValidate": true,
+          "xpath": "//select[@name='contact_type']",
+          "stability": "Strong"
+        },
+        {
+          "kind": "text area",
+          "words": [
+            "Message"
+          ],
+          "region": "main",
+          "form": "a form",
+          "noValidate": true,
+          "xpath": "//textarea[@name='message']",
+          "stability": "Strong"
+        },
+        {
+          "kind": "file field",
+          "words": [
+            "Please include your resume or preferred attachments",
+            "resume"
+          ],
+          "region": "main",
+          "form": "a form",
+          "noValidate": true,
+          "xpath": "//input[@name='resume']",
+          "stability": "Strong"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Submit"
+          ],
+          "region": "main",
+          "form": "a form",
+          "noValidate": true,
+          "xpath": "//form[div/label[normalize-space()='First Name*']]/div[8]/div[2]/input",
+          "stability": "OK"
+        }
+      ],
+      "roleForms": [
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "BUILTDIFFERENTLY.",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "BETTER PROCESS. BETTER RESULTS.",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "83%",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Interview-to-offer rate",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "YOU DESERVE BETTER.",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "A few things you should know about us...",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "We’ll tell you when your baby is ugly",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "We have something to protect",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "We uncover what other’s miss",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "We’re not apologetic about staffing",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "We build careers",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "We will continue to be disruptive",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "PEOPLE-FIRST.",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Tired of the runaround? So are we.",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "START FINDING THE FIT THAT WORKS BEST FOR YOU.",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Contact us",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "First Name*",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Last Name*",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Email*",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Phone number",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Who are you? *",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Message",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Please include your resume or preferred attachments",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Better process. Better results.",
+          "count": 1
+        },
+        {
+          "by": "label",
+          "role": "textbox",
+          "name": "First Name*",
+          "count": 1
+        },
+        {
+          "by": "label",
+          "role": "textbox",
+          "name": "Last Name*",
+          "count": 1
+        },
+        {
+          "by": "label",
+          "role": "textbox",
+          "name": "Email*",
+          "count": 1
+        },
+        {
+          "by": "label",
+          "role": "textbox",
+          "name": "Phone number",
+          "count": 1
+        },
+        {
+          "by": "label",
+          "role": "combobox",
+          "name": "Who are you? *",
+          "count": 1
+        },
+        {
+          "by": "label",
+          "role": "textbox",
+          "name": "Message",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "button",
+          "name": "Submit",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "The Hatch Group Logo | IT Staffing Eden Prairie, MN",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Why choose us",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "For clients",
+          "count": 3
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "For consultants",
+          "count": 3
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Our team",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Contact us",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "View our process",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Meet our team",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "The Hatch Group Logo | IT Staffing Eden Prairie, MN's link",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Privacy Policy",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "LinkedIn (Opens in new tab)",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Email (Opens in new tab)",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Call us (Opens in new tab)",
+          "count": 2
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Back to top button",
+          "count": 1
+        }
+      ],
+      "snapshot": "pages/index.html",
+      "frames": [
+        {
+          "path": [
+            "//iframe[@title='archetype']"
+          ],
+          "url": "about:blank",
+          "sameSite": true,
+          "shown": false,
+          "title": "archetype",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "path": [
+            "//form[div/label[normalize-space()='First Name*']]/iframe"
+          ],
+          "url": "about:blank",
+          "sameSite": true,
+          "shown": false,
+          "title": "target_iframe_6e1bfabd-1574-4c20-9d80-69aaffcbf7ca_1605",
+          "width": 0,
+          "height": 0
+        }
+      ],
+      "markup": {
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Discover a people-first IT staffing partner focused on quality and relationships, delivering tailored solutions to build strong teams and find meaningful career opportunities.",
+        "deadAnchors": {
+          "count": 1,
+          "first": [
+            "<a href=\"#main\">"
+          ]
+        },
+        "copyright": {
+          "year": 2026,
+          "seen": 2026
+        }
+      },
+      "seen": [
+        {
+          "role": "link",
+          "name": "Skip to main content",
+          "url": "\"#main\"",
+          "where": {
+            "in": "page",
+            "tag": "a"
+          }
+        },
+        {
+          "role": "link",
+          "name": "The Hatch Group | IT Staffing",
+          "url": "https://www.thehatchgrp.com",
+          "where": {
+            "in": "page",
+            "tag": "img"
+          }
+        },
+        {
+          "role": "link",
+          "name": "Why choose us",
+          "url": "https://www.thehatchgrp.com/why-choose-us"
+        },
+        {
+          "role": "link",
+          "name": "For clients",
+          "url": "https://www.thehatchgrp.com/for-clients"
+        },
+        {
+          "role": "link",
+          "name": "For consultants",
+          "url": "https://www.thehatchgrp.com/for-consultants"
+        },
+        {
+          "role": "link",
+          "name": "Our team",
+          "url": "https://www.thehatchgrp.com/our-team"
+        },
+        {
+          "role": "link",
+          "name": "Contact us",
+          "url": "https://www.thehatchgrp.com/contact-us?hsLang=en"
+        },
+        {
+          "role": "link",
+          "name": "For clients",
+          "url": "https://www.thehatchgrp.com/for-clients?hsLang=en"
+        },
+        {
+          "role": "link",
+          "name": "For consultants",
+          "url": "https://www.thehatchgrp.com/for-consultants?hsLang=en"
+        },
+        {
+          "role": "link",
+          "name": "View our process",
+          "url": "https://www.thehatchgrp.com/why-choose-us?hsLang=en"
+        },
+        {
+          "role": "link",
+          "name": "Meet our team",
+          "url": "https://www.thehatchgrp.com/our-team?hsLang=en"
+        },
+        {
+          "role": "textbox",
+          "name": "First Name*"
+        },
+        {
+          "role": "textbox",
+          "name": "Last Name*"
+        },
+        {
+          "role": "textbox",
+          "name": "Email*"
+        },
+        {
+          "role": "textbox",
+          "name": "Phone number"
+        },
+        {
+          "role": "combobox",
+          "name": "Who are you? *"
+        },
+        {
+          "role": "textbox",
+          "name": "Message"
+        },
+        {
+          "role": "button",
+          "name": "Please include your resume or preferred attachments"
+        },
+        {
+          "role": "button",
+          "name": "Submit"
+        },
+        {
+          "role": "link",
+          "name": "The Hatch Group Logo | IT Staffing Eden Prairie, MN's link",
+          "url": "https://www.thehatchgrp.com"
+        },
+        {
+          "role": "link",
+          "name": "Privacy Policy",
+          "url": "https://the-hatch-group-242355921.hubspotpagebuilder.net/privacy-policy?hsLang=en"
+        },
+        {
+          "role": "link",
+          "name": "LinkedIn (Opens in new tab)",
+          "url": "https://www.linkedin.com/company/the-hatch-group-mpls/"
+        },
+        {
+          "role": "link",
+          "name": "Email (Opens in new tab)",
+          "url": "mailto:shelby.wittenborg@thehatchgrp.com"
+        },
+        {
+          "role": "link",
+          "name": "Call us (Opens in new tab)",
+          "url": "tel:+16124742845"
+        },
+        {
+          "role": "link",
+          "name": "Call us (Opens in new tab)",
+          "url": "https://www.google.com/maps/dir//10250+Valley+View+Rd+Suite+149+Eden+Prairie,+MN+55344/@44.8719728,-93.4060207,10z/data=!4m5!4m4!1m0!1m2!1m1!1s0x87f6221c4ec93e7d:0xc94b89c8aac632f3"
+        },
+        {
+          "role": "link",
+          "name": "Back to top button",
+          "url": "\"#\"",
+          "where": {
+            "in": "page",
+            "tag": "a"
+          }
+        }
+      ],
+      "load": {
+        "loadMs": 4200,
+        "headers": {
+          "strict-transport-security": "max-age=31536000",
+          "content-security-policy": "upgrade-insecure-requests",
+          "server": "cloudflare"
+        }
+      },
+      "late": {
+        "afterMs": 2000,
+        "seen": []
+      }
+    },
+    {
+      "url": "https://www.thehatchgrp.com/contact-us",
+      "finalUrl": "https://www.thehatchgrp.com/contact-us",
+      "status": 200,
+      "redirects": [],
+      "title": "Contact Us | The Hatch Group | IT Staffing",
+      "contentType": "text/html; charset=UTF-8",
+      "depth": 1,
+      "fingerprint": {
+        "hash": "864bab08d8d7c10f",
+        "paths": [
+          "div",
+          "div.container-fluid",
+          "div.container-fluid/div.row-fluid-wrapper",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/div.bg-light.overflow-hidden.position-relative",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/div.location-map",
+          "div/div.container-fluid",
+          "div/div.container-fluid/div.row-fluid-wrapper",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/a.bg-primary.text-white",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/a.bg-primary.text-white/svg",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/div.footer-logo-social",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/div.footer-logo-social/div.container",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/div.sr-footer-nav",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/div.sr-footer-nav/div.container",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/header",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/header/a.bg-dark.skip-main.text-white",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/header/div",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/header/div/div.container-xl",
+          "iframe"
+        ]
+      },
+      "settled": {
+        "ms": 1400,
+        "networkQuiet": true,
+        "domQuiet": true
+      },
+      "headings": [
+        "Contact us",
+        "START FINDING THE FIT THAT WORKS BEST FOR YOU.",
+        "First Name*",
+        "Last Name*",
+        "Email*",
+        "Phone number",
+        "Who are you? *",
+        "Message",
+        "Please include your resume or preferred attachments",
+        "The Hatch Group",
+        "Better process. Better results."
+      ],
+      "structure": {
+        "h1": [
+          "Contact us"
+        ],
+        "main": false
+      },
+      "controls": [
+        {
+          "kind": "text field",
+          "words": [
+            "First Name*",
+            "firstname"
+          ],
+          "region": "main",
+          "form": "a form",
+          "required": true,
+          "noValidate": true,
+          "xpath": "//input[@name='firstname']",
+          "stability": "Strong"
+        },
+        {
+          "kind": "text field",
+          "words": [
+            "Last Name*",
+            "lastname"
+          ],
+          "region": "main",
+          "form": "a form",
+          "required": true,
+          "noValidate": true,
+          "xpath": "//input[@name='lastname']",
+          "stability": "Strong"
+        },
+        {
+          "kind": "email field",
+          "words": [
+            "Email*",
+            "email"
+          ],
+          "region": "main",
+          "form": "a form",
+          "required": true,
+          "noValidate": true,
+          "xpath": "//input[@name='email']",
+          "stability": "Strong"
+        },
+        {
+          "kind": "tel field",
+          "words": [
+            "Phone number",
+            "phone"
+          ],
+          "region": "main",
+          "form": "a form",
+          "noValidate": true,
+          "xpath": "//input[@name='phone']",
+          "stability": "Strong"
+        },
+        {
+          "kind": "dropdown",
+          "words": [
+            "Who are you? *",
+            "contact_type"
+          ],
+          "region": "main",
+          "form": "a form",
+          "required": true,
+          "options": [
+            "Potential Consultant",
+            "Potential Client",
+            "Other"
+          ],
+          "noValidate": true,
+          "xpath": "//select[@name='contact_type']",
+          "stability": "Strong"
+        },
+        {
+          "kind": "text area",
+          "words": [
+            "Message"
+          ],
+          "region": "main",
+          "form": "a form",
+          "noValidate": true,
+          "xpath": "//textarea[@name='message']",
+          "stability": "Strong"
+        },
+        {
+          "kind": "file field",
+          "words": [
+            "Please include your resume or preferred attachments",
+            "resume"
+          ],
+          "region": "main",
+          "form": "a form",
+          "noValidate": true,
+          "xpath": "//input[@name='resume']",
+          "stability": "Strong"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Submit"
+          ],
+          "region": "main",
+          "form": "a form",
+          "noValidate": true,
+          "xpath": "//div[@id='hs_form_target_body_dnd_area-module-2']//form[div/label[normalize-space()='First Name*']]/div[8]/div[2]/input",
+          "stability": "OK"
+        }
+      ],
+      "roleForms": [
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Contact us",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "START FINDING THE FIT THAT WORKS BEST FOR YOU.",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "First Name*",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Last Name*",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Email*",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Phone number",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Who are you? *",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Message",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Please include your resume or preferred attachments",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "The Hatch Group",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Better process. Better results.",
+          "count": 1
+        },
+        {
+          "by": "label",
+          "role": "textbox",
+          "name": "First Name*",
+          "count": 1
+        },
+        {
+          "by": "label",
+          "role": "textbox",
+          "name": "Last Name*",
+          "count": 1
+        },
+        {
+          "by": "label",
+          "role": "textbox",
+          "name": "Email*",
+          "count": 1
+        },
+        {
+          "by": "label",
+          "role": "textbox",
+          "name": "Phone number",
+          "count": 1
+        },
+        {
+          "by": "label",
+          "role": "combobox",
+          "name": "Who are you? *",
+          "count": 1
+        },
+        {
+          "by": "label",
+          "role": "textbox",
+          "name": "Message",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "button",
+          "name": "Submit",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "The Hatch Group Logo | IT Staffing Eden Prairie, MN",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Why choose us",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "For clients",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "For consultants",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Our team",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Contact us",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "612-474-2845",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Email us",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "The Hatch Group Logo | IT Staffing Eden Prairie, MN's link",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Privacy Policy",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "LinkedIn (Opens in new tab)",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Email (Opens in new tab)",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Call us (Opens in new tab)",
+          "count": 2
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Back to top button",
+          "count": 1
+        }
+      ],
+      "snapshot": "pages/contact-us.html",
+      "frames": [
+        {
+          "path": [
+            "(//iframe)[2]"
+          ],
+          "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2793.628763520986!2d-93.425032!3d44.867809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b3348f53796faf%3A0xeab9aebdb3f89f8f!2s7615%20Golden%20Triangle%20Dr%2C%20Eden%20Prairie%2C%20MN%2055344!5e0!3m2!1sen!2sus!4v1738250000000",
+          "sameSite": false,
+          "shown": true,
+          "title": null,
+          "width": 840,
+          "height": 500
+        },
+        {
+          "path": [
+            "//iframe[@title='archetype']"
+          ],
+          "url": "about:blank",
+          "sameSite": true,
+          "shown": false,
+          "title": "archetype",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "path": [
+            "//div[@id='hs_form_target_body_dnd_area-module-2']//iframe"
+          ],
+          "url": "about:blank",
+          "sameSite": true,
+          "shown": false,
+          "title": "target_iframe_6e1bfabd-1574-4c20-9d80-69aaffcbf7ca_1698",
+          "width": 0,
+          "height": 0
+        }
+      ],
+      "markup": {
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Contact The Hatch Group to simplify your IT hiring or job search process. Reach out today and discover the best fit for your needs.",
+        "deadAnchors": {
+          "count": 1,
+          "first": [
+            "<a href=\"#main\">"
+          ]
+        },
+        "copyright": {
+          "year": 2026,
+          "seen": 2026
+        }
+      },
+      "seen": [
+        {
+          "role": "link",
+          "name": "Skip to main content",
+          "url": "\"#main\"",
+          "where": {
+            "in": "page",
+            "tag": "a"
+          }
+        },
+        {
+          "role": "link",
+          "name": "The Hatch Group Logo | IT Staffing Eden Prairie, MN",
+          "url": "https://www.thehatchgrp.com?hsLang=en"
+        },
+        {
+          "role": "link",
+          "name": "Why choose us",
+          "url": "https://www.thehatchgrp.com/why-choose-us"
+        },
+        {
+          "role": "link",
+          "name": "For clients",
+          "url": "https://www.thehatchgrp.com/for-clients"
+        },
+        {
+          "role": "link",
+          "name": "For consultants",
+          "url": "https://www.thehatchgrp.com/for-consultants"
+        },
+        {
+          "role": "link",
+          "name": "Our team",
+          "url": "https://www.thehatchgrp.com/our-team"
+        },
+        {
+          "role": "link",
+          "name": "Contact us",
+          "url": "https://www.thehatchgrp.com/contact-us"
+        },
+        {
+          "role": "textbox",
+          "name": "First Name*"
+        },
+        {
+          "role": "textbox",
+          "name": "Last Name*"
+        },
+        {
+          "role": "textbox",
+          "name": "Email*"
+        },
+        {
+          "role": "textbox",
+          "name": "Phone number"
+        },
+        {
+          "role": "combobox",
+          "name": "Who are you? *"
+        },
+        {
+          "role": "textbox",
+          "name": "Message"
+        },
+        {
+          "role": "button",
+          "name": "Please include your resume or preferred attachments"
+        },
+        {
+          "role": "button",
+          "name": "Submit"
+        },
+        {
+          "role": "link",
+          "name": "612-474-2845",
+          "url": "tel:6124742845"
+        },
+        {
+          "role": "link",
+          "name": "Email us",
+          "url": "mailto:shelby.wittenborg@thehatchgrp.com"
+        },
+        {
+          "role": "link",
+          "name": "The Hatch Group Logo | IT Staffing Eden Prairie, MN's link",
+          "url": "https://www.thehatchgrp.com?hsLang=en"
+        },
+        {
+          "role": "link",
+          "name": "Privacy Policy",
+          "url": "https://the-hatch-group-242355921.hubspotpagebuilder.net/privacy-policy?hsLang=en"
+        },
+        {
+          "role": "link",
+          "name": "LinkedIn (Opens in new tab)",
+          "url": "https://www.linkedin.com/company/the-hatch-group-mpls/"
+        },
+        {
+          "role": "link",
+          "name": "Email (Opens in new tab)",
+          "url": "mailto:shelby.wittenborg@thehatchgrp.com"
+        },
+        {
+          "role": "link",
+          "name": "Call us (Opens in new tab)",
+          "url": "tel:+16124742845"
+        },
+        {
+          "role": "link",
+          "name": "Call us (Opens in new tab)",
+          "url": "https://www.google.com/maps/dir//10250+Valley+View+Rd+Suite+149+Eden+Prairie,+MN+55344/@44.8719728,-93.4060207,10z/data=!4m5!4m4!1m0!1m2!1m1!1s0x87f6221c4ec93e7d:0xc94b89c8aac632f3"
+        },
+        {
+          "role": "link",
+          "name": "Back to top button",
+          "url": "\"#\"",
+          "where": {
+            "in": "page",
+            "tag": "a"
+          }
+        }
+      ],
+      "load": {
+        "loadMs": 1400,
+        "headers": {
+          "strict-transport-security": "max-age=31536000",
+          "content-security-policy": "upgrade-insecure-requests",
+          "server": "cloudflare"
+        }
+      },
+      "late": {
+        "afterMs": 2000,
+        "seen": []
+      }
+    },
+    {
+      "url": "https://www.thehatchgrp.com/for-consultants",
+      "finalUrl": "https://www.thehatchgrp.com/for-consultants",
+      "status": 200,
+      "redirects": [],
+      "title": "For Consultants | The Hatch Group | IT Staffing Minneapolis",
+      "contentType": "text/html; charset=UTF-8",
+      "depth": 1,
+      "fingerprint": {
+        "hash": "b0d9fd6fa8413f1d",
+        "paths": [
+          "div",
+          "div.container-fluid",
+          "div.container-fluid/div.row-fluid-wrapper",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/div.bg-custom.overflow-hidden.position-relative",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/div.bg-light.prototype-no-background.sr-padding-full",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/div.hero-overlap.sr-cover-parallax.sr-hero-features",
+          "div/div.container-fluid",
+          "div/div.container-fluid/div.row-fluid-wrapper",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/a.bg-primary.text-white",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/a.bg-primary.text-white/svg",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/div.footer-logo-social",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/div.footer-logo-social/div.container",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/div.sr-footer-nav",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/div.sr-footer-nav/div.container",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/header.header-scroll.scroll-up",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/header.header-scroll.scroll-up/a.bg-dark.skip-main.text-white",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/header.header-scroll.scroll-up/div",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/header.header-scroll.scroll-up/div/div.container-xl",
+          "iframe"
+        ]
+      },
+      "settled": {
+        "ms": 1200,
+        "networkQuiet": true,
+        "domQuiet": true
+      },
+      "headings": [
+        "Cut the noise",
+        "JOBS THAT ACTUALLY MAKE SENSE.",
+        "No guesswork",
+        "HERE'S THE DEAL...",
+        "NO DEAD ENDS HERE.",
+        "THE BOTTOM LINE?",
+        "See what others say",
+        "Connect",
+        "Get to know us",
+        "From our consultants",
+        "Better process. Better results."
+      ],
+      "structure": {
+        "h1": [
+          "Cut the noise"
+        ],
+        "main": false
+      },
+      "controls": [
+        {
+          "kind": "button",
+          "words": [
+            "Previous Slide"
+          ],
+          "region": "main",
+          "xpath": "//button[@aria-label='Previous Slide']",
+          "stability": "Strong"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Next Slide"
+          ],
+          "region": "main",
+          "xpath": "//button[@aria-label='Next Slide']",
+          "stability": "Strong"
+        },
+        {
+          "kind": "tab",
+          "words": [
+            "1 of 3",
+            "1"
+          ],
+          "region": "main",
+          "xpath": "//button[@aria-label='1 of 3']",
+          "stability": "Strong"
+        },
+        {
+          "kind": "tab",
+          "words": [
+            "2 of 3",
+            "2"
+          ],
+          "region": "main",
+          "xpath": "//button[@aria-label='2 of 3']",
+          "stability": "Strong"
+        },
+        {
+          "kind": "tab",
+          "words": [
+            "3 of 3",
+            "3"
+          ],
+          "region": "main",
+          "xpath": "//button[@aria-label='3 of 3']",
+          "stability": "Strong"
+        }
+      ],
+      "roleForms": [
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Cut the noise",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "JOBS THAT ACTUALLY MAKE SENSE.",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "No guesswork",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "HERE'S THE DEAL...",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "NO DEAD ENDS HERE.",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "THE BOTTOM LINE?",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "See what others say",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Connect",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Get to know us",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "From our consultants",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Better process. Better results.",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "button",
+          "name": "Previous Slide",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "button",
+          "name": "Next Slide",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "tab",
+          "name": "1 of 3",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "tab",
+          "name": "2 of 3",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "tab",
+          "name": "3 of 3",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "The Hatch Group Logo | IT Staffing Eden Prairie, MN",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Why choose us",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "For clients",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "For consultants",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Our team",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Contact us",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Connect with recruiters",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Check out IVP",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "See the proof",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Let's talk",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Meet our team",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "The Hatch Group Logo | IT Staffing Eden Prairie, MN's link",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Privacy Policy",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "LinkedIn (Opens in new tab)",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Email (Opens in new tab)",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Call us (Opens in new tab)",
+          "count": 2
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Back to top button",
+          "count": 1
+        }
+      ],
+      "snapshot": "pages/for-consultants.html",
+      "frames": [
+        {
+          "path": [
+            "//iframe[@title='archetype']"
+          ],
+          "url": "about:blank",
+          "sameSite": true,
+          "shown": false,
+          "title": "archetype",
+          "width": 0,
+          "height": 0
+        }
+      ],
+      "markup": {
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Discover job opportunities tailored to your skills. We prioritize meaningful connections that advance your career without wasting your time. Find your fit.",
+        "deadAnchors": {
+          "count": 1,
+          "first": [
+            "<a href=\"#main\">"
+          ]
+        },
+        "copyright": {
+          "year": 2026,
+          "seen": 2026
+        }
+      },
+      "seen": [
+        {
+          "role": "link",
+          "name": "Skip to main content",
+          "url": "\"#main\"",
+          "where": {
+            "in": "page",
+            "tag": "a"
+          }
+        },
+        {
+          "role": "link",
+          "name": "The Hatch Group | IT Staffing",
+          "url": "https://www.thehatchgrp.com?hsLang=en",
+          "where": {
+            "in": "page",
+            "tag": "img"
+          }
+        },
+        {
+          "role": "link",
+          "name": "Why choose us",
+          "url": "https://www.thehatchgrp.com/why-choose-us"
+        },
+        {
+          "role": "link",
+          "name": "For clients",
+          "url": "https://www.thehatchgrp.com/for-clients"
+        },
+        {
+          "role": "link",
+          "name": "For consultants",
+          "url": "https://www.thehatchgrp.com/for-consultants"
+        },
+        {
+          "role": "link",
+          "name": "Our team",
+          "url": "https://www.thehatchgrp.com/our-team"
+        },
+        {
+          "role": "link",
+          "name": "Contact us",
+          "url": "https://www.thehatchgrp.com/contact-us?hsLang=en"
+        },
+        {
+          "role": "link",
+          "name": "Connect with recruiters",
+          "url": "https://www.thehatchgrp.com/our-team?hsLang=en"
+        },
+        {
+          "role": "link",
+          "name": "Check out IVP",
+          "url": "https://www.thehatchgrp.com/why-choose-us?hsLang=en"
+        },
+        {
+          "role": "link",
+          "name": "See the proof",
+          "url": "\"#testimonials\"",
+          "where": {
+            "in": "page",
+            "tag": "a"
+          }
+        },
+        {
+          "role": "link",
+          "name": "Let's talk",
+          "url": "/contact-us?hsLang=en"
+        },
+        {
+          "role": "link",
+          "name": "Meet our team",
+          "url": "/our-team?hsLang=en"
+        },
+        {
+          "role": "button",
+          "name": "Previous Slide"
+        },
+        {
+          "role": "button",
+          "name": "Next Slide"
+        },
+        {
+          "role": "tab",
+          "name": "1 of 3"
+        },
+        {
+          "role": "tab",
+          "name": "2 of 3"
+        },
+        {
+          "role": "tab",
+          "name": "3 of 3"
+        },
+        {
+          "role": "link",
+          "name": "The Hatch Group Logo | IT Staffing Eden Prairie, MN's link",
+          "url": "https://www.thehatchgrp.com?hsLang=en"
+        },
+        {
+          "role": "link",
+          "name": "Privacy Policy",
+          "url": "https://the-hatch-group-242355921.hubspotpagebuilder.net/privacy-policy?hsLang=en"
+        },
+        {
+          "role": "link",
+          "name": "LinkedIn (Opens in new tab)",
+          "url": "https://www.linkedin.com/company/the-hatch-group-mpls/"
+        },
+        {
+          "role": "link",
+          "name": "Email (Opens in new tab)",
+          "url": "mailto:shelby.wittenborg@thehatchgrp.com"
+        },
+        {
+          "role": "link",
+          "name": "Call us (Opens in new tab)",
+          "url": "tel:+16124742845"
+        },
+        {
+          "role": "link",
+          "name": "Call us (Opens in new tab)",
+          "url": "https://www.google.com/maps/dir//10250+Valley+View+Rd+Suite+149+Eden+Prairie,+MN+55344/@44.8719728,-93.4060207,10z/data=!4m5!4m4!1m0!1m2!1m1!1s0x87f6221c4ec93e7d:0xc94b89c8aac632f3"
+        },
+        {
+          "role": "link",
+          "name": "Back to top button",
+          "url": "\"#\"",
+          "where": {
+            "in": "page",
+            "tag": "a"
+          }
+        }
+      ],
+      "load": {
+        "headers": {
+          "strict-transport-security": "max-age=31536000",
+          "content-security-policy": "upgrade-insecure-requests",
+          "server": "cloudflare"
+        }
+      },
+      "late": {
+        "afterMs": 2000,
+        "seen": []
+      }
+    },
+    {
+      "url": "https://www.thehatchgrp.com/why-choose-us",
+      "finalUrl": "https://www.thehatchgrp.com/why-choose-us",
+      "status": 200,
+      "redirects": [],
+      "title": "Why choose us | The Hatch Group | IT Staffing Minneapolis",
+      "contentType": "text/html; charset=UTF-8",
+      "depth": 1,
+      "fingerprint": {
+        "hash": "a4962ea143068e12",
+        "paths": [
+          "div",
+          "div.container-fluid",
+          "div.container-fluid/div.row-fluid-wrapper",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div.widget-type-space",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div.widget-type-space/span.hs-horizontal-spacer",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/div.bg-custom.overflow-hidden.position-relative",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/div.growmeda-pricing.pricing-plan-outer",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/div.hero-overlap.sr-cover-parallax.sr-hero-features",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/div.overflow-hidden.position-relative.prototype-no-background",
+          "div/div.container-fluid",
+          "div/div.container-fluid/div.row-fluid-wrapper",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/a.bg-primary.text-white",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/a.bg-primary.text-white/svg",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/div.footer-logo-social",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/div.footer-logo-social/div.container",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/div.sr-footer-nav",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/div.sr-footer-nav/div.container",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/header",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/header/a.bg-dark.skip-main.text-white",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/header/div",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/header/div/div.container-xl",
+          "iframe"
+        ]
+      },
+      "settled": {
+        "ms": 1100,
+        "networkQuiet": true,
+        "domQuiet": true
+      },
+      "headings": [
+        "Why choose us",
+        "BECAUSE YOU'RE TIRED OF THE SAME OLD STAFFING STORY",
+        "So, let's talk IVP. It's not just a process. It's our standard.",
+        "Where it started",
+        "Solving for better staffing",
+        "Introducing IVP",
+        "Choose your journey",
+        "What to expect with IVP",
+        "Identify",
+        "1. Identify business needs",
+        "Validate",
+        "2. Leverage SME network",
+        "Prescribe",
+        "3. Get the right fit",
+        "1. Share your expertise",
+        "2. Align opportunities",
+        "3. Land your ideal role",
+        "When you follow the process, you get the results.",
+        "83%",
+        "ROOTED IN VALUES. PROVEN IN RESULTS.",
+        "Surgical",
+        "Transparent",
+        "Authentic",
+        "Resourceful",
+        "A QUICK BACKSTORY",
+        "(Because you deserve to know who you’re working with)",
+        "Better process. Better results."
+      ],
+      "skippedHeadings": [
+        "1. Share your expertise",
+        "2. Align opportunities",
+        "3. Land your ideal role"
+      ],
+      "structure": {
+        "h1": [
+          "Why choose us"
+        ],
+        "main": false
+      },
+      "roleForms": [
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Why choose us",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "BECAUSE YOU'RE TIRED OF THE SAME OLD STAFFING STORY",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "So, let's talk IVP. It's not just a process. It's our standard.",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Where it started",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Solving for better staffing",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Introducing IVP",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Choose your journey",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "What to expect with IVP",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Identify",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "1. Identify business needs",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Validate",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "2. Leverage SME network",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Prescribe",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "3. Get the right fit",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "1. Share your expertise",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "2. Align opportunities",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "3. Land your ideal role",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "When you follow the process, you get the results.",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "83%",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "ROOTED IN VALUES. PROVEN IN RESULTS.",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Surgical",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Transparent",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Authentic",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Resourceful",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "A QUICK BACKSTORY",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "(Because you deserve to know who you’re working with)",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Better process. Better results.",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "The Hatch Group Logo | IT Staffing Eden Prairie, MN",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Why choose us",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "For clients",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "For consultants",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Our team",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Contact us",
+          "count": 2
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Meet our team",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "The Hatch Group Logo | IT Staffing Eden Prairie, MN's link",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Privacy Policy",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "LinkedIn (Opens in new tab)",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Email (Opens in new tab)",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Call us (Opens in new tab)",
+          "count": 2
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Back to top button",
+          "count": 1
+        }
+      ],
+      "snapshot": "pages/why-choose-us.html",
+      "frames": [
+        {
+          "path": [
+            "//iframe[@title='archetype']"
+          ],
+          "url": "about:blank",
+          "sameSite": true,
+          "shown": false,
+          "title": "archetype",
+          "width": 0,
+          "height": 0
+        }
+      ],
+      "markup": {
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Transform your staffing experience with our precise, transparent, and resourceful approach, focused on delivering the right talent for the right clients.",
+        "unnamed": {
+          "count": 3,
+          "first": [
+            "<a class=\"primary-btn\">"
+          ]
+        },
+        "deadAnchors": {
+          "count": 1,
+          "first": [
+            "<a href=\"#main\">"
+          ]
+        },
+        "copyright": {
+          "year": 2026,
+          "seen": 2026
+        }
+      },
+      "seen": [
+        {
+          "role": "link",
+          "name": "Skip to main content",
+          "url": "\"#main\"",
+          "where": {
+            "in": "page",
+            "tag": "a"
+          }
+        },
+        {
+          "role": "link",
+          "name": "The Hatch Group Logo | IT Staffing Eden Prairie, MN",
+          "url": "https://www.thehatchgrp.com?hsLang=en"
+        },
+        {
+          "role": "link",
+          "name": "Why choose us",
+          "url": "https://www.thehatchgrp.com/why-choose-us"
+        },
+        {
+          "role": "link",
+          "name": "For clients",
+          "url": "https://www.thehatchgrp.com/for-clients"
+        },
+        {
+          "role": "link",
+          "name": "For consultants",
+          "url": "https://www.thehatchgrp.com/for-consultants"
+        },
+        {
+          "role": "link",
+          "name": "Our team",
+          "url": "https://www.thehatchgrp.com/our-team"
+        },
+        {
+          "role": "link",
+          "name": "Contact us",
+          "url": "https://www.thehatchgrp.com/contact-us?hsLang=en"
+        },
+        {
+          "role": "link",
+          "name": "For clients Briefcase",
+          "url": "\"#tab1\"",
+          "where": {
+            "in": "unreachable"
+          }
+        },
+        {
+          "role": "link",
+          "name": "For consultants User",
+          "url": "\"#tab2\"",
+          "where": {
+            "in": "unreachable"
+          }
+        },
+        {
+          "role": "link",
+          "name": "",
+          "url": "\"\""
+        },
+        {
+          "role": "link",
+          "name": "Meet our team",
+          "url": "https://www.thehatchgrp.com/our-team?hsLang=en"
+        },
+        {
+          "role": "link",
+          "name": "The Hatch Group Logo | IT Staffing Eden Prairie, MN's link",
+          "url": "https://www.thehatchgrp.com?hsLang=en"
+        },
+        {
+          "role": "link",
+          "name": "Privacy Policy",
+          "url": "https://the-hatch-group-242355921.hubspotpagebuilder.net/privacy-policy?hsLang=en"
+        },
+        {
+          "role": "link",
+          "name": "LinkedIn (Opens in new tab)",
+          "url": "https://www.linkedin.com/company/the-hatch-group-mpls/"
+        },
+        {
+          "role": "link",
+          "name": "Email (Opens in new tab)",
+          "url": "mailto:shelby.wittenborg@thehatchgrp.com"
+        },
+        {
+          "role": "link",
+          "name": "Call us (Opens in new tab)",
+          "url": "tel:+16124742845"
+        },
+        {
+          "role": "link",
+          "name": "Call us (Opens in new tab)",
+          "url": "https://www.google.com/maps/dir//10250+Valley+View+Rd+Suite+149+Eden+Prairie,+MN+55344/@44.8719728,-93.4060207,10z/data=!4m5!4m4!1m0!1m2!1m1!1s0x87f6221c4ec93e7d:0xc94b89c8aac632f3"
+        },
+        {
+          "role": "link",
+          "name": "Back to top button",
+          "url": "\"#\"",
+          "where": {
+            "in": "page",
+            "tag": "a"
+          }
+        }
+      ],
+      "load": {
+        "loadMs": 1700,
+        "headers": {
+          "strict-transport-security": "max-age=31536000",
+          "content-security-policy": "upgrade-insecure-requests",
+          "server": "cloudflare"
+        },
+        "failedOtherSite": {
+          "count": 1,
+          "first": [
+            "kit.fontawesome.com/383df7a0c3.js (403)"
+          ]
+        }
+      },
+      "late": {
+        "afterMs": 2000,
+        "seen": []
+      }
+    },
+    {
+      "url": "https://www.thehatchgrp.com/for-clients",
+      "finalUrl": "https://www.thehatchgrp.com/for-clients",
+      "status": 200,
+      "redirects": [],
+      "title": "For clients | IT Staffing | The Hatch Group in Minnesota",
+      "contentType": "text/html; charset=UTF-8",
+      "depth": 1,
+      "fingerprint": {
+        "hash": "f8c9a5fc1e70bfc8",
+        "paths": [
+          "div",
+          "div.container-fluid",
+          "div.container-fluid/div.row-fluid-wrapper",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/div.bg-custom.position-relative.prototype-no-background",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/div.bg-custom.prototype-no-background.sr-multicol-media",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/div.bg-none.prototype-no-background.sr-multicol-media",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/span",
+          "div/div.container-fluid",
+          "div/div.container-fluid/div.row-fluid-wrapper",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/a.bg-primary.text-white",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/a.bg-primary.text-white/svg",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/div.footer-logo-social",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/div.footer-logo-social/div.container",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/div.sr-footer-nav",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/div.sr-footer-nav/div.container",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/header.header-scroll.scroll-up",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/header.header-scroll.scroll-up/a.bg-dark.skip-main.text-white",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/header.header-scroll.scroll-up/div",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/header.header-scroll.scroll-up/div/div.container-xl",
+          "iframe"
+        ]
+      },
+      "settled": {
+        "ms": 1200,
+        "networkQuiet": true,
+        "domQuiet": true
+      },
+      "headings": [
+        "What we offer",
+        "IT STAFFING DONE THE RIGHT WAY.",
+        "Smarter staffing",
+        "OUR CAPABILITIES",
+        "Our core staffing areas are...",
+        "Enterprise platforms",
+        "Enterprise data management",
+        "Project and product services",
+        "Custom app development and integration",
+        "Flexible",
+        "ENGAGEMENT MODELS",
+        "LATAM",
+        "NEARSHORE OPPORTUNITIES",
+        "Better process. Better results."
+      ],
+      "structure": {
+        "h1": [],
+        "main": false
+      },
+      "roleForms": [
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "What we offer",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "IT STAFFING DONE THE RIGHT WAY.",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Smarter staffing",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "OUR CAPABILITIES",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Our core staffing areas are...",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Enterprise platforms",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Enterprise data management",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Project and product services",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Custom app development and integration",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Flexible",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "ENGAGEMENT MODELS",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "LATAM",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "NEARSHORE OPPORTUNITIES",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Better process. Better results.",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "The Hatch Group Logo | IT Staffing Eden Prairie, MN",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Why choose us",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "For clients",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "For consultants",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Our team",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Contact us",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "See how IVP works",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Got salesforce?",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "The Hatch Group Logo | IT Staffing Eden Prairie, MN's link",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Privacy Policy",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "LinkedIn (Opens in new tab)",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Email (Opens in new tab)",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Call us (Opens in new tab)",
+          "count": 2
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Back to top button",
+          "count": 1
+        }
+      ],
+      "snapshot": "pages/for-clients.html",
+      "frames": [
+        {
+          "path": [
+            "//iframe[@title='archetype']"
+          ],
+          "url": "about:blank",
+          "sameSite": true,
+          "shown": false,
+          "title": "archetype",
+          "width": 0,
+          "height": 0
+        }
+      ],
+      "markup": {
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Discover IT staffing solutions that match talent with the right challenges, providing better results and enhanced business value through our proven IVP process.",
+        "unnamed": {
+          "count": 1,
+          "first": [
+            "<a href=\"#\">"
+          ]
+        },
+        "deadAnchors": {
+          "count": 1,
+          "first": [
+            "<a href=\"#main\">"
+          ]
+        },
+        "copyright": {
+          "year": 2026,
+          "seen": 2026
+        }
+      },
+      "seen": [
+        {
+          "role": "link",
+          "name": "Skip to main content",
+          "url": "\"#main\"",
+          "where": {
+            "in": "page",
+            "tag": "a"
+          }
+        },
+        {
+          "role": "link",
+          "name": "The Hatch Group | IT Staffing",
+          "url": "https://www.thehatchgrp.com?hsLang=en",
+          "where": {
+            "in": "page",
+            "tag": "img"
+          }
+        },
+        {
+          "role": "link",
+          "name": "Why choose us",
+          "url": "https://www.thehatchgrp.com/why-choose-us"
+        },
+        {
+          "role": "link",
+          "name": "For clients",
+          "url": "https://www.thehatchgrp.com/for-clients"
+        },
+        {
+          "role": "link",
+          "name": "For consultants",
+          "url": "https://www.thehatchgrp.com/for-consultants"
+        },
+        {
+          "role": "link",
+          "name": "Our team",
+          "url": "https://www.thehatchgrp.com/our-team"
+        },
+        {
+          "role": "link",
+          "name": "Contact us",
+          "url": "https://www.thehatchgrp.com/contact-us?hsLang=en"
+        },
+        {
+          "role": "link",
+          "name": "See how IVP works",
+          "url": "https://www.thehatchgrp.com/why-choose-us?hsLang=en"
+        },
+        {
+          "role": "link",
+          "name": "Got salesforce?",
+          "url": "https://www.thehatchgrp.com/for-clients/enterprise-platforms?hsLang=en"
+        },
+        {
+          "role": "link",
+          "name": "",
+          "url": "\"#\""
+        },
+        {
+          "role": "link",
+          "name": "The Hatch Group Logo | IT Staffing Eden Prairie, MN's link",
+          "url": "https://www.thehatchgrp.com?hsLang=en"
+        },
+        {
+          "role": "link",
+          "name": "Privacy Policy",
+          "url": "https://the-hatch-group-242355921.hubspotpagebuilder.net/privacy-policy?hsLang=en"
+        },
+        {
+          "role": "link",
+          "name": "LinkedIn (Opens in new tab)",
+          "url": "https://www.linkedin.com/company/the-hatch-group-mpls/"
+        },
+        {
+          "role": "link",
+          "name": "Email (Opens in new tab)",
+          "url": "mailto:shelby.wittenborg@thehatchgrp.com"
+        },
+        {
+          "role": "link",
+          "name": "Call us (Opens in new tab)",
+          "url": "tel:+16124742845"
+        },
+        {
+          "role": "link",
+          "name": "Call us (Opens in new tab)",
+          "url": "https://www.google.com/maps/dir//10250+Valley+View+Rd+Suite+149+Eden+Prairie,+MN+55344/@44.8719728,-93.4060207,10z/data=!4m5!4m4!1m0!1m2!1m1!1s0x87f6221c4ec93e7d:0xc94b89c8aac632f3"
+        },
+        {
+          "role": "link",
+          "name": "Back to top button",
+          "url": "\"#\"",
+          "where": {
+            "in": "page",
+            "tag": "a"
+          }
+        }
+      ],
+      "load": {
+        "headers": {
+          "strict-transport-security": "max-age=31536000",
+          "content-security-policy": "upgrade-insecure-requests",
+          "server": "cloudflare"
+        }
+      },
+      "late": {
+        "afterMs": 2000,
+        "seen": []
+      }
+    },
+    {
+      "url": "https://www.thehatchgrp.com/our-team",
+      "finalUrl": "https://www.thehatchgrp.com/our-team",
+      "status": 200,
+      "redirects": [],
+      "title": "Our Team | The Hatch Group | IT Staffing Minneapolis",
+      "contentType": "text/html; charset=UTF-8",
+      "depth": 1,
+      "fingerprint": {
+        "hash": "1598b188db469690",
+        "paths": [
+          "div",
+          "div.container-fluid",
+          "div.container-fluid/div.row-fluid-wrapper",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/div",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/div.bg-custom.overflow-hidden.position-relative",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/div.bg-custom.prototype-no-background.sr-bg-image",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/div.bg-none.prototype-no-background.sr-multicol-media",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/section.testimonial-cards-by-fthemes.testimonial-panels-sec",
+          "div/div.container-fluid",
+          "div/div.container-fluid/div.row-fluid-wrapper",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/a.bg-primary.text-white",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/a.bg-primary.text-white/svg",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/div.footer-logo-social",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/div.footer-logo-social/div.container",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/div.sr-footer-nav",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/div.sr-footer-nav/div.container",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/header.header-scroll.scroll-up",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/header.header-scroll.scroll-up/a.bg-dark.skip-main.text-white",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/header.header-scroll.scroll-up/div",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/header.header-scroll.scroll-up/div/div.container-xl",
+          "iframe"
+        ]
+      },
+      "settled": {
+        "ms": 1300,
+        "networkQuiet": true,
+        "domQuiet": true
+      },
+      "headings": [
+        "The Hatch Group",
+        "WE WORK HARD & PLAY HARDer.",
+        "Meet the people who make it happen.",
+        "Greg Roth",
+        "Erik Jacobs",
+        "Justin Piehowski",
+        "Alex Webb",
+        "Sam Roth",
+        "Andrew Payne",
+        "Tom Hanson",
+        "Elliot Nutting",
+        "Jennifer Berg",
+        "Matt Jennissen",
+        "Ted Schwerzler",
+        "Cody Minks",
+        "Ben Mansur",
+        "NikkiRoth",
+        "Shelby Wittenborg",
+        "Lisa Brown",
+        "Cole Jacobs",
+        "(They'll hate us for adding this but...)",
+        "Shoutout to our managing partners",
+        "What's next?",
+        "Better process. Better results."
+      ],
+      "structure": {
+        "h1": [
+          "WE WORK HARD & PLAY HARDer."
+        ],
+        "main": false
+      },
+      "roleForms": [
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "The Hatch Group",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "WE WORK HARD & PLAY HARDer.",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Meet the people who make it happen.",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Greg Roth",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Erik Jacobs",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Justin Piehowski",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Alex Webb",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Sam Roth",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Andrew Payne",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Tom Hanson",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Elliot Nutting",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Jennifer Berg",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Matt Jennissen",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Ted Schwerzler",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Cody Minks",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Ben Mansur",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "NikkiRoth",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Shelby Wittenborg",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Lisa Brown",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Cole Jacobs",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "(They'll hate us for adding this but...)",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Shoutout to our managing partners",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "What's next?",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Better process. Better results.",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "The Hatch Group Logo | IT Staffing Eden Prairie, MN",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Why choose us",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "For clients",
+          "count": 2
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "For consultants",
+          "count": 2
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Our team",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Contact us",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "The Hatch Group Logo | IT Staffing Eden Prairie, MN's link",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Privacy Policy",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "LinkedIn (Opens in new tab)",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Email (Opens in new tab)",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Call us (Opens in new tab)",
+          "count": 2
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Back to top button",
+          "count": 1
+        }
+      ],
+      "snapshot": "pages/our-team.html",
+      "frames": [
+        {
+          "path": [
+            "//iframe[@title='archetype']"
+          ],
+          "url": "about:blank",
+          "sameSite": true,
+          "shown": false,
+          "title": "archetype",
+          "width": 0,
+          "height": 0
+        }
+      ],
+      "markup": {
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Meet the people who make it happen at The Hatch Group | IT Staffing",
+        "unnamed": {
+          "count": 17,
+          "first": [
+            "<a href=\"https://www.linkedin.com/in/greg-roth-a451548/\">",
+            "<a href=\"https://www.linkedin.com/in/erik-jacobs-7b60811/\">",
+            "<a href=\"https://www.linkedin.com/in/jpiehowski/\">",
+            "<a href=\"https://www.linkedin.com/in/alex-webb-6b39b181/\">",
+            "<a href=\"https://www.linkedin.com/in/sam-roth-29755a169/\">"
+          ]
+        },
+        "deadAnchors": {
+          "count": 1,
+          "first": [
+            "<a href=\"#main\">"
+          ]
+        },
+        "copyright": {
+          "year": 2026,
+          "seen": 2026
+        }
+      },
+      "seen": [
+        {
+          "role": "link",
+          "name": "Skip to main content",
+          "url": "\"#main\"",
+          "where": {
+            "in": "page",
+            "tag": "a"
+          }
+        },
+        {
+          "role": "link",
+          "name": "The Hatch Group | IT Staffing",
+          "url": "https://www.thehatchgrp.com?hsLang=en",
+          "where": {
+            "in": "page",
+            "tag": "img"
+          }
+        },
+        {
+          "role": "link",
+          "name": "Why choose us",
+          "url": "https://www.thehatchgrp.com/why-choose-us"
+        },
+        {
+          "role": "link",
+          "name": "For clients",
+          "url": "https://www.thehatchgrp.com/for-clients"
+        },
+        {
+          "role": "link",
+          "name": "For consultants",
+          "url": "https://www.thehatchgrp.com/for-consultants"
+        },
+        {
+          "role": "link",
+          "name": "Our team",
+          "url": "https://www.thehatchgrp.com/our-team"
+        },
+        {
+          "role": "link",
+          "name": "Contact us",
+          "url": "https://www.thehatchgrp.com/contact-us?hsLang=en"
+        },
+        {
+          "role": "link",
+          "name": "",
+          "url": "https://www.linkedin.com/in/greg-roth-a451548/"
+        },
+        {
+          "role": "link",
+          "name": "",
+          "url": "https://www.linkedin.com/in/erik-jacobs-7b60811/"
+        },
+        {
+          "role": "link",
+          "name": "",
+          "url": "https://www.linkedin.com/in/jpiehowski/"
+        },
+        {
+          "role": "link",
+          "name": "",
+          "url": "https://www.linkedin.com/in/alex-webb-6b39b181/"
+        },
+        {
+          "role": "link",
+          "name": "",
+          "url": "https://www.linkedin.com/in/sam-roth-29755a169/"
+        },
+        {
+          "role": "link",
+          "name": "",
+          "url": "https://www.linkedin.com/in/andrewpayne44/"
+        },
+        {
+          "role": "link",
+          "name": "",
+          "url": "https://www.linkedin.com/in/tom-hanson-19917019/"
+        },
+        {
+          "role": "link",
+          "name": "",
+          "url": "https://www.linkedin.com/in/elliot-nutting-4724b2221/"
+        },
+        {
+          "role": "link",
+          "name": "",
+          "url": "https://www.linkedin.com/company/the-hatch-group-mpls/?viewAsMember=true"
+        },
+        {
+          "role": "link",
+          "name": "",
+          "url": "https://www.linkedin.com/in/jenniferberg49/"
+        },
+        {
+          "role": "link",
+          "name": "",
+          "url": "https://www.linkedin.com/in/matt-jennissen-0469426a/"
+        },
+        {
+          "role": "link",
+          "name": "",
+          "url": "https://www.linkedin.com/in/tlschwerz/"
+        },
+        {
+          "role": "link",
+          "name": "",
+          "url": "https://www.linkedin.com/in/cody-minks/"
+        },
+        {
+          "role": "link",
+          "name": "",
+          "url": "https://www.linkedin.com/in/ben-mansur/"
+        },
+        {
+          "role": "link",
+          "name": "",
+          "url": "https://www.linkedin.com/in/shelbyspinner/"
+        },
+        {
+          "role": "link",
+          "name": "",
+          "url": "https://www.linkedin.com/in/lisa-brown-5a3ba626/"
+        },
+        {
+          "role": "link",
+          "name": "",
+          "url": "https://www.linkedin.com/in/cole-jacobs-590883248/"
+        },
+        {
+          "role": "link",
+          "name": "For clients",
+          "url": "https://www.thehatchgrp.com/for-clients?hsLang=en"
+        },
+        {
+          "role": "link",
+          "name": "For consultants",
+          "url": "https://www.thehatchgrp.com/for-consultants?hsLang=en"
+        },
+        {
+          "role": "link",
+          "name": "The Hatch Group Logo | IT Staffing Eden Prairie, MN's link",
+          "url": "https://www.thehatchgrp.com?hsLang=en"
+        },
+        {
+          "role": "link",
+          "name": "Privacy Policy",
+          "url": "https://the-hatch-group-242355921.hubspotpagebuilder.net/privacy-policy?hsLang=en"
+        },
+        {
+          "role": "link",
+          "name": "LinkedIn (Opens in new tab)",
+          "url": "https://www.linkedin.com/company/the-hatch-group-mpls/"
+        },
+        {
+          "role": "link",
+          "name": "Email (Opens in new tab)",
+          "url": "mailto:shelby.wittenborg@thehatchgrp.com"
+        },
+        {
+          "role": "link",
+          "name": "Call us (Opens in new tab)",
+          "url": "tel:+16124742845"
+        },
+        {
+          "role": "link",
+          "name": "Call us (Opens in new tab)",
+          "url": "https://www.google.com/maps/dir//10250+Valley+View+Rd+Suite+149+Eden+Prairie,+MN+55344/@44.8719728,-93.4060207,10z/data=!4m5!4m4!1m0!1m2!1m1!1s0x87f6221c4ec93e7d:0xc94b89c8aac632f3"
+        },
+        {
+          "role": "link",
+          "name": "Back to top button",
+          "url": "\"#\"",
+          "where": {
+            "in": "page",
+            "tag": "a"
+          }
+        }
+      ],
+      "load": {
+        "headers": {
+          "strict-transport-security": "max-age=31536000",
+          "content-security-policy": "upgrade-insecure-requests",
+          "server": "cloudflare"
+        }
+      },
+      "late": {
+        "afterMs": 2000,
+        "seen": []
+      }
+    },
+    {
+      "url": "https://www.thehatchgrp.com/for-clients/enterprise-platforms?hsLang=en",
+      "finalUrl": "https://www.thehatchgrp.com/for-clients/enterprise-platforms",
+      "status": 200,
+      "redirects": [
+        {
+          "url": "https://www.thehatchgrp.com/for-clients/enterprise-platforms?hsLang=en",
+          "status": 307
+        }
+      ],
+      "title": "Enterprise Salesforce Advisory & Talent | The Hatch Group",
+      "contentType": "text/html; charset=UTF-8",
+      "depth": 2,
+      "fingerprint": {
+        "hash": "3719f5431139297d",
+        "paths": [
+          "div",
+          "div.container-fluid",
+          "div.container-fluid/div.row-fluid-wrapper",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/div.bg-custom.overflow-hidden.position-relative",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/div.bg-custom.prototype-no-background.sr-multicol-media",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/div.bg-none.prototype-no-background.sr-multicol-media",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/div.bg-white.overflow-hidden.position-relative",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-column.widget-span.widget-type-cell/div.dnd-row.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/div.hero-overlap.sr-cover-parallax.sr-hero-features",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span",
+          "div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/span",
+          "div/div.container-fluid",
+          "div/div.container-fluid/div.row-fluid-wrapper",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/a.bg-primary.text-white",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/a.bg-primary.text-white/svg",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/div.footer-logo-social",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/div.footer-logo-social/div.container",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/div.sr-footer-nav",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/footer.prototype-no-background.sr-footer.sr-padding-half/div.sr-footer-nav/div.container",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/header.header-scroll.scroll-up",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/header.header-scroll.scroll-up/a.bg-dark.skip-main.text-white",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/header.header-scroll.scroll-up/div",
+          "div/div.container-fluid/div.row-fluid-wrapper/div.row-fluid/div.widget-span.widget-type-cell/div.dnd-section.row-fluid-wrapper/div.row-fluid/div.dnd-module.widget-span/div/header.header-scroll.scroll-up/div/div.container-xl",
+          "iframe"
+        ]
+      },
+      "settled": {
+        "ms": 1200,
+        "networkQuiet": true,
+        "domQuiet": true
+      },
+      "headings": [
+        "Enterprise platforms",
+        "SALESFORCE",
+        "Diagnosing the invisible problem",
+        "Five key capabilities we help you master",
+        "Talent & ownership",
+        "Platform utilization & license ROI",
+        "Data, modeling & integration",
+        "DevOps, governance & adoption",
+        "Our engagement models...",
+        "1. Fractional Salesforce Advisor",
+        "2. Salesforce Talent Placement",
+        "HIDDEN GAPS WE UNCOVER",
+        "MEET JUSTIN PIEHOWSKI",
+        "Your Salesforce Capability Lead",
+        "Proof in action",
+        "ENTERPRISE SALESFORCE, MADE PRACTICAL.",
+        "Better process. Better results."
+      ],
+      "structure": {
+        "h1": [
+          "SALESFORCE",
+          "MEET JUSTIN PIEHOWSKI"
+        ],
+        "main": false
+      },
+      "roleForms": [
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Enterprise platforms",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "SALESFORCE",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Diagnosing the invisible problem",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Five key capabilities we help you master",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Talent & ownership",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Platform utilization & license ROI",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Data, modeling & integration",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "DevOps, governance & adoption",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Our engagement models...",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "1. Fractional Salesforce Advisor",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "2. Salesforce Talent Placement",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "HIDDEN GAPS WE UNCOVER",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "MEET JUSTIN PIEHOWSKI",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Your Salesforce Capability Lead",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Proof in action",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "ENTERPRISE SALESFORCE, MADE PRACTICAL.",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "heading",
+          "name": "Better process. Better results.",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "The Hatch Group Logo | IT Staffing Eden Prairie, MN",
+          "count": 0
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Why choose us",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "For clients",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "For consultants",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Our team",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Contact us",
+          "count": 2
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Start the conversation",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Let's connect",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "The Hatch Group Logo | IT Staffing Eden Prairie, MN's link",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Privacy Policy",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "LinkedIn (Opens in new tab)",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Email (Opens in new tab)",
+          "count": 1
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Call us (Opens in new tab)",
+          "count": 2
+        },
+        {
+          "by": "role",
+          "role": "link",
+          "name": "Back to top button",
+          "count": 1
+        }
+      ],
+      "snapshot": "pages/for-clients/enterprise-platforms.html",
+      "frames": [
+        {
+          "path": [
+            "//iframe[@title='archetype']"
+          ],
+          "url": "about:blank",
+          "sameSite": true,
+          "shown": false,
+          "title": "archetype",
+          "width": 0,
+          "height": 0
+        }
+      ],
+      "markup": {
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "description": "Unlock Salesforce maturity with fractional advisory and precision talent placement. Optimize adoption, ROI, and enterprise platform performance with Hatch Group.",
+        "deadAnchors": {
+          "count": 1,
+          "first": [
+            "<a href=\"#main\">"
+          ]
+        },
+        "copyright": {
+          "year": 2026,
+          "seen": 2026
+        }
+      },
+      "seen": [
+        {
+          "role": "link",
+          "name": "Skip to main content",
+          "url": "\"#main\"",
+          "where": {
+            "in": "page",
+            "tag": "a"
+          }
+        },
+        {
+          "role": "link",
+          "name": "The Hatch Group | IT Staffing",
+          "url": "https://www.thehatchgrp.com?hsLang=en",
+          "where": {
+            "in": "page",
+            "tag": "img"
+          }
+        },
+        {
+          "role": "link",
+          "name": "Why choose us",
+          "url": "https://www.thehatchgrp.com/why-choose-us"
+        },
+        {
+          "role": "link",
+          "name": "For clients",
+          "url": "https://www.thehatchgrp.com/for-clients"
+        },
+        {
+          "role": "link",
+          "name": "For consultants",
+          "url": "https://www.thehatchgrp.com/for-consultants"
+        },
+        {
+          "role": "link",
+          "name": "Our team",
+          "url": "https://www.thehatchgrp.com/our-team"
+        },
+        {
+          "role": "link",
+          "name": "Contact us",
+          "url": "https://www.thehatchgrp.com/contact-us?hsLang=en"
+        },
+        {
+          "role": "link",
+          "name": "Start the conversation",
+          "url": "https://www.thehatchgrp.com/contact-us?hsLang=en"
+        },
+        {
+          "role": "link",
+          "name": "Let's connect",
+          "url": "https://www.linkedin.com/in/jpiehowski/"
+        },
+        {
+          "role": "link",
+          "name": "The Hatch Group Logo | IT Staffing Eden Prairie, MN's link",
+          "url": "https://www.thehatchgrp.com?hsLang=en"
+        },
+        {
+          "role": "link",
+          "name": "Privacy Policy",
+          "url": "https://the-hatch-group-242355921.hubspotpagebuilder.net/privacy-policy?hsLang=en"
+        },
+        {
+          "role": "link",
+          "name": "LinkedIn (Opens in new tab)",
+          "url": "https://www.linkedin.com/company/the-hatch-group-mpls/"
+        },
+        {
+          "role": "link",
+          "name": "Email (Opens in new tab)",
+          "url": "mailto:shelby.wittenborg@thehatchgrp.com"
+        },
+        {
+          "role": "link",
+          "name": "Call us (Opens in new tab)",
+          "url": "tel:+16124742845"
+        },
+        {
+          "role": "link",
+          "name": "Call us (Opens in new tab)",
+          "url": "https://www.google.com/maps/dir//10250+Valley+View+Rd+Suite+149+Eden+Prairie,+MN+55344/@44.8719728,-93.4060207,10z/data=!4m5!4m4!1m0!1m2!1m1!1s0x87f6221c4ec93e7d:0xc94b89c8aac632f3"
+        },
+        {
+          "role": "link",
+          "name": "Back to top button",
+          "url": "\"#\"",
+          "where": {
+            "in": "page",
+            "tag": "a"
+          }
+        }
+      ],
+      "load": {
+        "headers": {
+          "strict-transport-security": "max-age=31536000",
+          "content-security-policy": "upgrade-insecure-requests",
+          "server": "cloudflare"
+        }
+      },
+      "late": {
+        "afterMs": 2000,
+        "seen": []
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "https://www.thehatchgrp.com/",
+      "to": "https://www.thehatchgrp.com/",
+      "href": "#main",
+      "text": "Skip to main content",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/",
+      "to": "https://www.thehatchgrp.com/",
+      "href": "https://www.thehatchgrp.com",
+      "text": "The Hatch Group Logo | IT Staffing Eden Prairie, MN",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/",
+      "to": "https://www.thehatchgrp.com/why-choose-us",
+      "href": "https://www.thehatchgrp.com/why-choose-us",
+      "text": "Why choose us",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/",
+      "to": "https://www.thehatchgrp.com/for-clients",
+      "href": "https://www.thehatchgrp.com/for-clients",
+      "text": "For clients",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/",
+      "to": "https://www.thehatchgrp.com/for-consultants",
+      "href": "https://www.thehatchgrp.com/for-consultants",
+      "text": "For consultants",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/",
+      "to": "https://www.thehatchgrp.com/our-team",
+      "href": "https://www.thehatchgrp.com/our-team",
+      "text": "Our team",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/",
+      "to": "https://www.thehatchgrp.com/why-choose-us",
+      "href": "https://www.thehatchgrp.com/why-choose-us",
+      "text": "Why choose us",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/",
+      "to": "https://www.thehatchgrp.com/for-clients",
+      "href": "https://www.thehatchgrp.com/for-clients",
+      "text": "For clients",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/",
+      "to": "https://www.thehatchgrp.com/for-consultants",
+      "href": "https://www.thehatchgrp.com/for-consultants",
+      "text": "For consultants",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/",
+      "to": "https://www.thehatchgrp.com/our-team",
+      "href": "https://www.thehatchgrp.com/our-team",
+      "text": "Our team",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/",
+      "to": "https://www.thehatchgrp.com/contact-us",
+      "href": "https://www.thehatchgrp.com/contact-us",
+      "text": "Contact us",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/",
+      "to": "https://www.linkedin.com/company/the-hatch-group-mpls/",
+      "href": "https://www.linkedin.com/company/the-hatch-group-mpls/",
+      "text": "",
+      "external": true,
+      "region": "header",
+      "hidden": true,
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/",
+      "to": "https://www.thehatchgrp.com/contact-us?hsLang=en",
+      "href": "https://www.thehatchgrp.com/contact-us?hsLang=en",
+      "text": "Contact us",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/",
+      "to": "https://www.thehatchgrp.com/for-clients?hsLang=en",
+      "href": "https://www.thehatchgrp.com/for-clients?hsLang=en",
+      "text": "For clients",
+      "external": false
+    },
+    {
+      "from": "https://www.thehatchgrp.com/",
+      "to": "https://www.thehatchgrp.com/for-consultants?hsLang=en",
+      "href": "https://www.thehatchgrp.com/for-consultants?hsLang=en",
+      "text": "For consultants",
+      "external": false
+    },
+    {
+      "from": "https://www.thehatchgrp.com/",
+      "to": "https://www.thehatchgrp.com/why-choose-us?hsLang=en",
+      "href": "https://www.thehatchgrp.com/why-choose-us?hsLang=en",
+      "text": "View our process",
+      "external": false
+    },
+    {
+      "from": "https://www.thehatchgrp.com/",
+      "to": "https://www.thehatchgrp.com/our-team?hsLang=en",
+      "href": "https://www.thehatchgrp.com/our-team?hsLang=en",
+      "text": "Meet our team",
+      "external": false
+    },
+    {
+      "from": "https://www.thehatchgrp.com/",
+      "to": "https://www.thehatchgrp.com/",
+      "href": "https://www.thehatchgrp.com",
+      "text": "The Hatch Group Logo | IT Staffing Eden Prairie, MN's link",
+      "external": false,
+      "region": "footer"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/",
+      "to": "https://the-hatch-group-242355921.hubspotpagebuilder.net/privacy-policy?hsLang=en",
+      "href": "https://the-hatch-group-242355921.hubspotpagebuilder.net/privacy-policy?hsLang=en",
+      "text": "Privacy Policy",
+      "external": true,
+      "region": "footer"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/",
+      "to": "https://www.linkedin.com/company/the-hatch-group-mpls/",
+      "href": "https://www.linkedin.com/company/the-hatch-group-mpls/",
+      "text": "LinkedIn (Opens in new tab)",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/",
+      "to": "https://www.google.com/maps/dir//10250+Valley+View+Rd+Suite+149+Eden+Prairie,+MN+55344/@44.8719728,-93.4060207,10z/data=!4m5!4m4!1m0!1m2!1m1!1s0x87f6221c4ec93e7d:0xc94b89c8aac632f3",
+      "href": "https://www.google.com/maps/dir//10250+Valley+View+Rd+Suite+149+Eden+Prairie,+MN+55344/@44.8719728,-93.4060207,10z/data=!4m5!4m4!1m0!1m2!1m1!1s0x87f6221c4ec93e7d:0xc94b89c8aac632f3",
+      "text": "Call us (Opens in new tab)",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/",
+      "to": "https://www.thehatchgrp.com/",
+      "href": "#",
+      "text": "Back to top button",
+      "external": false,
+      "region": "footer"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/contact-us",
+      "to": "https://www.thehatchgrp.com/contact-us",
+      "href": "#main",
+      "text": "Skip to main content",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/contact-us",
+      "to": "https://www.thehatchgrp.com/?hsLang=en",
+      "href": "https://www.thehatchgrp.com?hsLang=en",
+      "text": "The Hatch Group Logo | IT Staffing Eden Prairie, MN",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/contact-us",
+      "to": "https://www.thehatchgrp.com/why-choose-us",
+      "href": "https://www.thehatchgrp.com/why-choose-us",
+      "text": "Why choose us",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/contact-us",
+      "to": "https://www.thehatchgrp.com/for-clients",
+      "href": "https://www.thehatchgrp.com/for-clients",
+      "text": "For clients",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/contact-us",
+      "to": "https://www.thehatchgrp.com/for-consultants",
+      "href": "https://www.thehatchgrp.com/for-consultants",
+      "text": "For consultants",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/contact-us",
+      "to": "https://www.thehatchgrp.com/our-team",
+      "href": "https://www.thehatchgrp.com/our-team",
+      "text": "Our team",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/contact-us",
+      "to": "https://www.thehatchgrp.com/why-choose-us",
+      "href": "https://www.thehatchgrp.com/why-choose-us",
+      "text": "Why choose us",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/contact-us",
+      "to": "https://www.thehatchgrp.com/for-clients",
+      "href": "https://www.thehatchgrp.com/for-clients",
+      "text": "For clients",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/contact-us",
+      "to": "https://www.thehatchgrp.com/for-consultants",
+      "href": "https://www.thehatchgrp.com/for-consultants",
+      "text": "For consultants",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/contact-us",
+      "to": "https://www.thehatchgrp.com/our-team",
+      "href": "https://www.thehatchgrp.com/our-team",
+      "text": "Our team",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/contact-us",
+      "to": "https://www.thehatchgrp.com/contact-us",
+      "href": "https://www.thehatchgrp.com/contact-us",
+      "text": "Contact us",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/contact-us",
+      "to": "https://www.linkedin.com/company/the-hatch-group-mpls/",
+      "href": "https://www.linkedin.com/company/the-hatch-group-mpls/",
+      "text": "",
+      "external": true,
+      "region": "header",
+      "hidden": true,
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/contact-us",
+      "to": "https://www.thehatchgrp.com/contact-us",
+      "href": "https://www.thehatchgrp.com/contact-us",
+      "text": "Contact us",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/contact-us",
+      "to": "https://www.thehatchgrp.com/?hsLang=en",
+      "href": "https://www.thehatchgrp.com?hsLang=en",
+      "text": "The Hatch Group Logo | IT Staffing Eden Prairie, MN's link",
+      "external": false,
+      "region": "footer"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/contact-us",
+      "to": "https://the-hatch-group-242355921.hubspotpagebuilder.net/privacy-policy?hsLang=en",
+      "href": "https://the-hatch-group-242355921.hubspotpagebuilder.net/privacy-policy?hsLang=en",
+      "text": "Privacy Policy",
+      "external": true,
+      "region": "footer"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/contact-us",
+      "to": "https://www.linkedin.com/company/the-hatch-group-mpls/",
+      "href": "https://www.linkedin.com/company/the-hatch-group-mpls/",
+      "text": "LinkedIn (Opens in new tab)",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/contact-us",
+      "to": "https://www.google.com/maps/dir//10250+Valley+View+Rd+Suite+149+Eden+Prairie,+MN+55344/@44.8719728,-93.4060207,10z/data=!4m5!4m4!1m0!1m2!1m1!1s0x87f6221c4ec93e7d:0xc94b89c8aac632f3",
+      "href": "https://www.google.com/maps/dir//10250+Valley+View+Rd+Suite+149+Eden+Prairie,+MN+55344/@44.8719728,-93.4060207,10z/data=!4m5!4m4!1m0!1m2!1m1!1s0x87f6221c4ec93e7d:0xc94b89c8aac632f3",
+      "text": "Call us (Opens in new tab)",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/contact-us",
+      "to": "https://www.thehatchgrp.com/contact-us",
+      "href": "#",
+      "text": "Back to top button",
+      "external": false,
+      "region": "footer"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-consultants",
+      "to": "https://www.thehatchgrp.com/for-consultants",
+      "href": "#main",
+      "text": "Skip to main content",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-consultants",
+      "to": "https://www.thehatchgrp.com/?hsLang=en",
+      "href": "https://www.thehatchgrp.com?hsLang=en",
+      "text": "The Hatch Group Logo | IT Staffing Eden Prairie, MN",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-consultants",
+      "to": "https://www.thehatchgrp.com/why-choose-us",
+      "href": "https://www.thehatchgrp.com/why-choose-us",
+      "text": "Why choose us",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-consultants",
+      "to": "https://www.thehatchgrp.com/for-clients",
+      "href": "https://www.thehatchgrp.com/for-clients",
+      "text": "For clients",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-consultants",
+      "to": "https://www.thehatchgrp.com/for-consultants",
+      "href": "https://www.thehatchgrp.com/for-consultants",
+      "text": "For consultants",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-consultants",
+      "to": "https://www.thehatchgrp.com/our-team",
+      "href": "https://www.thehatchgrp.com/our-team",
+      "text": "Our team",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-consultants",
+      "to": "https://www.thehatchgrp.com/why-choose-us",
+      "href": "https://www.thehatchgrp.com/why-choose-us",
+      "text": "Why choose us",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-consultants",
+      "to": "https://www.thehatchgrp.com/for-clients",
+      "href": "https://www.thehatchgrp.com/for-clients",
+      "text": "For clients",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-consultants",
+      "to": "https://www.thehatchgrp.com/for-consultants",
+      "href": "https://www.thehatchgrp.com/for-consultants",
+      "text": "For consultants",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-consultants",
+      "to": "https://www.thehatchgrp.com/our-team",
+      "href": "https://www.thehatchgrp.com/our-team",
+      "text": "Our team",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-consultants",
+      "to": "https://www.thehatchgrp.com/contact-us",
+      "href": "https://www.thehatchgrp.com/contact-us",
+      "text": "Contact us",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-consultants",
+      "to": "https://www.linkedin.com/company/the-hatch-group-mpls/",
+      "href": "https://www.linkedin.com/company/the-hatch-group-mpls/",
+      "text": "",
+      "external": true,
+      "region": "header",
+      "hidden": true,
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-consultants",
+      "to": "https://www.thehatchgrp.com/contact-us?hsLang=en",
+      "href": "https://www.thehatchgrp.com/contact-us?hsLang=en",
+      "text": "Contact us",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-consultants",
+      "to": "https://www.thehatchgrp.com/our-team?hsLang=en",
+      "href": "https://www.thehatchgrp.com/our-team?hsLang=en",
+      "text": "Connect with recruiters",
+      "external": false
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-consultants",
+      "to": "https://www.thehatchgrp.com/why-choose-us?hsLang=en",
+      "href": "https://www.thehatchgrp.com/why-choose-us?hsLang=en",
+      "text": "Check out IVP",
+      "external": false
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-consultants",
+      "to": "https://www.thehatchgrp.com/for-consultants",
+      "href": "#testimonials",
+      "text": "See the proof",
+      "external": false
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-consultants",
+      "to": "https://www.thehatchgrp.com/contact-us?hsLang=en",
+      "href": "/contact-us?hsLang=en",
+      "text": "Let's talk",
+      "external": false
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-consultants",
+      "to": "https://www.thehatchgrp.com/our-team?hsLang=en",
+      "href": "/our-team?hsLang=en",
+      "text": "Meet our team",
+      "external": false
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-consultants",
+      "to": "https://www.thehatchgrp.com/?hsLang=en",
+      "href": "https://www.thehatchgrp.com?hsLang=en",
+      "text": "The Hatch Group Logo | IT Staffing Eden Prairie, MN's link",
+      "external": false,
+      "region": "footer"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-consultants",
+      "to": "https://the-hatch-group-242355921.hubspotpagebuilder.net/privacy-policy?hsLang=en",
+      "href": "https://the-hatch-group-242355921.hubspotpagebuilder.net/privacy-policy?hsLang=en",
+      "text": "Privacy Policy",
+      "external": true,
+      "region": "footer"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-consultants",
+      "to": "https://www.linkedin.com/company/the-hatch-group-mpls/",
+      "href": "https://www.linkedin.com/company/the-hatch-group-mpls/",
+      "text": "LinkedIn (Opens in new tab)",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-consultants",
+      "to": "https://www.google.com/maps/dir//10250+Valley+View+Rd+Suite+149+Eden+Prairie,+MN+55344/@44.8719728,-93.4060207,10z/data=!4m5!4m4!1m0!1m2!1m1!1s0x87f6221c4ec93e7d:0xc94b89c8aac632f3",
+      "href": "https://www.google.com/maps/dir//10250+Valley+View+Rd+Suite+149+Eden+Prairie,+MN+55344/@44.8719728,-93.4060207,10z/data=!4m5!4m4!1m0!1m2!1m1!1s0x87f6221c4ec93e7d:0xc94b89c8aac632f3",
+      "text": "Call us (Opens in new tab)",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-consultants",
+      "to": "https://www.thehatchgrp.com/for-consultants",
+      "href": "#",
+      "text": "Back to top button",
+      "external": false,
+      "region": "footer"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/why-choose-us",
+      "to": "https://www.thehatchgrp.com/why-choose-us",
+      "href": "#main",
+      "text": "Skip to main content",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/why-choose-us",
+      "to": "https://www.thehatchgrp.com/?hsLang=en",
+      "href": "https://www.thehatchgrp.com?hsLang=en",
+      "text": "The Hatch Group Logo | IT Staffing Eden Prairie, MN",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/why-choose-us",
+      "to": "https://www.thehatchgrp.com/why-choose-us",
+      "href": "https://www.thehatchgrp.com/why-choose-us",
+      "text": "Why choose us",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/why-choose-us",
+      "to": "https://www.thehatchgrp.com/for-clients",
+      "href": "https://www.thehatchgrp.com/for-clients",
+      "text": "For clients",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/why-choose-us",
+      "to": "https://www.thehatchgrp.com/for-consultants",
+      "href": "https://www.thehatchgrp.com/for-consultants",
+      "text": "For consultants",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/why-choose-us",
+      "to": "https://www.thehatchgrp.com/our-team",
+      "href": "https://www.thehatchgrp.com/our-team",
+      "text": "Our team",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/why-choose-us",
+      "to": "https://www.thehatchgrp.com/why-choose-us",
+      "href": "https://www.thehatchgrp.com/why-choose-us",
+      "text": "Why choose us",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/why-choose-us",
+      "to": "https://www.thehatchgrp.com/for-clients",
+      "href": "https://www.thehatchgrp.com/for-clients",
+      "text": "For clients",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/why-choose-us",
+      "to": "https://www.thehatchgrp.com/for-consultants",
+      "href": "https://www.thehatchgrp.com/for-consultants",
+      "text": "For consultants",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/why-choose-us",
+      "to": "https://www.thehatchgrp.com/our-team",
+      "href": "https://www.thehatchgrp.com/our-team",
+      "text": "Our team",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/why-choose-us",
+      "to": "https://www.thehatchgrp.com/contact-us",
+      "href": "https://www.thehatchgrp.com/contact-us",
+      "text": "Contact us",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/why-choose-us",
+      "to": "https://www.linkedin.com/company/the-hatch-group-mpls/",
+      "href": "https://www.linkedin.com/company/the-hatch-group-mpls/",
+      "text": "",
+      "external": true,
+      "region": "header",
+      "hidden": true,
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/why-choose-us",
+      "to": "https://www.thehatchgrp.com/contact-us?hsLang=en",
+      "href": "https://www.thehatchgrp.com/contact-us?hsLang=en",
+      "text": "Contact us",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/why-choose-us",
+      "to": "https://www.thehatchgrp.com/why-choose-us",
+      "href": "#tab1",
+      "text": "For clients",
+      "external": false
+    },
+    {
+      "from": "https://www.thehatchgrp.com/why-choose-us",
+      "to": "https://www.thehatchgrp.com/why-choose-us",
+      "href": "#tab2",
+      "text": "For consultants",
+      "external": false
+    },
+    {
+      "from": "https://www.thehatchgrp.com/why-choose-us",
+      "to": "https://www.thehatchgrp.com/contact-us?hsLang=en",
+      "href": "https://www.thehatchgrp.com/contact-us?hsLang=en",
+      "text": "Contact us",
+      "external": false
+    },
+    {
+      "from": "https://www.thehatchgrp.com/why-choose-us",
+      "to": "https://www.thehatchgrp.com/our-team?hsLang=en",
+      "href": "https://www.thehatchgrp.com/our-team?hsLang=en",
+      "text": "Meet our team",
+      "external": false
+    },
+    {
+      "from": "https://www.thehatchgrp.com/why-choose-us",
+      "to": "https://www.thehatchgrp.com/?hsLang=en",
+      "href": "https://www.thehatchgrp.com?hsLang=en",
+      "text": "The Hatch Group Logo | IT Staffing Eden Prairie, MN's link",
+      "external": false,
+      "region": "footer"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/why-choose-us",
+      "to": "https://the-hatch-group-242355921.hubspotpagebuilder.net/privacy-policy?hsLang=en",
+      "href": "https://the-hatch-group-242355921.hubspotpagebuilder.net/privacy-policy?hsLang=en",
+      "text": "Privacy Policy",
+      "external": true,
+      "region": "footer"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/why-choose-us",
+      "to": "https://www.linkedin.com/company/the-hatch-group-mpls/",
+      "href": "https://www.linkedin.com/company/the-hatch-group-mpls/",
+      "text": "LinkedIn (Opens in new tab)",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/why-choose-us",
+      "to": "https://www.google.com/maps/dir//10250+Valley+View+Rd+Suite+149+Eden+Prairie,+MN+55344/@44.8719728,-93.4060207,10z/data=!4m5!4m4!1m0!1m2!1m1!1s0x87f6221c4ec93e7d:0xc94b89c8aac632f3",
+      "href": "https://www.google.com/maps/dir//10250+Valley+View+Rd+Suite+149+Eden+Prairie,+MN+55344/@44.8719728,-93.4060207,10z/data=!4m5!4m4!1m0!1m2!1m1!1s0x87f6221c4ec93e7d:0xc94b89c8aac632f3",
+      "text": "Call us (Opens in new tab)",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/why-choose-us",
+      "to": "https://www.thehatchgrp.com/why-choose-us",
+      "href": "#",
+      "text": "Back to top button",
+      "external": false,
+      "region": "footer"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients",
+      "to": "https://www.thehatchgrp.com/for-clients",
+      "href": "#main",
+      "text": "Skip to main content",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients",
+      "to": "https://www.thehatchgrp.com/?hsLang=en",
+      "href": "https://www.thehatchgrp.com?hsLang=en",
+      "text": "The Hatch Group Logo | IT Staffing Eden Prairie, MN",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients",
+      "to": "https://www.thehatchgrp.com/why-choose-us",
+      "href": "https://www.thehatchgrp.com/why-choose-us",
+      "text": "Why choose us",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients",
+      "to": "https://www.thehatchgrp.com/for-clients",
+      "href": "https://www.thehatchgrp.com/for-clients",
+      "text": "For clients",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients",
+      "to": "https://www.thehatchgrp.com/for-consultants",
+      "href": "https://www.thehatchgrp.com/for-consultants",
+      "text": "For consultants",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients",
+      "to": "https://www.thehatchgrp.com/our-team",
+      "href": "https://www.thehatchgrp.com/our-team",
+      "text": "Our team",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients",
+      "to": "https://www.thehatchgrp.com/why-choose-us",
+      "href": "https://www.thehatchgrp.com/why-choose-us",
+      "text": "Why choose us",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients",
+      "to": "https://www.thehatchgrp.com/for-clients",
+      "href": "https://www.thehatchgrp.com/for-clients",
+      "text": "For clients",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients",
+      "to": "https://www.thehatchgrp.com/for-consultants",
+      "href": "https://www.thehatchgrp.com/for-consultants",
+      "text": "For consultants",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients",
+      "to": "https://www.thehatchgrp.com/our-team",
+      "href": "https://www.thehatchgrp.com/our-team",
+      "text": "Our team",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients",
+      "to": "https://www.thehatchgrp.com/contact-us",
+      "href": "https://www.thehatchgrp.com/contact-us",
+      "text": "Contact us",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients",
+      "to": "https://www.linkedin.com/company/the-hatch-group-mpls/",
+      "href": "https://www.linkedin.com/company/the-hatch-group-mpls/",
+      "text": "",
+      "external": true,
+      "region": "header",
+      "hidden": true,
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients",
+      "to": "https://www.thehatchgrp.com/contact-us?hsLang=en",
+      "href": "https://www.thehatchgrp.com/contact-us?hsLang=en",
+      "text": "Contact us",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients",
+      "to": "https://www.thehatchgrp.com/why-choose-us?hsLang=en",
+      "href": "https://www.thehatchgrp.com/why-choose-us?hsLang=en",
+      "text": "See how IVP works",
+      "external": false
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients",
+      "to": "https://www.thehatchgrp.com/for-clients/enterprise-platforms?hsLang=en",
+      "href": "https://www.thehatchgrp.com/for-clients/enterprise-platforms?hsLang=en",
+      "text": "Got salesforce?",
+      "external": false
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients",
+      "to": "https://www.thehatchgrp.com/for-clients",
+      "href": "#",
+      "text": "",
+      "external": false,
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients",
+      "to": "https://www.thehatchgrp.com/?hsLang=en",
+      "href": "https://www.thehatchgrp.com?hsLang=en",
+      "text": "The Hatch Group Logo | IT Staffing Eden Prairie, MN's link",
+      "external": false,
+      "region": "footer"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients",
+      "to": "https://the-hatch-group-242355921.hubspotpagebuilder.net/privacy-policy?hsLang=en",
+      "href": "https://the-hatch-group-242355921.hubspotpagebuilder.net/privacy-policy?hsLang=en",
+      "text": "Privacy Policy",
+      "external": true,
+      "region": "footer"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients",
+      "to": "https://www.linkedin.com/company/the-hatch-group-mpls/",
+      "href": "https://www.linkedin.com/company/the-hatch-group-mpls/",
+      "text": "LinkedIn (Opens in new tab)",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients",
+      "to": "https://www.google.com/maps/dir//10250+Valley+View+Rd+Suite+149+Eden+Prairie,+MN+55344/@44.8719728,-93.4060207,10z/data=!4m5!4m4!1m0!1m2!1m1!1s0x87f6221c4ec93e7d:0xc94b89c8aac632f3",
+      "href": "https://www.google.com/maps/dir//10250+Valley+View+Rd+Suite+149+Eden+Prairie,+MN+55344/@44.8719728,-93.4060207,10z/data=!4m5!4m4!1m0!1m2!1m1!1s0x87f6221c4ec93e7d:0xc94b89c8aac632f3",
+      "text": "Call us (Opens in new tab)",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients",
+      "to": "https://www.thehatchgrp.com/for-clients",
+      "href": "#",
+      "text": "Back to top button",
+      "external": false,
+      "region": "footer"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.thehatchgrp.com/our-team",
+      "href": "#main",
+      "text": "Skip to main content",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.thehatchgrp.com/?hsLang=en",
+      "href": "https://www.thehatchgrp.com?hsLang=en",
+      "text": "The Hatch Group Logo | IT Staffing Eden Prairie, MN",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.thehatchgrp.com/why-choose-us",
+      "href": "https://www.thehatchgrp.com/why-choose-us",
+      "text": "Why choose us",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.thehatchgrp.com/for-clients",
+      "href": "https://www.thehatchgrp.com/for-clients",
+      "text": "For clients",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.thehatchgrp.com/for-consultants",
+      "href": "https://www.thehatchgrp.com/for-consultants",
+      "text": "For consultants",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.thehatchgrp.com/our-team",
+      "href": "https://www.thehatchgrp.com/our-team",
+      "text": "Our team",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.thehatchgrp.com/why-choose-us",
+      "href": "https://www.thehatchgrp.com/why-choose-us",
+      "text": "Why choose us",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.thehatchgrp.com/for-clients",
+      "href": "https://www.thehatchgrp.com/for-clients",
+      "text": "For clients",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.thehatchgrp.com/for-consultants",
+      "href": "https://www.thehatchgrp.com/for-consultants",
+      "text": "For consultants",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.thehatchgrp.com/our-team",
+      "href": "https://www.thehatchgrp.com/our-team",
+      "text": "Our team",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.thehatchgrp.com/contact-us",
+      "href": "https://www.thehatchgrp.com/contact-us",
+      "text": "Contact us",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.linkedin.com/company/the-hatch-group-mpls/",
+      "href": "https://www.linkedin.com/company/the-hatch-group-mpls/",
+      "text": "",
+      "external": true,
+      "region": "header",
+      "hidden": true,
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.thehatchgrp.com/contact-us?hsLang=en",
+      "href": "https://www.thehatchgrp.com/contact-us?hsLang=en",
+      "text": "Contact us",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.linkedin.com/in/greg-roth-a451548/",
+      "href": "https://www.linkedin.com/in/greg-roth-a451548/",
+      "text": "",
+      "external": true,
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.linkedin.com/in/erik-jacobs-7b60811/",
+      "href": "https://www.linkedin.com/in/erik-jacobs-7b60811/",
+      "text": "",
+      "external": true,
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.linkedin.com/in/jpiehowski/",
+      "href": "https://www.linkedin.com/in/jpiehowski/",
+      "text": "",
+      "external": true,
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.linkedin.com/in/alex-webb-6b39b181/",
+      "href": "https://www.linkedin.com/in/alex-webb-6b39b181/",
+      "text": "",
+      "external": true,
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.linkedin.com/in/sam-roth-29755a169/",
+      "href": "https://www.linkedin.com/in/sam-roth-29755a169/",
+      "text": "",
+      "external": true,
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.linkedin.com/in/andrewpayne44/",
+      "href": "https://www.linkedin.com/in/andrewpayne44/",
+      "text": "",
+      "external": true,
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.linkedin.com/in/tom-hanson-19917019/",
+      "href": "https://www.linkedin.com/in/tom-hanson-19917019/",
+      "text": "",
+      "external": true,
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.linkedin.com/in/elliot-nutting-4724b2221/",
+      "href": "https://www.linkedin.com/in/elliot-nutting-4724b2221/",
+      "text": "",
+      "external": true,
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.linkedin.com/company/the-hatch-group-mpls/?viewAsMember=true",
+      "href": "https://www.linkedin.com/company/the-hatch-group-mpls/?viewAsMember=true",
+      "text": "",
+      "external": true,
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.linkedin.com/in/jenniferberg49/",
+      "href": "https://www.linkedin.com/in/jenniferberg49/",
+      "text": "",
+      "external": true,
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.linkedin.com/in/matt-jennissen-0469426a/",
+      "href": "https://www.linkedin.com/in/matt-jennissen-0469426a/",
+      "text": "",
+      "external": true,
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.linkedin.com/in/tlschwerz/",
+      "href": "https://www.linkedin.com/in/tlschwerz/",
+      "text": "",
+      "external": true,
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.linkedin.com/in/cody-minks/",
+      "href": "https://www.linkedin.com/in/cody-minks/",
+      "text": "",
+      "external": true,
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.linkedin.com/in/ben-mansur/",
+      "href": "https://www.linkedin.com/in/ben-mansur/",
+      "text": "",
+      "external": true,
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.linkedin.com/in/shelbyspinner/",
+      "href": "https://www.linkedin.com/in/shelbyspinner/",
+      "text": "",
+      "external": true,
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.linkedin.com/in/lisa-brown-5a3ba626/",
+      "href": "https://www.linkedin.com/in/lisa-brown-5a3ba626/",
+      "text": "",
+      "external": true,
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.linkedin.com/in/cole-jacobs-590883248/",
+      "href": "https://www.linkedin.com/in/cole-jacobs-590883248/",
+      "text": "",
+      "external": true,
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.thehatchgrp.com/for-clients?hsLang=en",
+      "href": "https://www.thehatchgrp.com/for-clients?hsLang=en",
+      "text": "For clients",
+      "external": false
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.thehatchgrp.com/for-consultants?hsLang=en",
+      "href": "https://www.thehatchgrp.com/for-consultants?hsLang=en",
+      "text": "For consultants",
+      "external": false
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.thehatchgrp.com/?hsLang=en",
+      "href": "https://www.thehatchgrp.com?hsLang=en",
+      "text": "The Hatch Group Logo | IT Staffing Eden Prairie, MN's link",
+      "external": false,
+      "region": "footer"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://the-hatch-group-242355921.hubspotpagebuilder.net/privacy-policy?hsLang=en",
+      "href": "https://the-hatch-group-242355921.hubspotpagebuilder.net/privacy-policy?hsLang=en",
+      "text": "Privacy Policy",
+      "external": true,
+      "region": "footer"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.linkedin.com/company/the-hatch-group-mpls/",
+      "href": "https://www.linkedin.com/company/the-hatch-group-mpls/",
+      "text": "LinkedIn (Opens in new tab)",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.google.com/maps/dir//10250+Valley+View+Rd+Suite+149+Eden+Prairie,+MN+55344/@44.8719728,-93.4060207,10z/data=!4m5!4m4!1m0!1m2!1m1!1s0x87f6221c4ec93e7d:0xc94b89c8aac632f3",
+      "href": "https://www.google.com/maps/dir//10250+Valley+View+Rd+Suite+149+Eden+Prairie,+MN+55344/@44.8719728,-93.4060207,10z/data=!4m5!4m4!1m0!1m2!1m1!1s0x87f6221c4ec93e7d:0xc94b89c8aac632f3",
+      "text": "Call us (Opens in new tab)",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/our-team",
+      "to": "https://www.thehatchgrp.com/our-team",
+      "href": "#",
+      "text": "Back to top button",
+      "external": false,
+      "region": "footer"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients/enterprise-platforms",
+      "to": "https://www.thehatchgrp.com/for-clients/enterprise-platforms",
+      "href": "#main",
+      "text": "Skip to main content",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients/enterprise-platforms",
+      "to": "https://www.thehatchgrp.com/?hsLang=en",
+      "href": "https://www.thehatchgrp.com?hsLang=en",
+      "text": "The Hatch Group Logo | IT Staffing Eden Prairie, MN",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients/enterprise-platforms",
+      "to": "https://www.thehatchgrp.com/why-choose-us",
+      "href": "https://www.thehatchgrp.com/why-choose-us",
+      "text": "Why choose us",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients/enterprise-platforms",
+      "to": "https://www.thehatchgrp.com/for-clients",
+      "href": "https://www.thehatchgrp.com/for-clients",
+      "text": "For clients",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients/enterprise-platforms",
+      "to": "https://www.thehatchgrp.com/for-consultants",
+      "href": "https://www.thehatchgrp.com/for-consultants",
+      "text": "For consultants",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients/enterprise-platforms",
+      "to": "https://www.thehatchgrp.com/our-team",
+      "href": "https://www.thehatchgrp.com/our-team",
+      "text": "Our team",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients/enterprise-platforms",
+      "to": "https://www.thehatchgrp.com/why-choose-us",
+      "href": "https://www.thehatchgrp.com/why-choose-us",
+      "text": "Why choose us",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients/enterprise-platforms",
+      "to": "https://www.thehatchgrp.com/for-clients",
+      "href": "https://www.thehatchgrp.com/for-clients",
+      "text": "For clients",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients/enterprise-platforms",
+      "to": "https://www.thehatchgrp.com/for-consultants",
+      "href": "https://www.thehatchgrp.com/for-consultants",
+      "text": "For consultants",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients/enterprise-platforms",
+      "to": "https://www.thehatchgrp.com/our-team",
+      "href": "https://www.thehatchgrp.com/our-team",
+      "text": "Our team",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients/enterprise-platforms",
+      "to": "https://www.thehatchgrp.com/contact-us",
+      "href": "https://www.thehatchgrp.com/contact-us",
+      "text": "Contact us",
+      "external": false,
+      "region": "header",
+      "hidden": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients/enterprise-platforms",
+      "to": "https://www.linkedin.com/company/the-hatch-group-mpls/",
+      "href": "https://www.linkedin.com/company/the-hatch-group-mpls/",
+      "text": "",
+      "external": true,
+      "region": "header",
+      "hidden": true,
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients/enterprise-platforms",
+      "to": "https://www.thehatchgrp.com/contact-us?hsLang=en",
+      "href": "https://www.thehatchgrp.com/contact-us?hsLang=en",
+      "text": "Contact us",
+      "external": false,
+      "region": "header"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients/enterprise-platforms",
+      "to": "https://www.thehatchgrp.com/contact-us?hsLang=en",
+      "href": "https://www.thehatchgrp.com/contact-us?hsLang=en",
+      "text": "Start the conversation",
+      "external": false
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients/enterprise-platforms",
+      "to": "https://www.linkedin.com/in/jpiehowski/",
+      "href": "https://www.linkedin.com/in/jpiehowski/",
+      "text": "Let's connect",
+      "external": true,
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients/enterprise-platforms",
+      "to": "https://www.thehatchgrp.com/contact-us?hsLang=en",
+      "href": "https://www.thehatchgrp.com/contact-us?hsLang=en",
+      "text": "Contact us",
+      "external": false
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients/enterprise-platforms",
+      "to": "https://www.thehatchgrp.com/?hsLang=en",
+      "href": "https://www.thehatchgrp.com?hsLang=en",
+      "text": "The Hatch Group Logo | IT Staffing Eden Prairie, MN's link",
+      "external": false,
+      "region": "footer"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients/enterprise-platforms",
+      "to": "https://the-hatch-group-242355921.hubspotpagebuilder.net/privacy-policy?hsLang=en",
+      "href": "https://the-hatch-group-242355921.hubspotpagebuilder.net/privacy-policy?hsLang=en",
+      "text": "Privacy Policy",
+      "external": true,
+      "region": "footer"
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients/enterprise-platforms",
+      "to": "https://www.linkedin.com/company/the-hatch-group-mpls/",
+      "href": "https://www.linkedin.com/company/the-hatch-group-mpls/",
+      "text": "LinkedIn (Opens in new tab)",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients/enterprise-platforms",
+      "to": "https://www.google.com/maps/dir//10250+Valley+View+Rd+Suite+149+Eden+Prairie,+MN+55344/@44.8719728,-93.4060207,10z/data=!4m5!4m4!1m0!1m2!1m1!1s0x87f6221c4ec93e7d:0xc94b89c8aac632f3",
+      "href": "https://www.google.com/maps/dir//10250+Valley+View+Rd+Suite+149+Eden+Prairie,+MN+55344/@44.8719728,-93.4060207,10z/data=!4m5!4m4!1m0!1m2!1m1!1s0x87f6221c4ec93e7d:0xc94b89c8aac632f3",
+      "text": "Call us (Opens in new tab)",
+      "external": true,
+      "region": "footer",
+      "newTab": true
+    },
+    {
+      "from": "https://www.thehatchgrp.com/for-clients/enterprise-platforms",
+      "to": "https://www.thehatchgrp.com/for-clients/enterprise-platforms",
+      "href": "#",
+      "text": "Back to top button",
+      "external": false,
+      "region": "footer"
+    }
+  ],
+  "notCrawled": [
+    {
+      "url": "https://www.thehatchgrp.com/contact-us?hsLang=en",
+      "reason": "query-variant"
+    },
+    {
+      "url": "https://www.thehatchgrp.com/for-clients?hsLang=en",
+      "reason": "query-variant"
+    },
+    {
+      "url": "https://www.thehatchgrp.com/for-consultants?hsLang=en",
+      "reason": "query-variant"
+    },
+    {
+      "url": "https://www.thehatchgrp.com/why-choose-us?hsLang=en",
+      "reason": "query-variant"
+    },
+    {
+      "url": "https://www.thehatchgrp.com/our-team?hsLang=en",
+      "reason": "query-variant"
+    },
+    {
+      "url": "https://www.thehatchgrp.com/?hsLang=en",
+      "reason": "query-variant"
+    }
+  ],
+  "providerSignIns": [
+    {
+      "page": "https://www.thehatchgrp.com/for-consultants",
+      "provider": "recruiters",
+      "address": "https://www.thehatchgrp.com/our-team",
+      "words": "Connect with recruiters",
+      "via": "link",
+      "evidence": "words",
+      "sameSite": true
+    }
+  ],
+  "build": {
+    "commit": "7ae8d210057f1a097965c4800f5d5cbb9f876b25",
+    "branch": "main"
+  }
+}

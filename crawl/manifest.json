@@ -1,0 +1,44 @@
+{
+  "tool": "suite-builder",
+  "version": "1.39.0",
+  "generator": {
+    "deterministic": true,
+    "models": "none"
+  },
+  "build": {
+    "commit": "7ae8d210057f1a097965c4800f5d5cbb9f876b25",
+    "branch": "main"
+  },
+  "framework": "playwright",
+  "generatedAt": "2026-11-10T14:31:17.738Z",
+  "command": "suite-builder build https://www.thehatchgrp.com/",
+  "templates": "crawl/www.thehatchgrp.com.templates.json",
+  "crawl": "crawl/www.thehatchgrp.com.crawl.json",
+  "crawlFileSaved": "2026-11-10T14:31:17.545Z",
+  "pages": {
+    "ship": "all",
+    "crawl": "9495593ebed4e1df",
+    "signedIn": false,
+    "roles": []
+  },
+  "accounts": [
+    {
+      "role": "user",
+      "file": "secrets/user.login",
+      "environment": [
+        "SUITE_USER_USERNAME",
+        "SUITE_USER_PASSWORD"
+      ],
+      "docked": "<Suite Builder's secrets folder, DOCK.md's last line>/<site>/user.login"
+    },
+    {
+      "role": "admin",
+      "file": "secrets/admin.login",
+      "environment": [
+        "SUITE_ADMIN_USERNAME",
+        "SUITE_ADMIN_PASSWORD"
+      ],
+      "docked": "<Suite Builder's secrets folder, DOCK.md's last line>/<site>/admin.login"
+    }
+  ]
+}

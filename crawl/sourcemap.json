@@ -1,0 +1,3506 @@
+{
+  "version": 2,
+  "crawl": {
+    "file": "crawl/www.thehatchgrp.com.crawl.json",
+    "sha256": "e94f01ac4ce32e2a2471a235b74d3383db82a09f5a766af480d0a3e1db4522d6"
+  },
+  "entities": {
+    "type:/": {
+      "kind": "type",
+      "why": "the start page: always a page type of its own, since every test starts there [rules: start-page]",
+      "facts": [
+        "page HomePage",
+        "page HomePage opens ()",
+        "page HomePage url-shapes /",
+        "page HomePage doors click, enter, read, verify, execute",
+        "page HomePage settles 100",
+        "page HomePage title is \"IT Staffing Firm | The Hatch Group | Eden Prairie, MN\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/HomePage.java",
+          "line": 40,
+          "fact": "page HomePage",
+          "why": "the start page: always a page type of its own, since every test starts there [rules: start-page]"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/HomePage.java",
+          "line": 63,
+          "fact": "page HomePage opens ()",
+          "why": "the start page: always a page type of its own, since every test starts there [rules: start-page]"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/HomePage.java",
+          "line": 70,
+          "fact": "page HomePage url-shapes /",
+          "why": "the start page: always a page type of its own, since every test starts there [rules: start-page]"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/HomePage.java",
+          "line": 40,
+          "fact": "page HomePage doors click, enter, read, verify, execute",
+          "why": "the doors its controls, links and forms give it, read and verify always, and any a person filled"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/HomePage.java",
+          "line": 100,
+          "fact": "page HomePage settles 100",
+          "why": "the median of its pages read, after their load event, the crawl's quiet windows taken out"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/HomePage.java",
+          "line": 49,
+          "fact": "page HomePage title is \"IT Staffing Firm | The Hatch Group | Eden Prairie, MN\"",
+          "why": "every page read of it had this title"
+        }
+      ]
+    },
+    "control:/:FIRST_NAME_INPUT": {
+      "kind": "control",
+      "why": "seen on /: text field \"First Name\"; the crawl trusts its locator (text field)",
+      "facts": [
+        "page HomePage element FIRST_NAME_INPUT xpath //input[@name='firstname']",
+        "page HomePage enter firstName on FIRST_NAME_INPUT",
+        "page HomePage clear clearFirstName on FIRST_NAME_INPUT"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/HomeElements.java",
+          "line": 48,
+          "fact": "page HomePage element FIRST_NAME_INPUT xpath //input[@name='firstname']",
+          "why": "seen on /: text field \"First Name\"; the crawl trusts its locator (text field)"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/actions/HomeEnterActions.java",
+          "line": 25,
+          "fact": "page HomePage enter firstName on FIRST_NAME_INPUT",
+          "why": "seen on /: text field \"First Name\""
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/actions/HomeEnterActions.java",
+          "line": 31,
+          "fact": "page HomePage clear clearFirstName on FIRST_NAME_INPUT",
+          "why": "seen on /: text field \"First Name\""
+        }
+      ]
+    },
+    "control:/:LAST_NAME_INPUT": {
+      "kind": "control",
+      "why": "seen on /: text field \"Last Name\"; the crawl trusts its locator (text field)",
+      "facts": [
+        "page HomePage element LAST_NAME_INPUT xpath //input[@name='lastname']",
+        "page HomePage enter lastName on LAST_NAME_INPUT",
+        "page HomePage clear clearLastName on LAST_NAME_INPUT"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/HomeElements.java",
+          "line": 50,
+          "fact": "page HomePage element LAST_NAME_INPUT xpath //input[@name='lastname']",
+          "why": "seen on /: text field \"Last Name\"; the crawl trusts its locator (text field)"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/actions/HomeEnterActions.java",
+          "line": 37,
+          "fact": "page HomePage enter lastName on LAST_NAME_INPUT",
+          "why": "seen on /: text field \"Last Name\""
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/actions/HomeEnterActions.java",
+          "line": 43,
+          "fact": "page HomePage clear clearLastName on LAST_NAME_INPUT",
+          "why": "seen on /: text field \"Last Name\""
+        }
+      ]
+    },
+    "control:/:EMAIL_INPUT": {
+      "kind": "control",
+      "why": "seen on /: email field \"Email\"; the crawl trusts its locator (email field)",
+      "facts": [
+        "page HomePage element EMAIL_INPUT xpath //input[@name='email']",
+        "page HomePage enter email on EMAIL_INPUT",
+        "page HomePage clear clearEmail on EMAIL_INPUT"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/HomeElements.java",
+          "line": 52,
+          "fact": "page HomePage element EMAIL_INPUT xpath //input[@name='email']",
+          "why": "seen on /: email field \"Email\"; the crawl trusts its locator (email field)"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/actions/HomeEnterActions.java",
+          "line": 49,
+          "fact": "page HomePage enter email on EMAIL_INPUT",
+          "why": "seen on /: email field \"Email\""
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/actions/HomeEnterActions.java",
+          "line": 55,
+          "fact": "page HomePage clear clearEmail on EMAIL_INPUT",
+          "why": "seen on /: email field \"Email\""
+        }
+      ]
+    },
+    "control:/:PHONE_NUMBER_INPUT": {
+      "kind": "control",
+      "why": "seen on /: tel field \"Phone number\"; the crawl trusts its locator (tel field)",
+      "facts": [
+        "page HomePage element PHONE_NUMBER_INPUT label \"Phone number\"",
+        "page HomePage enter phoneNumber on PHONE_NUMBER_INPUT",
+        "page HomePage clear clearPhoneNumber on PHONE_NUMBER_INPUT"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/HomeElements.java",
+          "line": 54,
+          "fact": "page HomePage element PHONE_NUMBER_INPUT label \"Phone number\"",
+          "why": "seen on /: tel field \"Phone number\"; the crawl trusts its locator (tel field)"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/actions/HomeEnterActions.java",
+          "line": 61,
+          "fact": "page HomePage enter phoneNumber on PHONE_NUMBER_INPUT",
+          "why": "seen on /: tel field \"Phone number\""
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/actions/HomeEnterActions.java",
+          "line": 67,
+          "fact": "page HomePage clear clearPhoneNumber on PHONE_NUMBER_INPUT",
+          "why": "seen on /: tel field \"Phone number\""
+        }
+      ]
+    },
+    "control:/:WHO_ARE_YOU_SELECT": {
+      "kind": "control",
+      "why": "seen on /: dropdown \"Who are you?\"; the crawl trusts its locator (dropdown)",
+      "facts": [
+        "page HomePage element WHO_ARE_YOU_SELECT xpath //select[@name='contact_type']",
+        "page HomePage choose whoAreYou on WHO_ARE_YOU_SELECT"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/HomeElements.java",
+          "line": 56,
+          "fact": "page HomePage element WHO_ARE_YOU_SELECT xpath //select[@name='contact_type']",
+          "why": "seen on /: dropdown \"Who are you?\"; the crawl trusts its locator (dropdown)"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/actions/HomeEnterActions.java",
+          "line": 73,
+          "fact": "page HomePage choose whoAreYou on WHO_ARE_YOU_SELECT",
+          "why": "seen on /: dropdown \"Who are you?\""
+        }
+      ]
+    },
+    "control:/:MESSAGE_INPUT": {
+      "kind": "control",
+      "why": "seen on /: text area \"Message\"; the crawl trusts its locator (text area)",
+      "facts": [
+        "page HomePage element MESSAGE_INPUT label \"Message\"",
+        "page HomePage enter message on MESSAGE_INPUT",
+        "page HomePage clear clearMessage on MESSAGE_INPUT"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/HomeElements.java",
+          "line": 58,
+          "fact": "page HomePage element MESSAGE_INPUT label \"Message\"",
+          "why": "seen on /: text area \"Message\"; the crawl trusts its locator (text area)"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/actions/HomeEnterActions.java",
+          "line": 79,
+          "fact": "page HomePage enter message on MESSAGE_INPUT",
+          "why": "seen on /: text area \"Message\""
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/actions/HomeEnterActions.java",
+          "line": 85,
+          "fact": "page HomePage clear clearMessage on MESSAGE_INPUT",
+          "why": "seen on /: text area \"Message\""
+        }
+      ]
+    },
+    "control:/:PLEASE_INCLUDE_YOUR_RESUME_INPUT": {
+      "kind": "control",
+      "why": "seen on /: file field \"Please include your resume or preferred attachments\"; the crawl trusts its locator (file field)",
+      "facts": [
+        "page HomePage element PLEASE_INCLUDE_YOUR_RESUME_INPUT xpath //input[@name='resume']",
+        "page HomePage attach pleaseIncludeYourResume on PLEASE_INCLUDE_YOUR_RESUME_INPUT"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/HomeElements.java",
+          "line": 60,
+          "fact": "page HomePage element PLEASE_INCLUDE_YOUR_RESUME_INPUT xpath //input[@name='resume']",
+          "why": "seen on /: file field \"Please include your resume or preferred attachments\"; the crawl trusts its locator (file field)"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/actions/HomeEnterActions.java",
+          "line": 91,
+          "fact": "page HomePage attach pleaseIncludeYourResume on PLEASE_INCLUDE_YOUR_RESUME_INPUT",
+          "why": "seen on /: file field \"Please include your resume or preferred attachments\""
+        }
+      ]
+    },
+    "control:/:SUBMIT_BUTTON": {
+      "kind": "control",
+      "why": "seen on /: button \"Submit\"; the crawl trusts its locator (button)",
+      "facts": [
+        "page HomePage element SUBMIT_BUTTON role button \"Submit\"",
+        "page HomePage click submit on SUBMIT_BUTTON"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/HomeElements.java",
+          "line": 62,
+          "fact": "page HomePage element SUBMIT_BUTTON role button \"Submit\"",
+          "why": "seen on /: button \"Submit\"; the crawl trusts its locator (button)"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/actions/HomeClickActions.java",
+          "line": 26,
+          "fact": "page HomePage click submit on SUBMIT_BUTTON",
+          "why": "seen on /: button \"Submit\""
+        }
+      ]
+    },
+    "form:/:a form": {
+      "kind": "form",
+      "why": "the \"a form\" form the crawl saw; filled, never sent",
+      "facts": [
+        "page HomePage task fillForm takes HomeForm enters firstName, lastName, email, phoneNumber, whoAreYou, message",
+        "page HomePage record HomeForm firstName=\"Test First Name\" lastName=\"Test Last Name\" email=\"test@example.com\" phoneNumber=\"555-0100\" whoAreYou=\"Potential Consultant\" message=\"A test from the suite: please ignore.\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/HomeTasks.java",
+          "line": 27,
+          "fact": "page HomePage task fillForm takes HomeForm enters firstName, lastName, email, phoneNumber, whoAreYou, message",
+          "why": "the \"a form\" form the crawl saw; filled, never sent"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/HomeForm.java",
+          "line": 14,
+          "fact": "page HomePage record HomeForm firstName=\"Test First Name\" lastName=\"Test Last Name\" email=\"test@example.com\" phoneNumber=\"555-0100\" whoAreYou=\"Potential Consultant\" message=\"A test from the suite: please ignore.\"",
+          "why": "the \"a form\" form's fields in page order, each sample plausible for its kind"
+        }
+      ]
+    },
+    "structure:/:main-heading": {
+      "kind": "structure",
+      "why": "its page read has one main heading (h1), whatever it says",
+      "facts": [
+        "page HomePage structure MAIN_HEADING xpath //h1",
+        "page HomePage loaded-when MAIN_HEADING"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/HomeElements.java",
+          "line": 44,
+          "fact": "page HomePage structure MAIN_HEADING xpath //h1",
+          "why": "its page read has one main heading (h1), whatever it says"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/HomePage.java",
+          "line": 53,
+          "fact": "page HomePage loaded-when MAIN_HEADING",
+          "why": "its page read has one main heading (h1), whatever it says; structure before copy"
+        }
+      ]
+    },
+    "check:/:BUILTDIFFERENTLY.": {
+      "kind": "check",
+      "why": "every page of HomePage the crawl read showed it (1 page); isLoaded() waits for the first 2 checks",
+      "facts": [
+        "page HomePage loaded-when \"BUILTDIFFERENTLY.\"",
+        "page HomePage check \"BUILTDIFFERENTLY.\" spelled \"BUILTDIFFERENTLY.\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/HomePage.java",
+          "line": 53,
+          "fact": "page HomePage loaded-when \"BUILTDIFFERENTLY.\"",
+          "why": "every page of HomePage the crawl read showed it (1 page); isLoaded() waits for the first 2 checks"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/HomeElements.java",
+          "line": 22,
+          "fact": "page HomePage check \"BUILTDIFFERENTLY.\" spelled \"BUILTDIFFERENTLY.\"",
+          "why": "every page of HomePage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/:BETTER PROCESS. BETTER RESULTS.": {
+      "kind": "check",
+      "why": "every page of HomePage the crawl read showed it (1 page)",
+      "facts": [
+        "page HomePage check \"BETTER PROCESS. BETTER RESULTS.\" spelled \"BETTER PROCESS. BETTER RESULTS.\" by role heading \"BETTER PROCESS. BETTER RESULTS.\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/HomeElements.java",
+          "line": 24,
+          "fact": "page HomePage check \"BETTER PROCESS. BETTER RESULTS.\" spelled \"BETTER PROCESS. BETTER RESULTS.\" by role heading \"BETTER PROCESS. BETTER RESULTS.\"",
+          "why": "every page of HomePage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/:83%": {
+      "kind": "check",
+      "why": "every page of HomePage the crawl read showed it (1 page)",
+      "facts": [
+        "page HomePage check \"83%\" spelled \"83%\" by role heading \"83%\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/HomeElements.java",
+          "line": 28,
+          "fact": "page HomePage check \"83%\" spelled \"83%\" by role heading \"83%\"",
+          "why": "every page of HomePage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/:Interview-to-offer rate": {
+      "kind": "check",
+      "why": "every page of HomePage the crawl read showed it (1 page)",
+      "facts": [
+        "page HomePage check \"Interview-to-offer rate\" spelled \"Interview-to-offer rate\" by role heading \"Interview-to-offer rate\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/HomeElements.java",
+          "line": 30,
+          "fact": "page HomePage check \"Interview-to-offer rate\" spelled \"Interview-to-offer rate\" by role heading \"Interview-to-offer rate\"",
+          "why": "every page of HomePage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/:YOU DESERVE BETTER.": {
+      "kind": "check",
+      "why": "every page of HomePage the crawl read showed it (1 page)",
+      "facts": [
+        "page HomePage check \"YOU DESERVE BETTER.\" spelled \"YOU DESERVE BETTER.\" by role heading \"YOU DESERVE BETTER.\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/HomeElements.java",
+          "line": 34,
+          "fact": "page HomePage check \"YOU DESERVE BETTER.\" spelled \"YOU DESERVE BETTER.\" by role heading \"YOU DESERVE BETTER.\"",
+          "why": "every page of HomePage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/:A few things you should know about us...": {
+      "kind": "check",
+      "why": "every page of HomePage the crawl read showed it (1 page)",
+      "facts": [
+        "page HomePage check \"A few things you should know about us...\" spelled \"A few things you should know about us...\" by role heading \"A few things you should know about us...\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/home/HomeElements.java",
+          "line": 38,
+          "fact": "page HomePage check \"A few things you should know about us...\" spelled \"A few things you should know about us...\" by role heading \"A few things you should know about us...\"",
+          "why": "every page of HomePage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "type:/contact-us": {
+      "kind": "type",
+      "why": "no other page read is enough like it (the closest, /, shares 65% of its layout and 36% of its headings) [rules: unlike-others]",
+      "facts": [
+        "page ContactUsPage",
+        "page ContactUsPage opens ()",
+        "page ContactUsPage url-shapes /contact-us",
+        "page ContactUsPage doors click, enter, read, verify, execute",
+        "page ContactUsPage settles 400",
+        "page ContactUsPage title is \"Contact Us | The Hatch Group | IT Staffing\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/contact-us",
+          "snapshot": "crawl/pages/contact-us.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/ContactUsPage.java",
+          "line": 41,
+          "fact": "page ContactUsPage",
+          "why": "no other page read is enough like it (the closest, /, shares 65% of its layout and 36% of its headings) [rules: unlike-others]"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/ContactUsPage.java",
+          "line": 64,
+          "fact": "page ContactUsPage opens ()",
+          "why": "no other page read is enough like it (the closest, /, shares 65% of its layout and 36% of its headings) [rules: unlike-others]"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/ContactUsPage.java",
+          "line": 71,
+          "fact": "page ContactUsPage url-shapes /contact-us",
+          "why": "no other page read is enough like it (the closest, /, shares 65% of its layout and 36% of its headings) [rules: unlike-others]"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/ContactUsPage.java",
+          "line": 41,
+          "fact": "page ContactUsPage doors click, enter, read, verify, execute",
+          "why": "the doors its controls, links and forms give it, read and verify always, and any a person filled"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/ContactUsPage.java",
+          "line": 102,
+          "fact": "page ContactUsPage settles 400",
+          "why": "the median of its pages read, after their load event, the crawl's quiet windows taken out"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/ContactUsPage.java",
+          "line": 50,
+          "fact": "page ContactUsPage title is \"Contact Us | The Hatch Group | IT Staffing\"",
+          "why": "every page read of it had this title"
+        }
+      ]
+    },
+    "control:/contact-us:FIRST_NAME_INPUT": {
+      "kind": "control",
+      "why": "seen on /contact-us: text field \"First Name\"; the crawl trusts its locator (text field)",
+      "facts": [
+        "page ContactUsPage element FIRST_NAME_INPUT xpath //input[@name='firstname']",
+        "page ContactUsPage enter firstName on FIRST_NAME_INPUT",
+        "page ContactUsPage clear clearFirstName on FIRST_NAME_INPUT"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/contact-us",
+          "snapshot": "crawl/pages/contact-us.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/ContactUsElements.java",
+          "line": 39,
+          "fact": "page ContactUsPage element FIRST_NAME_INPUT xpath //input[@name='firstname']",
+          "why": "seen on /contact-us: text field \"First Name\"; the crawl trusts its locator (text field)"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/actions/ContactUsEnterActions.java",
+          "line": 25,
+          "fact": "page ContactUsPage enter firstName on FIRST_NAME_INPUT",
+          "why": "seen on /contact-us: text field \"First Name\""
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/actions/ContactUsEnterActions.java",
+          "line": 31,
+          "fact": "page ContactUsPage clear clearFirstName on FIRST_NAME_INPUT",
+          "why": "seen on /contact-us: text field \"First Name\""
+        }
+      ]
+    },
+    "control:/contact-us:LAST_NAME_INPUT": {
+      "kind": "control",
+      "why": "seen on /contact-us: text field \"Last Name\"; the crawl trusts its locator (text field)",
+      "facts": [
+        "page ContactUsPage element LAST_NAME_INPUT xpath //input[@name='lastname']",
+        "page ContactUsPage enter lastName on LAST_NAME_INPUT",
+        "page ContactUsPage clear clearLastName on LAST_NAME_INPUT"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/contact-us",
+          "snapshot": "crawl/pages/contact-us.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/ContactUsElements.java",
+          "line": 41,
+          "fact": "page ContactUsPage element LAST_NAME_INPUT xpath //input[@name='lastname']",
+          "why": "seen on /contact-us: text field \"Last Name\"; the crawl trusts its locator (text field)"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/actions/ContactUsEnterActions.java",
+          "line": 37,
+          "fact": "page ContactUsPage enter lastName on LAST_NAME_INPUT",
+          "why": "seen on /contact-us: text field \"Last Name\""
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/actions/ContactUsEnterActions.java",
+          "line": 43,
+          "fact": "page ContactUsPage clear clearLastName on LAST_NAME_INPUT",
+          "why": "seen on /contact-us: text field \"Last Name\""
+        }
+      ]
+    },
+    "control:/contact-us:EMAIL_INPUT": {
+      "kind": "control",
+      "why": "seen on /contact-us: email field \"Email\"; the crawl trusts its locator (email field)",
+      "facts": [
+        "page ContactUsPage element EMAIL_INPUT xpath //input[@name='email']",
+        "page ContactUsPage enter email on EMAIL_INPUT",
+        "page ContactUsPage clear clearEmail on EMAIL_INPUT"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/contact-us",
+          "snapshot": "crawl/pages/contact-us.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/ContactUsElements.java",
+          "line": 43,
+          "fact": "page ContactUsPage element EMAIL_INPUT xpath //input[@name='email']",
+          "why": "seen on /contact-us: email field \"Email\"; the crawl trusts its locator (email field)"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/actions/ContactUsEnterActions.java",
+          "line": 49,
+          "fact": "page ContactUsPage enter email on EMAIL_INPUT",
+          "why": "seen on /contact-us: email field \"Email\""
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/actions/ContactUsEnterActions.java",
+          "line": 55,
+          "fact": "page ContactUsPage clear clearEmail on EMAIL_INPUT",
+          "why": "seen on /contact-us: email field \"Email\""
+        }
+      ]
+    },
+    "control:/contact-us:PHONE_NUMBER_INPUT": {
+      "kind": "control",
+      "why": "seen on /contact-us: tel field \"Phone number\"; the crawl trusts its locator (tel field)",
+      "facts": [
+        "page ContactUsPage element PHONE_NUMBER_INPUT label \"Phone number\"",
+        "page ContactUsPage enter phoneNumber on PHONE_NUMBER_INPUT",
+        "page ContactUsPage clear clearPhoneNumber on PHONE_NUMBER_INPUT"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/contact-us",
+          "snapshot": "crawl/pages/contact-us.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/ContactUsElements.java",
+          "line": 45,
+          "fact": "page ContactUsPage element PHONE_NUMBER_INPUT label \"Phone number\"",
+          "why": "seen on /contact-us: tel field \"Phone number\"; the crawl trusts its locator (tel field)"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/actions/ContactUsEnterActions.java",
+          "line": 61,
+          "fact": "page ContactUsPage enter phoneNumber on PHONE_NUMBER_INPUT",
+          "why": "seen on /contact-us: tel field \"Phone number\""
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/actions/ContactUsEnterActions.java",
+          "line": 67,
+          "fact": "page ContactUsPage clear clearPhoneNumber on PHONE_NUMBER_INPUT",
+          "why": "seen on /contact-us: tel field \"Phone number\""
+        }
+      ]
+    },
+    "control:/contact-us:WHO_ARE_YOU_SELECT": {
+      "kind": "control",
+      "why": "seen on /contact-us: dropdown \"Who are you?\"; the crawl trusts its locator (dropdown)",
+      "facts": [
+        "page ContactUsPage element WHO_ARE_YOU_SELECT xpath //select[@name='contact_type']",
+        "page ContactUsPage choose whoAreYou on WHO_ARE_YOU_SELECT"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/contact-us",
+          "snapshot": "crawl/pages/contact-us.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/ContactUsElements.java",
+          "line": 47,
+          "fact": "page ContactUsPage element WHO_ARE_YOU_SELECT xpath //select[@name='contact_type']",
+          "why": "seen on /contact-us: dropdown \"Who are you?\"; the crawl trusts its locator (dropdown)"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/actions/ContactUsEnterActions.java",
+          "line": 73,
+          "fact": "page ContactUsPage choose whoAreYou on WHO_ARE_YOU_SELECT",
+          "why": "seen on /contact-us: dropdown \"Who are you?\""
+        }
+      ]
+    },
+    "control:/contact-us:MESSAGE_INPUT": {
+      "kind": "control",
+      "why": "seen on /contact-us: text area \"Message\"; the crawl trusts its locator (text area)",
+      "facts": [
+        "page ContactUsPage element MESSAGE_INPUT label \"Message\"",
+        "page ContactUsPage enter message on MESSAGE_INPUT",
+        "page ContactUsPage clear clearMessage on MESSAGE_INPUT"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/contact-us",
+          "snapshot": "crawl/pages/contact-us.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/ContactUsElements.java",
+          "line": 49,
+          "fact": "page ContactUsPage element MESSAGE_INPUT label \"Message\"",
+          "why": "seen on /contact-us: text area \"Message\"; the crawl trusts its locator (text area)"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/actions/ContactUsEnterActions.java",
+          "line": 79,
+          "fact": "page ContactUsPage enter message on MESSAGE_INPUT",
+          "why": "seen on /contact-us: text area \"Message\""
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/actions/ContactUsEnterActions.java",
+          "line": 85,
+          "fact": "page ContactUsPage clear clearMessage on MESSAGE_INPUT",
+          "why": "seen on /contact-us: text area \"Message\""
+        }
+      ]
+    },
+    "control:/contact-us:PLEASE_INCLUDE_YOUR_RESUME_INPUT": {
+      "kind": "control",
+      "why": "seen on /contact-us: file field \"Please include your resume or preferred attachments\"; the crawl trusts its locator (file field)",
+      "facts": [
+        "page ContactUsPage element PLEASE_INCLUDE_YOUR_RESUME_INPUT xpath //input[@name='resume']",
+        "page ContactUsPage attach pleaseIncludeYourResume on PLEASE_INCLUDE_YOUR_RESUME_INPUT"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/contact-us",
+          "snapshot": "crawl/pages/contact-us.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/ContactUsElements.java",
+          "line": 51,
+          "fact": "page ContactUsPage element PLEASE_INCLUDE_YOUR_RESUME_INPUT xpath //input[@name='resume']",
+          "why": "seen on /contact-us: file field \"Please include your resume or preferred attachments\"; the crawl trusts its locator (file field)"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/actions/ContactUsEnterActions.java",
+          "line": 91,
+          "fact": "page ContactUsPage attach pleaseIncludeYourResume on PLEASE_INCLUDE_YOUR_RESUME_INPUT",
+          "why": "seen on /contact-us: file field \"Please include your resume or preferred attachments\""
+        }
+      ]
+    },
+    "control:/contact-us:SUBMIT_BUTTON": {
+      "kind": "control",
+      "why": "seen on /contact-us: button \"Submit\"; the crawl trusts its locator (button)",
+      "facts": [
+        "page ContactUsPage element SUBMIT_BUTTON role button \"Submit\"",
+        "page ContactUsPage click submit on SUBMIT_BUTTON"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/contact-us",
+          "snapshot": "crawl/pages/contact-us.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/ContactUsElements.java",
+          "line": 53,
+          "fact": "page ContactUsPage element SUBMIT_BUTTON role button \"Submit\"",
+          "why": "seen on /contact-us: button \"Submit\"; the crawl trusts its locator (button)"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/actions/ContactUsClickActions.java",
+          "line": 26,
+          "fact": "page ContactUsPage click submit on SUBMIT_BUTTON",
+          "why": "seen on /contact-us: button \"Submit\""
+        }
+      ]
+    },
+    "form:/contact-us:a form": {
+      "kind": "form",
+      "why": "the \"a form\" form the crawl saw; filled, never sent",
+      "facts": [
+        "page ContactUsPage task fillForm takes ContactUsForm enters firstName, lastName, email, phoneNumber, whoAreYou, message",
+        "page ContactUsPage record ContactUsForm firstName=\"Test First Name\" lastName=\"Test Last Name\" email=\"test@example.com\" phoneNumber=\"555-0100\" whoAreYou=\"Potential Consultant\" message=\"A test from the suite: please ignore.\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/contact-us",
+          "snapshot": "crawl/pages/contact-us.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/ContactUsTasks.java",
+          "line": 27,
+          "fact": "page ContactUsPage task fillForm takes ContactUsForm enters firstName, lastName, email, phoneNumber, whoAreYou, message",
+          "why": "the \"a form\" form the crawl saw; filled, never sent"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/ContactUsForm.java",
+          "line": 14,
+          "fact": "page ContactUsPage record ContactUsForm firstName=\"Test First Name\" lastName=\"Test Last Name\" email=\"test@example.com\" phoneNumber=\"555-0100\" whoAreYou=\"Potential Consultant\" message=\"A test from the suite: please ignore.\"",
+          "why": "the \"a form\" form's fields in page order, each sample plausible for its kind"
+        }
+      ]
+    },
+    "structure:/contact-us:main-heading": {
+      "kind": "structure",
+      "why": "its page read has one main heading (h1), whatever it says",
+      "facts": [
+        "page ContactUsPage structure MAIN_HEADING xpath //h1",
+        "page ContactUsPage loaded-when MAIN_HEADING"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/contact-us",
+          "snapshot": "crawl/pages/contact-us.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/ContactUsElements.java",
+          "line": 35,
+          "fact": "page ContactUsPage structure MAIN_HEADING xpath //h1",
+          "why": "its page read has one main heading (h1), whatever it says"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/ContactUsPage.java",
+          "line": 54,
+          "fact": "page ContactUsPage loaded-when MAIN_HEADING",
+          "why": "its page read has one main heading (h1), whatever it says; structure before copy"
+        }
+      ]
+    },
+    "check:/contact-us:Contact us": {
+      "kind": "check",
+      "why": "every page of ContactUsPage the crawl read showed it (1 page); isLoaded() waits for the first 2 checks",
+      "facts": [
+        "page ContactUsPage loaded-when \"Contact us\"",
+        "page ContactUsPage check \"Contact us\" spelled \"Contact us\" by role heading \"Contact us\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/contact-us",
+          "snapshot": "crawl/pages/contact-us.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/ContactUsPage.java",
+          "line": 54,
+          "fact": "page ContactUsPage loaded-when \"Contact us\"",
+          "why": "every page of ContactUsPage the crawl read showed it (1 page); isLoaded() waits for the first 2 checks"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/ContactUsElements.java",
+          "line": 22,
+          "fact": "page ContactUsPage check \"Contact us\" spelled \"Contact us\" by role heading \"Contact us\"",
+          "why": "every page of ContactUsPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/contact-us:START FINDING THE FIT THAT WORKS BEST FOR YOU.": {
+      "kind": "check",
+      "why": "every page of ContactUsPage the crawl read showed it (1 page)",
+      "facts": [
+        "page ContactUsPage check \"START FINDING THE FIT THAT WORKS BEST FOR YOU.\" spelled \"START FINDING THE FIT THAT WORKS BEST FOR YOU.\" by role heading \"START FINDING THE FIT THAT WORKS BEST FOR YOU.\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/contact-us",
+          "snapshot": "crawl/pages/contact-us.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/ContactUsElements.java",
+          "line": 25,
+          "fact": "page ContactUsPage check \"START FINDING THE FIT THAT WORKS BEST FOR YOU.\" spelled \"START FINDING THE FIT THAT WORKS BEST FOR YOU.\" by role heading \"START FINDING THE FIT THAT WORKS BEST FOR YOU.\"",
+          "why": "every page of ContactUsPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/contact-us:The Hatch Group": {
+      "kind": "check",
+      "why": "every page of ContactUsPage the crawl read showed it (1 page)",
+      "facts": [
+        "page ContactUsPage check \"The Hatch Group\" spelled \"The Hatch Group\" by role heading \"The Hatch Group\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/contact-us",
+          "snapshot": "crawl/pages/contact-us.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/contactus/ContactUsElements.java",
+          "line": 29,
+          "fact": "page ContactUsPage check \"The Hatch Group\" spelled \"The Hatch Group\" by role heading \"The Hatch Group\"",
+          "why": "every page of ContactUsPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "type:/for-consultants": {
+      "kind": "type",
+      "why": "no other page read is enough like it (the closest, /, shares 88% of its layout and 3% of its headings) [rules: unlike-others]",
+      "facts": [
+        "page ForConsultantsPage",
+        "page ForConsultantsPage opens ()",
+        "page ForConsultantsPage url-shapes /for-consultants",
+        "page ForConsultantsPage doors click, read, verify",
+        "page ForConsultantsPage settles 200",
+        "page ForConsultantsPage title is \"For Consultants | The Hatch Group | IT Staffing Minneapolis\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-consultants",
+          "snapshot": "crawl/pages/for-consultants.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forconsultants/ForConsultantsPage.java",
+          "line": 39,
+          "fact": "page ForConsultantsPage",
+          "why": "no other page read is enough like it (the closest, /, shares 88% of its layout and 3% of its headings) [rules: unlike-others]"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forconsultants/ForConsultantsPage.java",
+          "line": 60,
+          "fact": "page ForConsultantsPage opens ()",
+          "why": "no other page read is enough like it (the closest, /, shares 88% of its layout and 3% of its headings) [rules: unlike-others]"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forconsultants/ForConsultantsPage.java",
+          "line": 67,
+          "fact": "page ForConsultantsPage url-shapes /for-consultants",
+          "why": "no other page read is enough like it (the closest, /, shares 88% of its layout and 3% of its headings) [rules: unlike-others]"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forconsultants/ForConsultantsPage.java",
+          "line": 39,
+          "fact": "page ForConsultantsPage doors click, read, verify",
+          "why": "the doors its controls, links and forms give it, read and verify always, and any a person filled"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forconsultants/ForConsultantsPage.java",
+          "line": 98,
+          "fact": "page ForConsultantsPage settles 200",
+          "why": "the median of its pages read, after their load event, the crawl's quiet windows taken out"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forconsultants/ForConsultantsPage.java",
+          "line": 46,
+          "fact": "page ForConsultantsPage title is \"For Consultants | The Hatch Group | IT Staffing Minneapolis\"",
+          "why": "every page read of it had this title"
+        }
+      ]
+    },
+    "control:/for-consultants:PREVIOUS_SLIDE_BUTTON": {
+      "kind": "control",
+      "why": "seen on /for-consultants: button \"Previous Slide\"; the crawl trusts its locator (button)",
+      "facts": [
+        "page ForConsultantsPage element PREVIOUS_SLIDE_BUTTON role button \"Previous Slide\"",
+        "page ForConsultantsPage click previousSlide on PREVIOUS_SLIDE_BUTTON"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-consultants",
+          "snapshot": "crawl/pages/for-consultants.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forconsultants/ForConsultantsElements.java",
+          "line": 52,
+          "fact": "page ForConsultantsPage element PREVIOUS_SLIDE_BUTTON role button \"Previous Slide\"",
+          "why": "seen on /for-consultants: button \"Previous Slide\"; the crawl trusts its locator (button)"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forconsultants/actions/ForConsultantsClickActions.java",
+          "line": 26,
+          "fact": "page ForConsultantsPage click previousSlide on PREVIOUS_SLIDE_BUTTON",
+          "why": "seen on /for-consultants: button \"Previous Slide\""
+        }
+      ]
+    },
+    "control:/for-consultants:NEXT_SLIDE_BUTTON": {
+      "kind": "control",
+      "why": "seen on /for-consultants: button \"Next Slide\"; the crawl trusts its locator (button)",
+      "facts": [
+        "page ForConsultantsPage element NEXT_SLIDE_BUTTON role button \"Next Slide\"",
+        "page ForConsultantsPage click nextSlide on NEXT_SLIDE_BUTTON"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-consultants",
+          "snapshot": "crawl/pages/for-consultants.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forconsultants/ForConsultantsElements.java",
+          "line": 56,
+          "fact": "page ForConsultantsPage element NEXT_SLIDE_BUTTON role button \"Next Slide\"",
+          "why": "seen on /for-consultants: button \"Next Slide\"; the crawl trusts its locator (button)"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forconsultants/actions/ForConsultantsClickActions.java",
+          "line": 35,
+          "fact": "page ForConsultantsPage click nextSlide on NEXT_SLIDE_BUTTON",
+          "why": "seen on /for-consultants: button \"Next Slide\""
+        }
+      ]
+    },
+    "control:/for-consultants:N_1_OF_3_TAB": {
+      "kind": "control",
+      "why": "seen on /for-consultants: tab \"1 of 3\"; the crawl trusts its locator (tab)",
+      "facts": [
+        "page ForConsultantsPage element N_1_OF_3_TAB role tab \"1 of 3\"",
+        "page ForConsultantsPage click n1Of3 on N_1_OF_3_TAB"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-consultants",
+          "snapshot": "crawl/pages/for-consultants.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forconsultants/ForConsultantsElements.java",
+          "line": 59,
+          "fact": "page ForConsultantsPage element N_1_OF_3_TAB role tab \"1 of 3\"",
+          "why": "seen on /for-consultants: tab \"1 of 3\"; the crawl trusts its locator (tab)"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forconsultants/actions/ForConsultantsClickActions.java",
+          "line": 44,
+          "fact": "page ForConsultantsPage click n1Of3 on N_1_OF_3_TAB",
+          "why": "seen on /for-consultants: tab \"1 of 3\""
+        }
+      ]
+    },
+    "control:/for-consultants:N_2_OF_3_TAB": {
+      "kind": "control",
+      "why": "seen on /for-consultants: tab \"2 of 3\"; the crawl trusts its locator (tab)",
+      "facts": [
+        "page ForConsultantsPage element N_2_OF_3_TAB role tab \"2 of 3\"",
+        "page ForConsultantsPage click n2Of3 on N_2_OF_3_TAB"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-consultants",
+          "snapshot": "crawl/pages/for-consultants.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forconsultants/ForConsultantsElements.java",
+          "line": 61,
+          "fact": "page ForConsultantsPage element N_2_OF_3_TAB role tab \"2 of 3\"",
+          "why": "seen on /for-consultants: tab \"2 of 3\"; the crawl trusts its locator (tab)"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forconsultants/actions/ForConsultantsClickActions.java",
+          "line": 53,
+          "fact": "page ForConsultantsPage click n2Of3 on N_2_OF_3_TAB",
+          "why": "seen on /for-consultants: tab \"2 of 3\""
+        }
+      ]
+    },
+    "control:/for-consultants:N_3_OF_3_TAB": {
+      "kind": "control",
+      "why": "seen on /for-consultants: tab \"3 of 3\"; the crawl trusts its locator (tab)",
+      "facts": [
+        "page ForConsultantsPage element N_3_OF_3_TAB role tab \"3 of 3\"",
+        "page ForConsultantsPage click n3Of3 on N_3_OF_3_TAB"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-consultants",
+          "snapshot": "crawl/pages/for-consultants.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forconsultants/ForConsultantsElements.java",
+          "line": 63,
+          "fact": "page ForConsultantsPage element N_3_OF_3_TAB role tab \"3 of 3\"",
+          "why": "seen on /for-consultants: tab \"3 of 3\"; the crawl trusts its locator (tab)"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forconsultants/actions/ForConsultantsClickActions.java",
+          "line": 62,
+          "fact": "page ForConsultantsPage click n3Of3 on N_3_OF_3_TAB",
+          "why": "seen on /for-consultants: tab \"3 of 3\""
+        }
+      ]
+    },
+    "structure:/for-consultants:main-heading": {
+      "kind": "structure",
+      "why": "its page read has one main heading (h1), whatever it says",
+      "facts": [
+        "page ForConsultantsPage structure MAIN_HEADING xpath //h1",
+        "page ForConsultantsPage loaded-when MAIN_HEADING"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-consultants",
+          "snapshot": "crawl/pages/for-consultants.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forconsultants/ForConsultantsElements.java",
+          "line": 48,
+          "fact": "page ForConsultantsPage structure MAIN_HEADING xpath //h1",
+          "why": "its page read has one main heading (h1), whatever it says"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forconsultants/ForConsultantsPage.java",
+          "line": 50,
+          "fact": "page ForConsultantsPage loaded-when MAIN_HEADING",
+          "why": "its page read has one main heading (h1), whatever it says; structure before copy"
+        }
+      ]
+    },
+    "check:/for-consultants:Cut the noise": {
+      "kind": "check",
+      "why": "every page of ForConsultantsPage the crawl read showed it (1 page); isLoaded() waits for the first 2 checks",
+      "facts": [
+        "page ForConsultantsPage loaded-when \"Cut the noise\"",
+        "page ForConsultantsPage check \"Cut the noise\" spelled \"Cut the noise\" by role heading \"Cut the noise\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-consultants",
+          "snapshot": "crawl/pages/for-consultants.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forconsultants/ForConsultantsPage.java",
+          "line": 50,
+          "fact": "page ForConsultantsPage loaded-when \"Cut the noise\"",
+          "why": "every page of ForConsultantsPage the crawl read showed it (1 page); isLoaded() waits for the first 2 checks"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forconsultants/ForConsultantsElements.java",
+          "line": 22,
+          "fact": "page ForConsultantsPage check \"Cut the noise\" spelled \"Cut the noise\" by role heading \"Cut the noise\"",
+          "why": "every page of ForConsultantsPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/for-consultants:JOBS THAT ACTUALLY MAKE SENSE.": {
+      "kind": "check",
+      "why": "every page of ForConsultantsPage the crawl read showed it (1 page)",
+      "facts": [
+        "page ForConsultantsPage check \"JOBS THAT ACTUALLY MAKE SENSE.\" spelled \"JOBS THAT ACTUALLY MAKE SENSE.\" by role heading \"JOBS THAT ACTUALLY MAKE SENSE.\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-consultants",
+          "snapshot": "crawl/pages/for-consultants.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forconsultants/ForConsultantsElements.java",
+          "line": 26,
+          "fact": "page ForConsultantsPage check \"JOBS THAT ACTUALLY MAKE SENSE.\" spelled \"JOBS THAT ACTUALLY MAKE SENSE.\" by role heading \"JOBS THAT ACTUALLY MAKE SENSE.\"",
+          "why": "every page of ForConsultantsPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/for-consultants:No guesswork": {
+      "kind": "check",
+      "why": "every page of ForConsultantsPage the crawl read showed it (1 page)",
+      "facts": [
+        "page ForConsultantsPage check \"No guesswork\" spelled \"No guesswork\" by role heading \"No guesswork\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-consultants",
+          "snapshot": "crawl/pages/for-consultants.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forconsultants/ForConsultantsElements.java",
+          "line": 30,
+          "fact": "page ForConsultantsPage check \"No guesswork\" spelled \"No guesswork\" by role heading \"No guesswork\"",
+          "why": "every page of ForConsultantsPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/for-consultants:HERE'S THE DEAL...": {
+      "kind": "check",
+      "why": "every page of ForConsultantsPage the crawl read showed it (1 page)",
+      "facts": [
+        "page ForConsultantsPage check \"HERE'S THE DEAL...\" spelled \"HERE'S THE DEAL...\" by role heading \"HERE'S THE DEAL...\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-consultants",
+          "snapshot": "crawl/pages/for-consultants.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forconsultants/ForConsultantsElements.java",
+          "line": 34,
+          "fact": "page ForConsultantsPage check \"HERE'S THE DEAL...\" spelled \"HERE'S THE DEAL...\" by role heading \"HERE'S THE DEAL...\"",
+          "why": "every page of ForConsultantsPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/for-consultants:NO DEAD ENDS HERE.": {
+      "kind": "check",
+      "why": "every page of ForConsultantsPage the crawl read showed it (1 page)",
+      "facts": [
+        "page ForConsultantsPage check \"NO DEAD ENDS HERE.\" spelled \"NO DEAD ENDS HERE.\" by role heading \"NO DEAD ENDS HERE.\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-consultants",
+          "snapshot": "crawl/pages/for-consultants.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forconsultants/ForConsultantsElements.java",
+          "line": 38,
+          "fact": "page ForConsultantsPage check \"NO DEAD ENDS HERE.\" spelled \"NO DEAD ENDS HERE.\" by role heading \"NO DEAD ENDS HERE.\"",
+          "why": "every page of ForConsultantsPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/for-consultants:THE BOTTOM LINE?": {
+      "kind": "check",
+      "why": "every page of ForConsultantsPage the crawl read showed it (1 page)",
+      "facts": [
+        "page ForConsultantsPage check \"THE BOTTOM LINE?\" spelled \"THE BOTTOM LINE?\" by role heading \"THE BOTTOM LINE?\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-consultants",
+          "snapshot": "crawl/pages/for-consultants.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forconsultants/ForConsultantsElements.java",
+          "line": 42,
+          "fact": "page ForConsultantsPage check \"THE BOTTOM LINE?\" spelled \"THE BOTTOM LINE?\" by role heading \"THE BOTTOM LINE?\"",
+          "why": "every page of ForConsultantsPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "type:/why-choose-us": {
+      "kind": "type",
+      "why": "no other page read is enough like it (the closest, /contact-us, shares 75% of its layout and 3% of its headings) [rules: unlike-others]",
+      "facts": [
+        "page WhyChooseUsPage",
+        "page WhyChooseUsPage opens ()",
+        "page WhyChooseUsPage url-shapes /why-choose-us",
+        "page WhyChooseUsPage doors read, verify",
+        "page WhyChooseUsPage settles 100",
+        "page WhyChooseUsPage title is \"Why choose us | The Hatch Group | IT Staffing Minneapolis\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/why-choose-us",
+          "snapshot": "crawl/pages/why-choose-us.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/whychooseus/WhyChooseUsPage.java",
+          "line": 38,
+          "fact": "page WhyChooseUsPage",
+          "why": "no other page read is enough like it (the closest, /contact-us, shares 75% of its layout and 3% of its headings) [rules: unlike-others]"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/whychooseus/WhyChooseUsPage.java",
+          "line": 58,
+          "fact": "page WhyChooseUsPage opens ()",
+          "why": "no other page read is enough like it (the closest, /contact-us, shares 75% of its layout and 3% of its headings) [rules: unlike-others]"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/whychooseus/WhyChooseUsPage.java",
+          "line": 65,
+          "fact": "page WhyChooseUsPage url-shapes /why-choose-us",
+          "why": "no other page read is enough like it (the closest, /contact-us, shares 75% of its layout and 3% of its headings) [rules: unlike-others]"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/whychooseus/WhyChooseUsPage.java",
+          "line": 38,
+          "fact": "page WhyChooseUsPage doors read, verify",
+          "why": "the doors its controls, links and forms give it, read and verify always, and any a person filled"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/whychooseus/WhyChooseUsPage.java",
+          "line": 96,
+          "fact": "page WhyChooseUsPage settles 100",
+          "why": "the median of its pages read, after their load event, the crawl's quiet windows taken out"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/whychooseus/WhyChooseUsPage.java",
+          "line": 44,
+          "fact": "page WhyChooseUsPage title is \"Why choose us | The Hatch Group | IT Staffing Minneapolis\"",
+          "why": "every page read of it had this title"
+        }
+      ]
+    },
+    "structure:/why-choose-us:main-heading": {
+      "kind": "structure",
+      "why": "its page read has one main heading (h1), whatever it says",
+      "facts": [
+        "page WhyChooseUsPage structure MAIN_HEADING xpath //h1",
+        "page WhyChooseUsPage loaded-when MAIN_HEADING"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/why-choose-us",
+          "snapshot": "crawl/pages/why-choose-us.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/whychooseus/WhyChooseUsElements.java",
+          "line": 51,
+          "fact": "page WhyChooseUsPage structure MAIN_HEADING xpath //h1",
+          "why": "its page read has one main heading (h1), whatever it says"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/whychooseus/WhyChooseUsPage.java",
+          "line": 48,
+          "fact": "page WhyChooseUsPage loaded-when MAIN_HEADING",
+          "why": "its page read has one main heading (h1), whatever it says; structure before copy"
+        }
+      ]
+    },
+    "check:/why-choose-us:Why choose us": {
+      "kind": "check",
+      "why": "every page of WhyChooseUsPage the crawl read showed it (1 page); isLoaded() waits for the first 2 checks",
+      "facts": [
+        "page WhyChooseUsPage loaded-when \"Why choose us\"",
+        "page WhyChooseUsPage check \"Why choose us\" spelled \"Why choose us\" by role heading \"Why choose us\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/why-choose-us",
+          "snapshot": "crawl/pages/why-choose-us.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/whychooseus/WhyChooseUsPage.java",
+          "line": 48,
+          "fact": "page WhyChooseUsPage loaded-when \"Why choose us\"",
+          "why": "every page of WhyChooseUsPage the crawl read showed it (1 page); isLoaded() waits for the first 2 checks"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/whychooseus/WhyChooseUsElements.java",
+          "line": 22,
+          "fact": "page WhyChooseUsPage check \"Why choose us\" spelled \"Why choose us\" by role heading \"Why choose us\"",
+          "why": "every page of WhyChooseUsPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/why-choose-us:BECAUSE YOU'RE TIRED OF THE SAME OLD STAFFING STORY": {
+      "kind": "check",
+      "why": "every page of WhyChooseUsPage the crawl read showed it (1 page)",
+      "facts": [
+        "page WhyChooseUsPage check \"BECAUSE YOU'RE TIRED OF THE SAME OLD STAFFING STORY\" spelled \"BECAUSE YOU'RE TIRED OF THE SAME OLD STAFFING STORY\" by role heading \"BECAUSE YOU'RE TIRED OF THE SAME OLD STAFFING STORY\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/why-choose-us",
+          "snapshot": "crawl/pages/why-choose-us.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/whychooseus/WhyChooseUsElements.java",
+          "line": 26,
+          "fact": "page WhyChooseUsPage check \"BECAUSE YOU'RE TIRED OF THE SAME OLD STAFFING STORY\" spelled \"BECAUSE YOU'RE TIRED OF THE SAME OLD STAFFING STORY\" by role heading \"BECAUSE YOU'RE TIRED OF THE SAME OLD STAFFING STORY\"",
+          "why": "every page of WhyChooseUsPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/why-choose-us:So, let's talk IVP. It's not just a process. It's our standard.": {
+      "kind": "check",
+      "why": "every page of WhyChooseUsPage the crawl read showed it (1 page)",
+      "facts": [
+        "page WhyChooseUsPage check \"So, let's talk IVP. It's not just a process. It's our standard.\" spelled \"So, let's talk IVP. It's not just a process. It's our standard.\" by role heading \"So, let's talk IVP. It's not just a process. It's our standard.\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/why-choose-us",
+          "snapshot": "crawl/pages/why-choose-us.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/whychooseus/WhyChooseUsElements.java",
+          "line": 33,
+          "fact": "page WhyChooseUsPage check \"So, let's talk IVP. It's not just a process. It's our standard.\" spelled \"So, let's talk IVP. It's not just a process. It's our standard.\" by role heading \"So, let's talk IVP. It's not just a process. It's our standard.\"",
+          "why": "every page of WhyChooseUsPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/why-choose-us:Where it started": {
+      "kind": "check",
+      "why": "every page of WhyChooseUsPage the crawl read showed it (1 page)",
+      "facts": [
+        "page WhyChooseUsPage check \"Where it started\" spelled \"Where it started\" by role heading \"Where it started\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/why-choose-us",
+          "snapshot": "crawl/pages/why-choose-us.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/whychooseus/WhyChooseUsElements.java",
+          "line": 37,
+          "fact": "page WhyChooseUsPage check \"Where it started\" spelled \"Where it started\" by role heading \"Where it started\"",
+          "why": "every page of WhyChooseUsPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/why-choose-us:Solving for better staffing": {
+      "kind": "check",
+      "why": "every page of WhyChooseUsPage the crawl read showed it (1 page)",
+      "facts": [
+        "page WhyChooseUsPage check \"Solving for better staffing\" spelled \"Solving for better staffing\" by role heading \"Solving for better staffing\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/why-choose-us",
+          "snapshot": "crawl/pages/why-choose-us.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/whychooseus/WhyChooseUsElements.java",
+          "line": 41,
+          "fact": "page WhyChooseUsPage check \"Solving for better staffing\" spelled \"Solving for better staffing\" by role heading \"Solving for better staffing\"",
+          "why": "every page of WhyChooseUsPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/why-choose-us:Introducing IVP": {
+      "kind": "check",
+      "why": "every page of WhyChooseUsPage the crawl read showed it (1 page)",
+      "facts": [
+        "page WhyChooseUsPage check \"Introducing IVP\" spelled \"Introducing IVP\" by role heading \"Introducing IVP\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/why-choose-us",
+          "snapshot": "crawl/pages/why-choose-us.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/whychooseus/WhyChooseUsElements.java",
+          "line": 45,
+          "fact": "page WhyChooseUsPage check \"Introducing IVP\" spelled \"Introducing IVP\" by role heading \"Introducing IVP\"",
+          "why": "every page of WhyChooseUsPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "type:/for-clients": {
+      "kind": "type",
+      "why": "no other page read is enough like it (the closest, /for-clients/enterprise-platforms, shares 88% of its layout and 3% of its headings) [rules: unlike-others]",
+      "facts": [
+        "page ForClientsPage",
+        "page ForClientsPage opens ()",
+        "page ForClientsPage url-shapes /for-clients",
+        "page ForClientsPage doors click, read, verify",
+        "page ForClientsPage settles 200",
+        "page ForClientsPage title is \"For clients | IT Staffing | The Hatch Group in Minnesota\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-clients",
+          "snapshot": "crawl/pages/for-clients.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forclients/ForClientsPage.java",
+          "line": 39,
+          "fact": "page ForClientsPage",
+          "why": "no other page read is enough like it (the closest, /for-clients/enterprise-platforms, shares 88% of its layout and 3% of its headings) [rules: unlike-others]"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forclients/ForClientsPage.java",
+          "line": 60,
+          "fact": "page ForClientsPage opens ()",
+          "why": "no other page read is enough like it (the closest, /for-clients/enterprise-platforms, shares 88% of its layout and 3% of its headings) [rules: unlike-others]"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forclients/ForClientsPage.java",
+          "line": 67,
+          "fact": "page ForClientsPage url-shapes /for-clients",
+          "why": "no other page read is enough like it (the closest, /for-clients/enterprise-platforms, shares 88% of its layout and 3% of its headings) [rules: unlike-others]"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forclients/ForClientsPage.java",
+          "line": 39,
+          "fact": "page ForClientsPage doors click, read, verify",
+          "why": "the doors its controls, links and forms give it, read and verify always, and any a person filled"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forclients/ForClientsPage.java",
+          "line": 98,
+          "fact": "page ForClientsPage settles 200",
+          "why": "the median of its pages read, after their load event, the crawl's quiet windows taken out"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forclients/ForClientsPage.java",
+          "line": 46,
+          "fact": "page ForClientsPage title is \"For clients | IT Staffing | The Hatch Group in Minnesota\"",
+          "why": "every page read of it had this title"
+        }
+      ]
+    },
+    "check:/for-clients:What we offer": {
+      "kind": "check",
+      "why": "every page of ForClientsPage the crawl read showed it (1 page); isLoaded() waits for the first 2 checks",
+      "facts": [
+        "page ForClientsPage loaded-when \"What we offer\"",
+        "page ForClientsPage check \"What we offer\" spelled \"What we offer\" by role heading \"What we offer\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-clients",
+          "snapshot": "crawl/pages/for-clients.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forclients/ForClientsPage.java",
+          "line": 50,
+          "fact": "page ForClientsPage loaded-when \"What we offer\"",
+          "why": "every page of ForClientsPage the crawl read showed it (1 page); isLoaded() waits for the first 2 checks"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forclients/ForClientsElements.java",
+          "line": 22,
+          "fact": "page ForClientsPage check \"What we offer\" spelled \"What we offer\" by role heading \"What we offer\"",
+          "why": "every page of ForClientsPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/for-clients:IT STAFFING DONE THE RIGHT WAY.": {
+      "kind": "check",
+      "why": "every page of ForClientsPage the crawl read showed it (1 page); isLoaded() waits for the first 2 checks",
+      "facts": [
+        "page ForClientsPage loaded-when \"IT STAFFING DONE THE RIGHT WAY.\"",
+        "page ForClientsPage check \"IT STAFFING DONE THE RIGHT WAY.\" spelled \"IT STAFFING DONE THE RIGHT WAY.\" by role heading \"IT STAFFING DONE THE RIGHT WAY.\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-clients",
+          "snapshot": "crawl/pages/for-clients.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forclients/ForClientsPage.java",
+          "line": 50,
+          "fact": "page ForClientsPage loaded-when \"IT STAFFING DONE THE RIGHT WAY.\"",
+          "why": "every page of ForClientsPage the crawl read showed it (1 page); isLoaded() waits for the first 2 checks"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forclients/ForClientsElements.java",
+          "line": 26,
+          "fact": "page ForClientsPage check \"IT STAFFING DONE THE RIGHT WAY.\" spelled \"IT STAFFING DONE THE RIGHT WAY.\" by role heading \"IT STAFFING DONE THE RIGHT WAY.\"",
+          "why": "every page of ForClientsPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/for-clients:Smarter staffing": {
+      "kind": "check",
+      "why": "every page of ForClientsPage the crawl read showed it (1 page)",
+      "facts": [
+        "page ForClientsPage check \"Smarter staffing\" spelled \"Smarter staffing\" by role heading \"Smarter staffing\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-clients",
+          "snapshot": "crawl/pages/for-clients.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forclients/ForClientsElements.java",
+          "line": 30,
+          "fact": "page ForClientsPage check \"Smarter staffing\" spelled \"Smarter staffing\" by role heading \"Smarter staffing\"",
+          "why": "every page of ForClientsPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/for-clients:OUR CAPABILITIES": {
+      "kind": "check",
+      "why": "every page of ForClientsPage the crawl read showed it (1 page)",
+      "facts": [
+        "page ForClientsPage check \"OUR CAPABILITIES\" spelled \"OUR CAPABILITIES\" by role heading \"OUR CAPABILITIES\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-clients",
+          "snapshot": "crawl/pages/for-clients.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forclients/ForClientsElements.java",
+          "line": 34,
+          "fact": "page ForClientsPage check \"OUR CAPABILITIES\" spelled \"OUR CAPABILITIES\" by role heading \"OUR CAPABILITIES\"",
+          "why": "every page of ForClientsPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/for-clients:Our core staffing areas are...": {
+      "kind": "check",
+      "why": "every page of ForClientsPage the crawl read showed it (1 page)",
+      "facts": [
+        "page ForClientsPage check \"Our core staffing areas are...\" spelled \"Our core staffing areas are...\" by role heading \"Our core staffing areas are...\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-clients",
+          "snapshot": "crawl/pages/for-clients.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forclients/ForClientsElements.java",
+          "line": 38,
+          "fact": "page ForClientsPage check \"Our core staffing areas are...\" spelled \"Our core staffing areas are...\" by role heading \"Our core staffing areas are...\"",
+          "why": "every page of ForClientsPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/for-clients:Enterprise platforms": {
+      "kind": "check",
+      "why": "every page of ForClientsPage the crawl read showed it (1 page)",
+      "facts": [
+        "page ForClientsPage check \"Enterprise platforms\" spelled \"Enterprise platforms\" by role heading \"Enterprise platforms\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-clients",
+          "snapshot": "crawl/pages/for-clients.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forclients/ForClientsElements.java",
+          "line": 42,
+          "fact": "page ForClientsPage check \"Enterprise platforms\" spelled \"Enterprise platforms\" by role heading \"Enterprise platforms\"",
+          "why": "every page of ForClientsPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "link:/for-clients:FOR_CLIENTS_ENTERPRISE_PLATFORMS_LINK": {
+      "kind": "link",
+      "why": "seen on /for-clients: \"Got salesforce?\" (https://www.thehatchgrp.com/for-clients/enterprise-platforms?hsLang=en); found by its role and name, exact: the crawl found exactly one on every page that must show it",
+      "facts": [
+        "page ForClientsPage link FOR_CLIENTS_ENTERPRISE_PLATFORMS_LINK role link \"Got salesforce?\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-clients",
+          "snapshot": "crawl/pages/for-clients.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forclients/ForClientsElements.java",
+          "line": 51,
+          "fact": "page ForClientsPage link FOR_CLIENTS_ENTERPRISE_PLATFORMS_LINK role link \"Got salesforce?\"",
+          "why": "seen on /for-clients: \"Got salesforce?\" (https://www.thehatchgrp.com/for-clients/enterprise-platforms?hsLang=en); found by its role and name, exact: the crawl found exactly one on every page that must show it"
+        }
+      ]
+    },
+    "link:/for-clients->/for-clients/enterprise-platforms": {
+      "kind": "link",
+      "why": "seen on /for-clients: \"Got salesforce?\" (https://www.thehatchgrp.com/for-clients/enterprise-platforms?hsLang=en)",
+      "facts": [
+        "page ForClientsPage links-to ForClientsEnterprisePlatformsPage clicking FOR_CLIENTS_ENTERPRISE_PLATFORMS_LINK"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-clients",
+          "snapshot": "crawl/pages/for-clients.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forclients/actions/ForClientsClickActions.java",
+          "line": 23,
+          "fact": "page ForClientsPage links-to ForClientsEnterprisePlatformsPage clicking FOR_CLIENTS_ENTERPRISE_PLATFORMS_LINK",
+          "why": "seen on /for-clients: \"Got salesforce?\" (https://www.thehatchgrp.com/for-clients/enterprise-platforms?hsLang=en)"
+        }
+      ]
+    },
+    "type:/our-team": {
+      "kind": "type",
+      "why": "no other page read is enough like it (the closest, /for-consultants, shares 80% of its layout and 3% of its headings) [rules: unlike-others]",
+      "facts": [
+        "page OurTeamPage",
+        "page OurTeamPage opens ()",
+        "page OurTeamPage url-shapes /our-team",
+        "page OurTeamPage doors read, verify",
+        "page OurTeamPage settles 300",
+        "page OurTeamPage title is \"Our Team | The Hatch Group | IT Staffing Minneapolis\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/our-team",
+          "snapshot": "crawl/pages/our-team.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/ourteam/OurTeamPage.java",
+          "line": 37,
+          "fact": "page OurTeamPage",
+          "why": "no other page read is enough like it (the closest, /for-consultants, shares 80% of its layout and 3% of its headings) [rules: unlike-others]"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/ourteam/OurTeamPage.java",
+          "line": 57,
+          "fact": "page OurTeamPage opens ()",
+          "why": "no other page read is enough like it (the closest, /for-consultants, shares 80% of its layout and 3% of its headings) [rules: unlike-others]"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/ourteam/OurTeamPage.java",
+          "line": 64,
+          "fact": "page OurTeamPage url-shapes /our-team",
+          "why": "no other page read is enough like it (the closest, /for-consultants, shares 80% of its layout and 3% of its headings) [rules: unlike-others]"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/ourteam/OurTeamPage.java",
+          "line": 37,
+          "fact": "page OurTeamPage doors read, verify",
+          "why": "the doors its controls, links and forms give it, read and verify always, and any a person filled"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/ourteam/OurTeamPage.java",
+          "line": 95,
+          "fact": "page OurTeamPage settles 300",
+          "why": "the median of its pages read, after their load event, the crawl's quiet windows taken out"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/ourteam/OurTeamPage.java",
+          "line": 43,
+          "fact": "page OurTeamPage title is \"Our Team | The Hatch Group | IT Staffing Minneapolis\"",
+          "why": "every page read of it had this title"
+        }
+      ]
+    },
+    "structure:/our-team:main-heading": {
+      "kind": "structure",
+      "why": "its page read has one main heading (h1), whatever it says",
+      "facts": [
+        "page OurTeamPage structure MAIN_HEADING xpath //h1",
+        "page OurTeamPage loaded-when MAIN_HEADING"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/our-team",
+          "snapshot": "crawl/pages/our-team.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/ourteam/OurTeamElements.java",
+          "line": 47,
+          "fact": "page OurTeamPage structure MAIN_HEADING xpath //h1",
+          "why": "its page read has one main heading (h1), whatever it says"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/ourteam/OurTeamPage.java",
+          "line": 47,
+          "fact": "page OurTeamPage loaded-when MAIN_HEADING",
+          "why": "its page read has one main heading (h1), whatever it says; structure before copy"
+        }
+      ]
+    },
+    "check:/our-team:The Hatch Group": {
+      "kind": "check",
+      "why": "every page of OurTeamPage the crawl read showed it (1 page); isLoaded() waits for the first 2 checks",
+      "facts": [
+        "page OurTeamPage loaded-when \"The Hatch Group\"",
+        "page OurTeamPage check \"The Hatch Group\" spelled \"The Hatch Group\" by role heading \"The Hatch Group\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/our-team",
+          "snapshot": "crawl/pages/our-team.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/ourteam/OurTeamPage.java",
+          "line": 47,
+          "fact": "page OurTeamPage loaded-when \"The Hatch Group\"",
+          "why": "every page of OurTeamPage the crawl read showed it (1 page); isLoaded() waits for the first 2 checks"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/ourteam/OurTeamElements.java",
+          "line": 22,
+          "fact": "page OurTeamPage check \"The Hatch Group\" spelled \"The Hatch Group\" by role heading \"The Hatch Group\"",
+          "why": "every page of OurTeamPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/our-team:WE WORK HARD & PLAY HARDer.": {
+      "kind": "check",
+      "why": "every page of OurTeamPage the crawl read showed it (1 page)",
+      "facts": [
+        "page OurTeamPage check \"WE WORK HARD & PLAY HARDer.\" spelled \"WE WORK HARD & PLAY HARDer.\" by role heading \"WE WORK HARD & PLAY HARDer.\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/our-team",
+          "snapshot": "crawl/pages/our-team.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/ourteam/OurTeamElements.java",
+          "line": 26,
+          "fact": "page OurTeamPage check \"WE WORK HARD & PLAY HARDer.\" spelled \"WE WORK HARD & PLAY HARDer.\" by role heading \"WE WORK HARD & PLAY HARDer.\"",
+          "why": "every page of OurTeamPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/our-team:Meet the people who make it happen.": {
+      "kind": "check",
+      "why": "every page of OurTeamPage the crawl read showed it (1 page)",
+      "facts": [
+        "page OurTeamPage check \"Meet the people who make it happen.\" spelled \"Meet the people who make it happen.\" by role heading \"Meet the people who make it happen.\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/our-team",
+          "snapshot": "crawl/pages/our-team.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/ourteam/OurTeamElements.java",
+          "line": 30,
+          "fact": "page OurTeamPage check \"Meet the people who make it happen.\" spelled \"Meet the people who make it happen.\" by role heading \"Meet the people who make it happen.\"",
+          "why": "every page of OurTeamPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/our-team:Greg Roth": {
+      "kind": "check",
+      "why": "every page of OurTeamPage the crawl read showed it (1 page)",
+      "facts": [
+        "page OurTeamPage check \"Greg Roth\" spelled \"Greg Roth\" by role heading \"Greg Roth\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/our-team",
+          "snapshot": "crawl/pages/our-team.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/ourteam/OurTeamElements.java",
+          "line": 34,
+          "fact": "page OurTeamPage check \"Greg Roth\" spelled \"Greg Roth\" by role heading \"Greg Roth\"",
+          "why": "every page of OurTeamPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/our-team:Erik Jacobs": {
+      "kind": "check",
+      "why": "every page of OurTeamPage the crawl read showed it (1 page)",
+      "facts": [
+        "page OurTeamPage check \"Erik Jacobs\" spelled \"Erik Jacobs\" by role heading \"Erik Jacobs\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/our-team",
+          "snapshot": "crawl/pages/our-team.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/ourteam/OurTeamElements.java",
+          "line": 37,
+          "fact": "page OurTeamPage check \"Erik Jacobs\" spelled \"Erik Jacobs\" by role heading \"Erik Jacobs\"",
+          "why": "every page of OurTeamPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/our-team:Justin Piehowski": {
+      "kind": "check",
+      "why": "every page of OurTeamPage the crawl read showed it (1 page)",
+      "facts": [
+        "page OurTeamPage check \"Justin Piehowski\" spelled \"Justin Piehowski\" by role heading \"Justin Piehowski\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/our-team",
+          "snapshot": "crawl/pages/our-team.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/ourteam/OurTeamElements.java",
+          "line": 41,
+          "fact": "page OurTeamPage check \"Justin Piehowski\" spelled \"Justin Piehowski\" by role heading \"Justin Piehowski\"",
+          "why": "every page of OurTeamPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "type:/for-clients/enterprise-platforms": {
+      "kind": "type",
+      "why": "no other page read is enough like it (the closest, /for-clients, shares 88% of its layout and 3% of its headings) [rules: unlike-others]",
+      "facts": [
+        "page ForClientsEnterprisePlatformsPage",
+        "page ForClientsEnterprisePlatformsPage opens ()",
+        "page ForClientsEnterprisePlatformsPage url-shapes /for-clients/enterprise-platforms",
+        "page ForClientsEnterprisePlatformsPage doors read, verify",
+        "page ForClientsEnterprisePlatformsPage settles 200",
+        "page ForClientsEnterprisePlatformsPage title is \"Enterprise Salesforce Advisory & Talent | The Hatch Group\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-clients/enterprise-platforms",
+          "snapshot": "crawl/pages/for-clients/enterprise-platforms.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forclientsenterprise/ForClientsEnterprisePlatformsPage.java",
+          "line": 38,
+          "fact": "page ForClientsEnterprisePlatformsPage",
+          "why": "no other page read is enough like it (the closest, /for-clients, shares 88% of its layout and 3% of its headings) [rules: unlike-others]"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forclientsenterprise/ForClientsEnterprisePlatformsPage.java",
+          "line": 58,
+          "fact": "page ForClientsEnterprisePlatformsPage opens ()",
+          "why": "no other page read is enough like it (the closest, /for-clients, shares 88% of its layout and 3% of its headings) [rules: unlike-others]"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forclientsenterprise/ForClientsEnterprisePlatformsPage.java",
+          "line": 65,
+          "fact": "page ForClientsEnterprisePlatformsPage url-shapes /for-clients/enterprise-platforms",
+          "why": "no other page read is enough like it (the closest, /for-clients, shares 88% of its layout and 3% of its headings) [rules: unlike-others]"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forclientsenterprise/ForClientsEnterprisePlatformsPage.java",
+          "line": 38,
+          "fact": "page ForClientsEnterprisePlatformsPage doors read, verify",
+          "why": "the doors its controls, links and forms give it, read and verify always, and any a person filled"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forclientsenterprise/ForClientsEnterprisePlatformsPage.java",
+          "line": 96,
+          "fact": "page ForClientsEnterprisePlatformsPage settles 200",
+          "why": "the median of its pages read, after their load event, the crawl's quiet windows taken out"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forclientsenterprise/ForClientsEnterprisePlatformsPage.java",
+          "line": 44,
+          "fact": "page ForClientsEnterprisePlatformsPage title is \"Enterprise Salesforce Advisory & Talent | The Hatch Group\"",
+          "why": "every page read of it had this title"
+        }
+      ]
+    },
+    "check:/for-clients/enterprise-platforms:Enterprise platforms": {
+      "kind": "check",
+      "why": "every page of ForClientsEnterprisePlatformsPage the crawl read showed it (1 page); isLoaded() waits for the first 2 checks",
+      "facts": [
+        "page ForClientsEnterprisePlatformsPage loaded-when \"Enterprise platforms\"",
+        "page ForClientsEnterprisePlatformsPage check \"Enterprise platforms\" spelled \"Enterprise platforms\" by role heading \"Enterprise platforms\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-clients/enterprise-platforms",
+          "snapshot": "crawl/pages/for-clients/enterprise-platforms.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forclientsenterprise/ForClientsEnterprisePlatformsPage.java",
+          "line": 48,
+          "fact": "page ForClientsEnterprisePlatformsPage loaded-when \"Enterprise platforms\"",
+          "why": "every page of ForClientsEnterprisePlatformsPage the crawl read showed it (1 page); isLoaded() waits for the first 2 checks"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forclientsenterprise/ForClientsEnterprisePlatformsElements.java",
+          "line": 22,
+          "fact": "page ForClientsEnterprisePlatformsPage check \"Enterprise platforms\" spelled \"Enterprise platforms\" by role heading \"Enterprise platforms\"",
+          "why": "every page of ForClientsEnterprisePlatformsPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/for-clients/enterprise-platforms:SALESFORCE": {
+      "kind": "check",
+      "why": "every page of ForClientsEnterprisePlatformsPage the crawl read showed it (1 page); isLoaded() waits for the first 2 checks",
+      "facts": [
+        "page ForClientsEnterprisePlatformsPage loaded-when \"SALESFORCE\"",
+        "page ForClientsEnterprisePlatformsPage check \"SALESFORCE\" spelled \"SALESFORCE\" by role heading \"SALESFORCE\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-clients/enterprise-platforms",
+          "snapshot": "crawl/pages/for-clients/enterprise-platforms.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forclientsenterprise/ForClientsEnterprisePlatformsPage.java",
+          "line": 48,
+          "fact": "page ForClientsEnterprisePlatformsPage loaded-when \"SALESFORCE\"",
+          "why": "every page of ForClientsEnterprisePlatformsPage the crawl read showed it (1 page); isLoaded() waits for the first 2 checks"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forclientsenterprise/ForClientsEnterprisePlatformsElements.java",
+          "line": 26,
+          "fact": "page ForClientsEnterprisePlatformsPage check \"SALESFORCE\" spelled \"SALESFORCE\" by role heading \"SALESFORCE\"",
+          "why": "every page of ForClientsEnterprisePlatformsPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/for-clients/enterprise-platforms:Diagnosing the invisible problem": {
+      "kind": "check",
+      "why": "every page of ForClientsEnterprisePlatformsPage the crawl read showed it (1 page)",
+      "facts": [
+        "page ForClientsEnterprisePlatformsPage check \"Diagnosing the invisible problem\" spelled \"Diagnosing the invisible problem\" by role heading \"Diagnosing the invisible problem\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-clients/enterprise-platforms",
+          "snapshot": "crawl/pages/for-clients/enterprise-platforms.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forclientsenterprise/ForClientsEnterprisePlatformsElements.java",
+          "line": 29,
+          "fact": "page ForClientsEnterprisePlatformsPage check \"Diagnosing the invisible problem\" spelled \"Diagnosing the invisible problem\" by role heading \"Diagnosing the invisible problem\"",
+          "why": "every page of ForClientsEnterprisePlatformsPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/for-clients/enterprise-platforms:Five key capabilities we help you master": {
+      "kind": "check",
+      "why": "every page of ForClientsEnterprisePlatformsPage the crawl read showed it (1 page)",
+      "facts": [
+        "page ForClientsEnterprisePlatformsPage check \"Five key capabilities we help you master\" spelled \"Five key capabilities we help you master\" by role heading \"Five key capabilities we help you master\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-clients/enterprise-platforms",
+          "snapshot": "crawl/pages/for-clients/enterprise-platforms.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forclientsenterprise/ForClientsEnterprisePlatformsElements.java",
+          "line": 33,
+          "fact": "page ForClientsEnterprisePlatformsPage check \"Five key capabilities we help you master\" spelled \"Five key capabilities we help you master\" by role heading \"Five key capabilities we help you master\"",
+          "why": "every page of ForClientsEnterprisePlatformsPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/for-clients/enterprise-platforms:Talent & ownership": {
+      "kind": "check",
+      "why": "every page of ForClientsEnterprisePlatformsPage the crawl read showed it (1 page)",
+      "facts": [
+        "page ForClientsEnterprisePlatformsPage check \"Talent & ownership\" spelled \"Talent & ownership\" by role heading \"Talent & ownership\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-clients/enterprise-platforms",
+          "snapshot": "crawl/pages/for-clients/enterprise-platforms.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forclientsenterprise/ForClientsEnterprisePlatformsElements.java",
+          "line": 37,
+          "fact": "page ForClientsEnterprisePlatformsPage check \"Talent & ownership\" spelled \"Talent & ownership\" by role heading \"Talent & ownership\"",
+          "why": "every page of ForClientsEnterprisePlatformsPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "check:/for-clients/enterprise-platforms:Platform utilization & license ROI": {
+      "kind": "check",
+      "why": "every page of ForClientsEnterprisePlatformsPage the crawl read showed it (1 page)",
+      "facts": [
+        "page ForClientsEnterprisePlatformsPage check \"Platform utilization & license ROI\" spelled \"Platform utilization & license ROI\" by role heading \"Platform utilization & license ROI\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-clients/enterprise-platforms",
+          "snapshot": "crawl/pages/for-clients/enterprise-platforms.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/forclientsenterprise/ForClientsEnterprisePlatformsElements.java",
+          "line": 41,
+          "fact": "page ForClientsEnterprisePlatformsPage check \"Platform utilization & license ROI\" spelled \"Platform utilization & license ROI\" by role heading \"Platform utilization & license ROI\"",
+          "why": "every page of ForClientsEnterprisePlatformsPage the crawl read showed it (1 page)"
+        }
+      ]
+    },
+    "run:timings": {
+      "kind": "run",
+      "why": "each page load timed: the same rows in every framework",
+      "facts": [
+        "run timings columns test,page,path,ready_ms,first_byte_ms,dom_loaded_ms,load_ms,after_load_ms,crawl_after_load_ms,slow"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/core/Timings.java",
+          "line": 38,
+          "fact": "run timings columns test,page,path,ready_ms,first_byte_ms,dom_loaded_ms,load_ms,after_load_ms,crawl_after_load_ms,slow",
+          "why": "each page load timed: the same rows in every framework"
+        }
+      ]
+    },
+    "run:api-timings": {
+      "kind": "run",
+      "why": "each API call timed: the same rows in every framework",
+      "facts": [
+        "run api timings columns test,call,status,ms,previous_ms,slow"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/core/Timings.java",
+          "line": 48,
+          "fact": "run api timings columns test,call,status,ms,previous_ms,slow",
+          "why": "each API call timed: the same rows in every framework"
+        }
+      ]
+    },
+    "menu:header:/why-choose-us": {
+      "kind": "menu",
+      "why": "a header link seen on /",
+      "facts": [
+        "menu whyChooseUs -> WhyChooseUsPage clicks /why-choose-us"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/header/actions/HeaderNavigableActions.java",
+          "line": 38,
+          "fact": "menu whyChooseUs -> WhyChooseUsPage clicks /why-choose-us",
+          "why": "a header link seen on /"
+        }
+      ]
+    },
+    "menu-link:header:/why-choose-us": {
+      "kind": "menu-link",
+      "why": "a header link seen on /; found by its role and name, exact: the crawl found exactly one on every page that must show it",
+      "facts": [
+        "menu header WHY_CHOOSE_US_LINK at /why-choose-us role link \"Why choose us\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/header/HeaderElements.java",
+          "line": 15,
+          "fact": "menu header WHY_CHOOSE_US_LINK at /why-choose-us role link \"Why choose us\"",
+          "why": "a header link seen on /; found by its role and name, exact: the crawl found exactly one on every page that must show it"
+        }
+      ]
+    },
+    "menu:header:/for-clients": {
+      "kind": "menu",
+      "why": "a header link seen on /",
+      "facts": [
+        "menu forClients -> ForClientsPage clicks /for-clients"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/header/actions/HeaderNavigableActions.java",
+          "line": 45,
+          "fact": "menu forClients -> ForClientsPage clicks /for-clients",
+          "why": "a header link seen on /"
+        }
+      ]
+    },
+    "menu-link:header:/for-clients": {
+      "kind": "menu-link",
+      "why": "a header link seen on /; found by its address in the header",
+      "facts": [
+        "menu header FOR_CLIENTS_LINK at /for-clients xpath (//header|//nav|//*[@role='banner' or @role='navigation'])//a[@href='/for-clients' or (contains(@href, '//') and substring-after(substring-after(@href, '//'), '/')='for-clients')]"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/header/HeaderElements.java",
+          "line": 18,
+          "fact": "menu header FOR_CLIENTS_LINK at /for-clients xpath (//header|//nav|//*[@role='banner' or @role='navigation'])//a[@href='/for-clients' or (contains(@href, '//') and substring-after(substring-after(@href, '//'), '/')='for-clients')]",
+          "why": "a header link seen on /; found by its address in the header"
+        }
+      ]
+    },
+    "menu:header:/for-consultants": {
+      "kind": "menu",
+      "why": "a header link seen on /",
+      "facts": [
+        "menu forConsultants -> ForConsultantsPage clicks /for-consultants"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/header/actions/HeaderNavigableActions.java",
+          "line": 52,
+          "fact": "menu forConsultants -> ForConsultantsPage clicks /for-consultants",
+          "why": "a header link seen on /"
+        }
+      ]
+    },
+    "menu-link:header:/for-consultants": {
+      "kind": "menu-link",
+      "why": "a header link seen on /; found by its address in the header",
+      "facts": [
+        "menu header FOR_CONSULTANTS_LINK at /for-consultants xpath (//header|//nav|//*[@role='banner' or @role='navigation'])//a[@href='/for-consultants' or (contains(@href, '//') and substring-after(substring-after(@href, '//'), '/')='for-consultants')]"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/header/HeaderElements.java",
+          "line": 22,
+          "fact": "menu header FOR_CONSULTANTS_LINK at /for-consultants xpath (//header|//nav|//*[@role='banner' or @role='navigation'])//a[@href='/for-consultants' or (contains(@href, '//') and substring-after(substring-after(@href, '//'), '/')='for-consultants')]",
+          "why": "a header link seen on /; found by its address in the header"
+        }
+      ]
+    },
+    "menu:header:/our-team": {
+      "kind": "menu",
+      "why": "a header link seen on /",
+      "facts": [
+        "menu ourTeam -> OurTeamPage clicks /our-team"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/header/actions/HeaderNavigableActions.java",
+          "line": 59,
+          "fact": "menu ourTeam -> OurTeamPage clicks /our-team",
+          "why": "a header link seen on /"
+        }
+      ]
+    },
+    "menu-link:header:/our-team": {
+      "kind": "menu-link",
+      "why": "a header link seen on /; found by its role and name, exact: the crawl found exactly one on every page that must show it",
+      "facts": [
+        "menu header OUR_TEAM_LINK at /our-team role link \"Our team\""
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/header/HeaderElements.java",
+          "line": 26,
+          "fact": "menu header OUR_TEAM_LINK at /our-team role link \"Our team\"",
+          "why": "a header link seen on /; found by its role and name, exact: the crawl found exactly one on every page that must show it"
+        }
+      ]
+    },
+    "menu:header:/contact-us": {
+      "kind": "menu",
+      "why": "a header link seen on /, inside a dropdown",
+      "facts": [
+        "menu contactUs -> ContactUsPage visits /contact-us",
+        "menu contactUs2 -> /contact-us clicks /contact-us"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/header/actions/HeaderNavigableActions.java",
+          "line": 67,
+          "fact": "menu contactUs -> ContactUsPage visits /contact-us",
+          "why": "a header link seen on /, inside a dropdown"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/header/actions/HeaderNavigableActions.java",
+          "line": 74,
+          "fact": "menu contactUs2 -> /contact-us clicks /contact-us",
+          "why": "a header link seen on /"
+        }
+      ]
+    },
+    "menu-link:header:/contact-us": {
+      "kind": "menu-link",
+      "why": "a header link seen on /, inside a dropdown; found by its address in the header",
+      "facts": [
+        "menu header CONTACT_US_LINK at /contact-us xpath (//header|//nav|//*[@role='banner' or @role='navigation'])//a[@href='/contact-us' or (contains(@href, '//') and substring-after(substring-after(@href, '//'), '/')='contact-us')]",
+        "menu header CONTACT_US_LINK_2 at /contact-us xpath (//header|//nav|//*[@role='banner' or @role='navigation'])//a[@href='/contact-us?hsLang=en' or (contains(@href, '//') and substring-after(substring-after(@href, '//'), '/')='contact-us?hsLang=en')]"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/header/HeaderElements.java",
+          "line": 29,
+          "fact": "menu header CONTACT_US_LINK at /contact-us xpath (//header|//nav|//*[@role='banner' or @role='navigation'])//a[@href='/contact-us' or (contains(@href, '//') and substring-after(substring-after(@href, '//'), '/')='contact-us')]",
+          "why": "a header link seen on /, inside a dropdown; found by its address in the header"
+        },
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/header/HeaderElements.java",
+          "line": 33,
+          "fact": "menu header CONTACT_US_LINK_2 at /contact-us xpath (//header|//nav|//*[@role='banner' or @role='navigation'])//a[@href='/contact-us?hsLang=en' or (contains(@href, '//') and substring-after(substring-after(@href, '//'), '/')='contact-us?hsLang=en')]",
+          "why": "a header link seen on /; found by its address in the header"
+        }
+      ]
+    },
+    "menu:header:/": {
+      "kind": "menu",
+      "why": "a header link seen on /contact-us",
+      "facts": [
+        "menu theHatchGroupLogoItStaffing -> / clicks /"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/contact-us",
+          "snapshot": "crawl/pages/contact-us.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/header/actions/HeaderNavigableActions.java",
+          "line": 82,
+          "fact": "menu theHatchGroupLogoItStaffing -> / clicks /",
+          "why": "a header link seen on /contact-us"
+        }
+      ]
+    },
+    "menu-link:header:/": {
+      "kind": "menu-link",
+      "why": "a header link seen on /contact-us; found by its address in the header",
+      "facts": [
+        "menu header THE_HATCH_GROUP_LOGO_IT_STAFFING_LINK at / xpath (//header|//nav|//*[@role='banner' or @role='navigation'])//a[@href='/?hsLang=en' or (contains(@href, '//') and substring-after(substring-after(@href, '//'), '/')='?hsLang=en')]"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/contact-us",
+          "snapshot": "crawl/pages/contact-us.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/main/java/com/thehatchgrp/tests/pages/header/HeaderElements.java",
+          "line": 37,
+          "fact": "menu header THE_HATCH_GROUP_LOGO_IT_STAFFING_LINK at / xpath (//header|//nav|//*[@role='banner' or @role='navigation'])//a[@href='/?hsLang=en' or (contains(@href, '//') and substring-after(substring-after(@href, '//'), '/')='?hsLang=en')]",
+          "why": "a header link seen on /contact-us; found by its address in the header"
+        }
+      ]
+    },
+    "test:smoke:/": {
+      "kind": "test",
+      "why": "every page type gets a smoke test; it opens 1 of 1 crawled example",
+      "facts": [
+        "test smoke HomePage opens 1 of 1 proof headings"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/com/thehatchgrp/tests/cases/GeneratedSmokeTest.java",
+          "line": 38,
+          "fact": "test smoke HomePage opens 1 of 1 proof headings",
+          "why": "every page type gets a smoke test; it opens 1 of 1 crawled example"
+        }
+      ]
+    },
+    "test:smoke:/contact-us": {
+      "kind": "test",
+      "why": "every page type gets a smoke test; it opens 1 of 1 crawled example",
+      "facts": [
+        "test smoke ContactUsPage opens 1 of 1 proof headings"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/contact-us",
+          "snapshot": "crawl/pages/contact-us.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/com/thehatchgrp/tests/cases/GeneratedSmokeTest.java",
+          "line": 44,
+          "fact": "test smoke ContactUsPage opens 1 of 1 proof headings",
+          "why": "every page type gets a smoke test; it opens 1 of 1 crawled example"
+        }
+      ]
+    },
+    "test:smoke:/for-consultants": {
+      "kind": "test",
+      "why": "every page type gets a smoke test; it opens 1 of 1 crawled example",
+      "facts": [
+        "test smoke ForConsultantsPage opens 1 of 1 proof headings"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-consultants",
+          "snapshot": "crawl/pages/for-consultants.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/com/thehatchgrp/tests/cases/GeneratedSmokeTest.java",
+          "line": 50,
+          "fact": "test smoke ForConsultantsPage opens 1 of 1 proof headings",
+          "why": "every page type gets a smoke test; it opens 1 of 1 crawled example"
+        }
+      ]
+    },
+    "test:smoke:/why-choose-us": {
+      "kind": "test",
+      "why": "every page type gets a smoke test; it opens 1 of 1 crawled example",
+      "facts": [
+        "test smoke WhyChooseUsPage opens 1 of 1 proof headings"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/why-choose-us",
+          "snapshot": "crawl/pages/why-choose-us.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/com/thehatchgrp/tests/cases/GeneratedSmokeTest.java",
+          "line": 56,
+          "fact": "test smoke WhyChooseUsPage opens 1 of 1 proof headings",
+          "why": "every page type gets a smoke test; it opens 1 of 1 crawled example"
+        }
+      ]
+    },
+    "test:smoke:/for-clients": {
+      "kind": "test",
+      "why": "every page type gets a smoke test; it opens 1 of 1 crawled example",
+      "facts": [
+        "test smoke ForClientsPage opens 1 of 1 proof headings"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-clients",
+          "snapshot": "crawl/pages/for-clients.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/com/thehatchgrp/tests/cases/GeneratedSmokeTest.java",
+          "line": 62,
+          "fact": "test smoke ForClientsPage opens 1 of 1 proof headings",
+          "why": "every page type gets a smoke test; it opens 1 of 1 crawled example"
+        }
+      ]
+    },
+    "test:smoke:/our-team": {
+      "kind": "test",
+      "why": "every page type gets a smoke test; it opens 1 of 1 crawled example",
+      "facts": [
+        "test smoke OurTeamPage opens 1 of 1 proof headings"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/our-team",
+          "snapshot": "crawl/pages/our-team.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/com/thehatchgrp/tests/cases/GeneratedSmokeTest.java",
+          "line": 68,
+          "fact": "test smoke OurTeamPage opens 1 of 1 proof headings",
+          "why": "every page type gets a smoke test; it opens 1 of 1 crawled example"
+        }
+      ]
+    },
+    "test:smoke:/for-clients/enterprise-platforms": {
+      "kind": "test",
+      "why": "every page type gets a smoke test; it opens 1 of 1 crawled example",
+      "facts": [
+        "test smoke ForClientsEnterprisePlatformsPage opens 1 of 1 proof headings"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-clients/enterprise-platforms",
+          "snapshot": "crawl/pages/for-clients/enterprise-platforms.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/com/thehatchgrp/tests/cases/GeneratedSmokeTest.java",
+          "line": 74,
+          "fact": "test smoke ForClientsEnterprisePlatformsPage opens 1 of 1 proof headings",
+          "why": "every page type gets a smoke test; it opens 1 of 1 crawled example"
+        }
+      ]
+    },
+    "test:navigation:/for-clients#0": {
+      "kind": "test",
+      "why": "a link a visitor can click, seen on /for-clients: \"Got salesforce?\"",
+      "facts": [
+        "test navigation ForClientsPage() -> ForClientsEnterprisePlatformsPage() then loaded"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-clients",
+          "snapshot": "crawl/pages/for-clients.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/com/thehatchgrp/tests/cases/NavigationTest.java",
+          "line": 62,
+          "fact": "test navigation ForClientsPage() -> ForClientsEnterprisePlatformsPage() then loaded",
+          "why": "a link a visitor can click, seen on /for-clients: \"Got salesforce?\""
+        }
+      ]
+    },
+    "test:menu:header:/why-choose-us": {
+      "kind": "test",
+      "why": "the header link \"Why choose us\", shown on the page: followed",
+      "facts": [
+        "test menu follow HomePage() whyChooseUs then loaded"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/com/thehatchgrp/tests/cases/NavigationTest.java",
+          "line": 24,
+          "fact": "test menu follow HomePage() whyChooseUs then loaded",
+          "why": "the header link \"Why choose us\", shown on the page: followed"
+        }
+      ]
+    },
+    "test:menu:header:/for-clients": {
+      "kind": "test",
+      "why": "the header link \"For clients\", shown on the page: followed",
+      "facts": [
+        "test menu follow HomePage() forClients then loaded"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/com/thehatchgrp/tests/cases/NavigationTest.java",
+          "line": 30,
+          "fact": "test menu follow HomePage() forClients then loaded",
+          "why": "the header link \"For clients\", shown on the page: followed"
+        }
+      ]
+    },
+    "test:menu:header:/for-consultants": {
+      "kind": "test",
+      "why": "the header link \"For consultants\", shown on the page: followed",
+      "facts": [
+        "test menu follow HomePage() forConsultants then loaded"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/com/thehatchgrp/tests/cases/NavigationTest.java",
+          "line": 36,
+          "fact": "test menu follow HomePage() forConsultants then loaded",
+          "why": "the header link \"For consultants\", shown on the page: followed"
+        }
+      ]
+    },
+    "test:menu:header:/our-team": {
+      "kind": "test",
+      "why": "the header link \"Our team\", shown on the page: followed",
+      "facts": [
+        "test menu follow HomePage() ourTeam then loaded"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/com/thehatchgrp/tests/cases/NavigationTest.java",
+          "line": 42,
+          "fact": "test menu follow HomePage() ourTeam then loaded",
+          "why": "the header link \"Our team\", shown on the page: followed"
+        }
+      ]
+    },
+    "test:menu:header:/contact-us": {
+      "kind": "test",
+      "why": "the header link \"Contact us\", hidden, and nothing that opens it was seen: its address is asked",
+      "facts": [
+        "test menu answer /contact-us",
+        "test menu follow HomePage() contactUs2 then on /contact-us"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/com/thehatchgrp/tests/cases/MenuTest.java",
+          "line": 29,
+          "fact": "test menu answer /contact-us",
+          "why": "the header link \"Contact us\", hidden, and nothing that opens it was seen: its address is asked"
+        },
+        {
+          "file": "src/test/java/com/thehatchgrp/tests/cases/NavigationTest.java",
+          "line": 48,
+          "fact": "test menu follow HomePage() contactUs2 then on /contact-us",
+          "why": "the header link \"Contact us\", shown on the page: followed"
+        }
+      ]
+    },
+    "test:menu:header:/": {
+      "kind": "test",
+      "why": "the header link \"The Hatch Group Logo | IT Staffing Eden Prairie, MN\", shown on the page: followed",
+      "facts": [
+        "test menu follow ContactUsPage() theHatchGroupLogoItStaffing then on /"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/contact-us",
+          "snapshot": "crawl/pages/contact-us.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/com/thehatchgrp/tests/cases/NavigationTest.java",
+          "line": 55,
+          "fact": "test menu follow ContactUsPage() theHatchGroupLogoItStaffing then on /",
+          "why": "the header link \"The Hatch Group Logo | IT Staffing Eden Prairie, MN\", shown on the page: followed"
+        }
+      ]
+    },
+    "test:form:/:a form": {
+      "kind": "test",
+      "why": "the \"a form\" form the crawl saw: shown and empty; nothing typed or sent",
+      "facts": [
+        "test form HomePage() empty FIRST_NAME_INPUT, LAST_NAME_INPUT, EMAIL_INPUT, PHONE_NUMBER_INPUT, MESSAGE_INPUT shows SUBMIT_BUTTON"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/com/thehatchgrp/tests/cases/GeneratedSmokeTest.java",
+          "line": 80,
+          "fact": "test form HomePage() empty FIRST_NAME_INPUT, LAST_NAME_INPUT, EMAIL_INPUT, PHONE_NUMBER_INPUT, MESSAGE_INPUT shows SUBMIT_BUTTON",
+          "why": "the \"a form\" form the crawl saw: shown and empty; nothing typed or sent"
+        }
+      ]
+    },
+    "test:form:/contact-us:a form": {
+      "kind": "test",
+      "why": "the \"a form\" form the crawl saw: shown and empty; nothing typed or sent",
+      "facts": [
+        "test form ContactUsPage() empty FIRST_NAME_INPUT, LAST_NAME_INPUT, EMAIL_INPUT, PHONE_NUMBER_INPUT, MESSAGE_INPUT shows SUBMIT_BUTTON"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/contact-us",
+          "snapshot": "crawl/pages/contact-us.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/com/thehatchgrp/tests/cases/GeneratedSmokeTest.java",
+          "line": 92,
+          "fact": "test form ContactUsPage() empty FIRST_NAME_INPUT, LAST_NAME_INPUT, EMAIL_INPUT, PHONE_NUMBER_INPUT, MESSAGE_INPUT shows SUBMIT_BUTTON",
+          "why": "the \"a form\" form the crawl saw: shown and empty; nothing typed or sent"
+        }
+      ]
+    },
+    "test:example:/": {
+      "kind": "test",
+      "why": "the worked example: its form has the fewest fields of any page's; a plain test written as a person would, nothing sent",
+      "facts": [
+        "test example HomePage() refuses none fills fillForm with HomeForm.sample() holds FIRST_NAME_INPUT, LAST_NAME_INPUT, EMAIL_INPUT, PHONE_NUMBER_INPUT, WHO_ARE_YOU_SELECT, MESSAGE_INPUT"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/com/thehatchgrp/tests/cases/HomeFormTest.java",
+          "line": 31,
+          "fact": "test example HomePage() refuses none fills fillForm with HomeForm.sample() holds FIRST_NAME_INPUT, LAST_NAME_INPUT, EMAIL_INPUT, PHONE_NUMBER_INPUT, WHO_ARE_YOU_SELECT, MESSAGE_INPUT",
+          "why": "the worked example: its form has the fewest fields of any page's; a plain test written as a person would, nothing sent"
+        }
+      ]
+    },
+    "test:one-heading:/": {
+      "kind": "test",
+      "why": "every page of it the crawl read had one main heading (h1)",
+      "facts": [
+        "test one-heading HomePage()"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/",
+          "snapshot": "crawl/pages/index.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/com/thehatchgrp/tests/cases/SiteTest.java",
+          "line": 34,
+          "fact": "test one-heading HomePage()",
+          "why": "every page of it the crawl read had one main heading (h1)"
+        }
+      ]
+    },
+    "test:one-heading:/contact-us": {
+      "kind": "test",
+      "why": "every page of it the crawl read had one main heading (h1)",
+      "facts": [
+        "test one-heading ContactUsPage()"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/contact-us",
+          "snapshot": "crawl/pages/contact-us.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/com/thehatchgrp/tests/cases/SiteTest.java",
+          "line": 42,
+          "fact": "test one-heading ContactUsPage()",
+          "why": "every page of it the crawl read had one main heading (h1)"
+        }
+      ]
+    },
+    "test:one-heading:/for-consultants": {
+      "kind": "test",
+      "why": "every page of it the crawl read had one main heading (h1)",
+      "facts": [
+        "test one-heading ForConsultantsPage()"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/for-consultants",
+          "snapshot": "crawl/pages/for-consultants.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/com/thehatchgrp/tests/cases/SiteTest.java",
+          "line": 50,
+          "fact": "test one-heading ForConsultantsPage()",
+          "why": "every page of it the crawl read had one main heading (h1)"
+        }
+      ]
+    },
+    "test:one-heading:/why-choose-us": {
+      "kind": "test",
+      "why": "every page of it the crawl read had one main heading (h1)",
+      "facts": [
+        "test one-heading WhyChooseUsPage()"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/why-choose-us",
+          "snapshot": "crawl/pages/why-choose-us.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/com/thehatchgrp/tests/cases/SiteTest.java",
+          "line": 58,
+          "fact": "test one-heading WhyChooseUsPage()",
+          "why": "every page of it the crawl read had one main heading (h1)"
+        }
+      ]
+    },
+    "test:one-heading:/our-team": {
+      "kind": "test",
+      "why": "every page of it the crawl read had one main heading (h1)",
+      "facts": [
+        "test one-heading OurTeamPage()"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehatchgrp.com/our-team",
+          "snapshot": "crawl/pages/our-team.html"
+        }
+      ],
+      "generated": [
+        {
+          "file": "src/test/java/com/thehatchgrp/tests/cases/SiteTest.java",
+          "line": 66,
+          "fact": "test one-heading OurTeamPage()",
+          "why": "every page of it the crawl read had one main heading (h1)"
+        }
+      ]
+    },
+    "test:titles-own": {
+      "kind": "test",
+      "why": "no two page types' pages shared a title in the crawl; an example of each still has its own",
+      "facts": [
+        "test titles-own HomePage(), ContactUsPage(), ForConsultantsPage(), WhyChooseUsPage(), ForClientsPage(), OurTeamPage(), ForClientsEnterprisePlatformsPage()"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/java/com/thehatchgrp/tests/cases/SiteTest.java",
+          "line": 75,
+          "fact": "test titles-own HomePage(), ContactUsPage(), ForConsultantsPage(), WhyChooseUsPage(), ForClientsPage(), OurTeamPage(), ForClientsEnterprisePlatformsPage()",
+          "why": "no two page types' pages shared a title in the crawl; an example of each still has its own"
+        }
+      ]
+    },
+    "test:not-found:/suite-builder-no-such-page-cd89d91b": {
+      "kind": "test",
+      "why": "an address that cannot exist, which the crawl asked: answered 404, or a page (a soft 404, filed as a bug)",
+      "facts": [
+        "test not-found /suite-builder-no-such-page-cd89d91b"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/java/com/thehatchgrp/tests/cases/GeneratedSmokeTest.java",
+          "line": 104,
+          "fact": "test not-found /suite-builder-no-such-page-cd89d91b",
+          "why": "an address that cannot exist, which the crawl asked: answered 404, or a page (a soft 404, filed as a bug)"
+        }
+      ]
+    },
+    "ci:github:quick": {
+      "kind": "ci",
+      "why": "on every push and pull request: the link report and every page type opening, in one browser",
+      "facts": [
+        "ci github quick http,smoke in chromium"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": ".github/workflows/suite.yml",
+          "line": 39,
+          "fact": "ci github quick http,smoke in chromium",
+          "why": "on every push and pull request: the link report and every page type opening, in one browser"
+        }
+      ]
+    },
+    "ci:github:full": {
+      "kind": "ci",
+      "why": "when started by hand: every test, in each browser (no nightly run)",
+      "facts": [
+        "ci github full chromium,firefox nightly never"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": ".github/workflows/suite.yml",
+          "line": 67,
+          "fact": "ci github full chromium,firefox nightly never",
+          "why": "when started by hand: every test, in each browser (no nightly run)"
+        }
+      ]
+    },
+    "ci:gitlab:quick": {
+      "kind": "ci",
+      "why": "on every push and pull request: the link report and every page type opening, in one browser",
+      "facts": [
+        "ci gitlab quick http,smoke in chromium"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": ".gitlab-ci.yml",
+          "line": 19,
+          "fact": "ci gitlab quick http,smoke in chromium",
+          "why": "on every push and pull request: the link report and every page type opening, in one browser"
+        }
+      ]
+    },
+    "ci:gitlab:full": {
+      "kind": "ci",
+      "why": "when started by hand: every test, in each browser (no nightly run)",
+      "facts": [
+        "ci gitlab full chromium,firefox nightly never"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": ".gitlab-ci.yml",
+          "line": 42,
+          "fact": "ci gitlab full chromium,firefox nightly never",
+          "why": "when started by hand: every test, in each browser (no nightly run)"
+        }
+      ]
+    },
+    "ci:azure:quick": {
+      "kind": "ci",
+      "why": "on every push and pull request: the link report and every page type opening, in one browser",
+      "facts": [
+        "ci azure quick http,smoke in chromium"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "azure-pipelines.yml",
+          "line": 37,
+          "fact": "ci azure quick http,smoke in chromium",
+          "why": "on every push and pull request: the link report and every page type opening, in one browser"
+        }
+      ]
+    },
+    "ci:azure:full": {
+      "kind": "ci",
+      "why": "when started by hand: every test, in each browser (no nightly run)",
+      "facts": [
+        "ci azure full chromium,firefox nightly never"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "azure-pipelines.yml",
+          "line": 71,
+          "fact": "ci azure full chromium,firefox nightly never",
+          "why": "when started by hand: every test, in each browser (no nightly run)"
+        }
+      ]
+    },
+    "test:link:/": {
+      "kind": "test",
+      "why": "the crawl requested it and it answered 200; the link report holds it to that",
+      "facts": [
+        "test link / was 200 from /"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/links.tsv",
+          "line": 3,
+          "fact": "test link / was 200 from /",
+          "why": "the crawl requested it and it answered 200; the link report holds it to that"
+        }
+      ]
+    },
+    "test:link:/contact-us": {
+      "kind": "test",
+      "why": "the crawl requested it and it answered 200; the link report holds it to that",
+      "facts": [
+        "test link /contact-us was 200 from /, /contact-us, /for-consultants"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/links.tsv",
+          "line": 4,
+          "fact": "test link /contact-us was 200 from /, /contact-us, /for-consultants",
+          "why": "the crawl requested it and it answered 200; the link report holds it to that"
+        }
+      ]
+    },
+    "test:link:/for-consultants": {
+      "kind": "test",
+      "why": "the crawl requested it and it answered 200; the link report holds it to that",
+      "facts": [
+        "test link /for-consultants was 200 from /, /contact-us, /for-consultants"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/links.tsv",
+          "line": 5,
+          "fact": "test link /for-consultants was 200 from /, /contact-us, /for-consultants",
+          "why": "the crawl requested it and it answered 200; the link report holds it to that"
+        }
+      ]
+    },
+    "test:link:/why-choose-us": {
+      "kind": "test",
+      "why": "the crawl requested it and it answered 200; the link report holds it to that",
+      "facts": [
+        "test link /why-choose-us was 200 from /, /contact-us, /for-consultants"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/links.tsv",
+          "line": 6,
+          "fact": "test link /why-choose-us was 200 from /, /contact-us, /for-consultants",
+          "why": "the crawl requested it and it answered 200; the link report holds it to that"
+        }
+      ]
+    },
+    "test:link:/for-clients": {
+      "kind": "test",
+      "why": "the crawl requested it and it answered 200; the link report holds it to that",
+      "facts": [
+        "test link /for-clients was 200 from /, /contact-us, /for-consultants"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/links.tsv",
+          "line": 7,
+          "fact": "test link /for-clients was 200 from /, /contact-us, /for-consultants",
+          "why": "the crawl requested it and it answered 200; the link report holds it to that"
+        }
+      ]
+    },
+    "test:link:/our-team": {
+      "kind": "test",
+      "why": "the crawl requested it and it answered 200; the link report holds it to that",
+      "facts": [
+        "test link /our-team was 200 from /, /contact-us, /for-consultants"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/links.tsv",
+          "line": 8,
+          "fact": "test link /our-team was 200 from /, /contact-us, /for-consultants",
+          "why": "the crawl requested it and it answered 200; the link report holds it to that"
+        }
+      ]
+    },
+    "test:link:/for-clients/enterprise-platforms?hsLang=en": {
+      "kind": "test",
+      "why": "the crawl requested it and it answered 200; the link report holds it to that",
+      "facts": [
+        "test link /for-clients/enterprise-platforms?hsLang=en was 200 from /for-clients"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/links.tsv",
+          "line": 9,
+          "fact": "test link /for-clients/enterprise-platforms?hsLang=en was 200 from /for-clients",
+          "why": "the crawl requested it and it answered 200; the link report holds it to that"
+        }
+      ]
+    },
+    "test:external:https://www.linkedin.com/company/the-hatch-group-mpls/": {
+      "kind": "test",
+      "why": "it answered 200 after the crawl; the link report fails when it is gone",
+      "facts": [
+        "test external link https://www.linkedin.com/company/the-hatch-group-mpls/ was 200 alive from /, /contact-us, /for-consultants"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/external.tsv",
+          "line": 3,
+          "fact": "test external link https://www.linkedin.com/company/the-hatch-group-mpls/ was 200 alive from /, /contact-us, /for-consultants",
+          "why": "it answered 200 after the crawl; the link report fails when it is gone"
+        }
+      ]
+    },
+    "test:external:https://the-hatch-group-242355921.hubspotpagebuilder.net/privacy-policy?hsLang=en": {
+      "kind": "test",
+      "why": "it answered 404 after the crawl: already broken, listed as known",
+      "facts": [
+        "test external link https://the-hatch-group-242355921.hubspotpagebuilder.net/privacy-policy?hsLang=en was 404 broken from /, /contact-us, /for-consultants"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/external.tsv",
+          "line": 4,
+          "fact": "test external link https://the-hatch-group-242355921.hubspotpagebuilder.net/privacy-policy?hsLang=en was 404 broken from /, /contact-us, /for-consultants",
+          "why": "it answered 404 after the crawl: already broken, listed as known"
+        }
+      ]
+    },
+    "test:external:https://www.google.com/maps/dir//10250+Valley+View+Rd+Suite+149+Eden+Prairie,+MN+55344/@44.8719728,-93.4060207,10z/data=!4m5!4m4!1m0!1m2!1m1!1s0x87f6221c4ec93e7d:0xc94b89c8aac632f3": {
+      "kind": "test",
+      "why": "it answered 200 after the crawl; the link report fails when it is gone",
+      "facts": [
+        "test external link https://www.google.com/maps/dir//10250+Valley+View+Rd+Suite+149+Eden+Prairie,+MN+55344/@44.8719728,-93.4060207,10z/data=!4m5!4m4!1m0!1m2!1m1!1s0x87f6221c4ec93e7d:0xc94b89c8aac632f3 was 200 alive from /, /contact-us, /for-consultants"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/external.tsv",
+          "line": 5,
+          "fact": "test external link https://www.google.com/maps/dir//10250+Valley+View+Rd+Suite+149+Eden+Prairie,+MN+55344/@44.8719728,-93.4060207,10z/data=!4m5!4m4!1m0!1m2!1m1!1s0x87f6221c4ec93e7d:0xc94b89c8aac632f3 was 200 alive from /, /contact-us, /for-consultants",
+          "why": "it answered 200 after the crawl; the link report fails when it is gone"
+        }
+      ]
+    },
+    "test:external:https://www.linkedin.com/in/jpiehowski/": {
+      "kind": "test",
+      "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing",
+      "facts": [
+        "test external link https://www.linkedin.com/in/jpiehowski/ was 999 barred from /our-team, /for-clients/enterprise-platforms"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/external.tsv",
+          "line": 6,
+          "fact": "test external link https://www.linkedin.com/in/jpiehowski/ was 999 barred from /our-team, /for-clients/enterprise-platforms",
+          "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing"
+        }
+      ]
+    },
+    "test:external:https://www.linkedin.com/in/greg-roth-a451548/": {
+      "kind": "test",
+      "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing",
+      "facts": [
+        "test external link https://www.linkedin.com/in/greg-roth-a451548/ was 999 barred from /our-team"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/external.tsv",
+          "line": 7,
+          "fact": "test external link https://www.linkedin.com/in/greg-roth-a451548/ was 999 barred from /our-team",
+          "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing"
+        }
+      ]
+    },
+    "test:external:https://www.linkedin.com/in/erik-jacobs-7b60811/": {
+      "kind": "test",
+      "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing",
+      "facts": [
+        "test external link https://www.linkedin.com/in/erik-jacobs-7b60811/ was 999 barred from /our-team"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/external.tsv",
+          "line": 8,
+          "fact": "test external link https://www.linkedin.com/in/erik-jacobs-7b60811/ was 999 barred from /our-team",
+          "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing"
+        }
+      ]
+    },
+    "test:external:https://www.linkedin.com/in/alex-webb-6b39b181/": {
+      "kind": "test",
+      "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing",
+      "facts": [
+        "test external link https://www.linkedin.com/in/alex-webb-6b39b181/ was 999 barred from /our-team"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/external.tsv",
+          "line": 9,
+          "fact": "test external link https://www.linkedin.com/in/alex-webb-6b39b181/ was 999 barred from /our-team",
+          "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing"
+        }
+      ]
+    },
+    "test:external:https://www.linkedin.com/in/sam-roth-29755a169/": {
+      "kind": "test",
+      "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing",
+      "facts": [
+        "test external link https://www.linkedin.com/in/sam-roth-29755a169/ was 999 barred from /our-team"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/external.tsv",
+          "line": 10,
+          "fact": "test external link https://www.linkedin.com/in/sam-roth-29755a169/ was 999 barred from /our-team",
+          "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing"
+        }
+      ]
+    },
+    "test:external:https://www.linkedin.com/in/andrewpayne44/": {
+      "kind": "test",
+      "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing",
+      "facts": [
+        "test external link https://www.linkedin.com/in/andrewpayne44/ was 999 barred from /our-team"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/external.tsv",
+          "line": 11,
+          "fact": "test external link https://www.linkedin.com/in/andrewpayne44/ was 999 barred from /our-team",
+          "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing"
+        }
+      ]
+    },
+    "test:external:https://www.linkedin.com/in/tom-hanson-19917019/": {
+      "kind": "test",
+      "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing",
+      "facts": [
+        "test external link https://www.linkedin.com/in/tom-hanson-19917019/ was 999 barred from /our-team"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/external.tsv",
+          "line": 12,
+          "fact": "test external link https://www.linkedin.com/in/tom-hanson-19917019/ was 999 barred from /our-team",
+          "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing"
+        }
+      ]
+    },
+    "test:external:https://www.linkedin.com/in/elliot-nutting-4724b2221/": {
+      "kind": "test",
+      "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing",
+      "facts": [
+        "test external link https://www.linkedin.com/in/elliot-nutting-4724b2221/ was 999 barred from /our-team"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/external.tsv",
+          "line": 13,
+          "fact": "test external link https://www.linkedin.com/in/elliot-nutting-4724b2221/ was 999 barred from /our-team",
+          "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing"
+        }
+      ]
+    },
+    "test:external:https://www.linkedin.com/company/the-hatch-group-mpls/?viewAsMember=true": {
+      "kind": "test",
+      "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing",
+      "facts": [
+        "test external link https://www.linkedin.com/company/the-hatch-group-mpls/?viewAsMember=true was 999 barred from /our-team"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/external.tsv",
+          "line": 14,
+          "fact": "test external link https://www.linkedin.com/company/the-hatch-group-mpls/?viewAsMember=true was 999 barred from /our-team",
+          "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing"
+        }
+      ]
+    },
+    "test:external:https://www.linkedin.com/in/jenniferberg49/": {
+      "kind": "test",
+      "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing",
+      "facts": [
+        "test external link https://www.linkedin.com/in/jenniferberg49/ was 999 barred from /our-team"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/external.tsv",
+          "line": 15,
+          "fact": "test external link https://www.linkedin.com/in/jenniferberg49/ was 999 barred from /our-team",
+          "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing"
+        }
+      ]
+    },
+    "test:external:https://www.linkedin.com/in/matt-jennissen-0469426a/": {
+      "kind": "test",
+      "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing",
+      "facts": [
+        "test external link https://www.linkedin.com/in/matt-jennissen-0469426a/ was 999 barred from /our-team"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/external.tsv",
+          "line": 16,
+          "fact": "test external link https://www.linkedin.com/in/matt-jennissen-0469426a/ was 999 barred from /our-team",
+          "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing"
+        }
+      ]
+    },
+    "test:external:https://www.linkedin.com/in/tlschwerz/": {
+      "kind": "test",
+      "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing",
+      "facts": [
+        "test external link https://www.linkedin.com/in/tlschwerz/ was 999 barred from /our-team"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/external.tsv",
+          "line": 17,
+          "fact": "test external link https://www.linkedin.com/in/tlschwerz/ was 999 barred from /our-team",
+          "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing"
+        }
+      ]
+    },
+    "test:external:https://www.linkedin.com/in/cody-minks/": {
+      "kind": "test",
+      "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing",
+      "facts": [
+        "test external link https://www.linkedin.com/in/cody-minks/ was 999 barred from /our-team"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/external.tsv",
+          "line": 18,
+          "fact": "test external link https://www.linkedin.com/in/cody-minks/ was 999 barred from /our-team",
+          "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing"
+        }
+      ]
+    },
+    "test:external:https://www.linkedin.com/in/ben-mansur/": {
+      "kind": "test",
+      "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing",
+      "facts": [
+        "test external link https://www.linkedin.com/in/ben-mansur/ was 999 barred from /our-team"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/external.tsv",
+          "line": 19,
+          "fact": "test external link https://www.linkedin.com/in/ben-mansur/ was 999 barred from /our-team",
+          "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing"
+        }
+      ]
+    },
+    "test:external:https://www.linkedin.com/in/shelbyspinner/": {
+      "kind": "test",
+      "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing",
+      "facts": [
+        "test external link https://www.linkedin.com/in/shelbyspinner/ was 999 barred from /our-team"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/external.tsv",
+          "line": 20,
+          "fact": "test external link https://www.linkedin.com/in/shelbyspinner/ was 999 barred from /our-team",
+          "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing"
+        }
+      ]
+    },
+    "test:external:https://www.linkedin.com/in/lisa-brown-5a3ba626/": {
+      "kind": "test",
+      "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing",
+      "facts": [
+        "test external link https://www.linkedin.com/in/lisa-brown-5a3ba626/ was 999 barred from /our-team"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/external.tsv",
+          "line": 21,
+          "fact": "test external link https://www.linkedin.com/in/lisa-brown-5a3ba626/ was 999 barred from /our-team",
+          "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing"
+        }
+      ]
+    },
+    "test:external:https://www.linkedin.com/in/cole-jacobs-590883248/": {
+      "kind": "test",
+      "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing",
+      "facts": [
+        "test external link https://www.linkedin.com/in/cole-jacobs-590883248/ was 999 barred from /our-team"
+      ],
+      "evidence": [],
+      "generated": [
+        {
+          "file": "src/test/resources/link-report/external.tsv",
+          "line": 22,
+          "fact": "test external link https://www.linkedin.com/in/cole-jacobs-590883248/ was 999 barred from /our-team",
+          "why": "it answered 999: the site keeps test tools out, so the link report lists it and judges nothing"
+        }
+      ]
+    }
+  }
+}

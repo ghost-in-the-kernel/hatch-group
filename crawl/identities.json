@@ -1,0 +1,97 @@
+{
+  "tool": "suite-builder",
+  "ledgerVersion": 1,
+  "entities": [
+    {
+      "id": "type:/",
+      "kind": "page-type",
+      "introducedAt": "9495593ebed4e1dfbe90858595dc8cc3bb805a3b3dd4046fb319b88a11ab1ec3",
+      "cls": "HomePage",
+      "patterns": [
+        "/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "9495593ebed4e1dfbe90858595dc8cc3bb805a3b3dd4046fb319b88a11ab1ec3"
+      }
+    },
+    {
+      "id": "type:/contact-us",
+      "kind": "page-type",
+      "introducedAt": "9495593ebed4e1dfbe90858595dc8cc3bb805a3b3dd4046fb319b88a11ab1ec3",
+      "cls": "ContactUsPage",
+      "patterns": [
+        "/contact-us"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "9495593ebed4e1dfbe90858595dc8cc3bb805a3b3dd4046fb319b88a11ab1ec3"
+      }
+    },
+    {
+      "id": "type:/for-consultants",
+      "kind": "page-type",
+      "introducedAt": "9495593ebed4e1dfbe90858595dc8cc3bb805a3b3dd4046fb319b88a11ab1ec3",
+      "cls": "ForConsultantsPage",
+      "patterns": [
+        "/for-consultants"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "9495593ebed4e1dfbe90858595dc8cc3bb805a3b3dd4046fb319b88a11ab1ec3"
+      }
+    },
+    {
+      "id": "type:/why-choose-us",
+      "kind": "page-type",
+      "introducedAt": "9495593ebed4e1dfbe90858595dc8cc3bb805a3b3dd4046fb319b88a11ab1ec3",
+      "cls": "WhyChooseUsPage",
+      "patterns": [
+        "/why-choose-us"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "9495593ebed4e1dfbe90858595dc8cc3bb805a3b3dd4046fb319b88a11ab1ec3"
+      }
+    },
+    {
+      "id": "type:/for-clients",
+      "kind": "page-type",
+      "introducedAt": "9495593ebed4e1dfbe90858595dc8cc3bb805a3b3dd4046fb319b88a11ab1ec3",
+      "cls": "ForClientsPage",
+      "patterns": [
+        "/for-clients"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "9495593ebed4e1dfbe90858595dc8cc3bb805a3b3dd4046fb319b88a11ab1ec3"
+      }
+    },
+    {
+      "id": "type:/our-team",
+      "kind": "page-type",
+      "introducedAt": "9495593ebed4e1dfbe90858595dc8cc3bb805a3b3dd4046fb319b88a11ab1ec3",
+      "cls": "OurTeamPage",
+      "patterns": [
+        "/our-team"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "9495593ebed4e1dfbe90858595dc8cc3bb805a3b3dd4046fb319b88a11ab1ec3"
+      }
+    },
+    {
+      "id": "type:/for-clients/enterprise-platforms",
+      "kind": "page-type",
+      "introducedAt": "9495593ebed4e1dfbe90858595dc8cc3bb805a3b3dd4046fb319b88a11ab1ec3",
+      "cls": "ForClientsEnterprisePlatformsPage",
+      "patterns": [
+        "/for-clients/enterprise-platforms"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "9495593ebed4e1dfbe90858595dc8cc3bb805a3b3dd4046fb319b88a11ab1ec3"
+      }
+    }
+  ]
+}
